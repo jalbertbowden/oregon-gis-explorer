@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo Sync="TRUE">
+				<origin>TechniGraphics, Inc.</origin>
+				<pubdate>20080228</pubdate>
+				<title>Oregon State Government Buildings</title>
+				<edition Sync="TRUE">4th Quarter 2007</edition>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink Sync="TRUE"></onlink></citeinfo>
+		</citation>
+		<descript Sync="TRUE">
+			<abstract>
+This dataset includes buildings occupied by the headquarters of cabinet level state government executive departments, legislative offices buildings outside of the capitol building, offices and court rooms associated with the highest level of the judicial branch of the state government, and large multi-agency state office buildings. Because the research to create this data was primarily keyed off of the headquarters of cabinet level state government agencies, some state office buildings that don't house a headquarters for such an agency may have been excluded.
+
+Intentionally excluded from this dataset are government run institutions (e.g. schools, colleges, prisons, and libraries). Also excluded are state capitol buildings. 
+
+State owned or leased buildings whose primary purpose is not to house state offices have also been intentionally excluded from this dataset. Examples of these include "Salt Domes", "Park Shelters", and "Highway Garages".
+
+All entities that have been verified to have no building name, have had their [NAME] attribute set to "NO NAME". If the record in the original source data had no building name and TGS was unable to verify the building name, the [NAME] attribute was set to "UNKNOWN". 
+
+All phone numbers in this dataset have been verified by TGS to be the main phone for the building. If the building was verified not to have a main phone number, the [AREA] and [PHONE] fields have been left blank. 
+
+All entities located on military bases have been removed from this dataset.
+
+The text fields in this dataset have been set to all upper case to facilitate consistent database engine search results.
+
+All diacritics (e.g., the German umlaut or the Spanish tilde) have been replaced with their closest equivalent English character to facilitate use with database systems that may not support diacritics. 
+
+The currentness of this dataset is indicated by the [CONTDATE] attribute. Based upon this attribute, the oldest record dates from 2007/12/03 and the newest record dates from 2007/12/04.
+</abstract>
+			<purpose>
+Homeland Security
+&gt;
+Use Cases: Use cases describe how the data may be used and help to define and clarify requirements.
+&gt;
+1) There has been a natural or manmade disaster, such as a hurricane or earthquake.  An assessment of what State property may be affected, and what State services may be impacted needs to be made.
+&gt;
+2) There is a predicted natural disaster, such as a hurricane.  An assessment of what State property, personnel and services might be in the disaster's predicted footprint or path needs to be made.  Preparations need to be made to evacuate personnel, secure property, and arrange for alternate methods of delivering the critical services that may be affected.
+&gt;
+3) There has been a terrorist threat against State property and/or personnel.  Steps need to be taken to identify what is being threatened, counter the threat, and protect threatened personnel and property. Additional property may be impacted due to its proximity to the threatened property, or the threat may contain only a general spatial reference, and the spatial component of this dataset may need to be used to identify the threatened property.
+</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo Sync="TRUE">
+				<rngdates Sync="TRUE">
+					<begdate Sync="TRUE">20071203</begdate>
+					<enddate Sync="TRUE">20071204</enddate>
+				</rngdates>
+			</timeinfo>
+			<current Sync="TRUE">ground condition</current>
+		</timeperd>
+		<status>
+			<progress Sync="TRUE">Complete</progress>
+			<update Sync="TRUE">Unknown</update>
+		</status>
+		<spdom Sync="TRUE">
+			<bounding Sync="TRUE">
+				<westbc Sync="TRUE">-123.034626</westbc>
+				<eastbc Sync="TRUE">-122.641130</eastbc>
+				<northbc Sync="TRUE">45.518210</northbc>
+				<southbc Sync="TRUE">44.922166</southbc>
+			</bounding>
+		</spdom>
+		<keywords Sync="TRUE">
+			<theme>
+				<themekt>LCSH - Library of Congress subject headings (Washington, DC: LC, Cataloging Distribution Service) http://authorities.loc.gov/</themekt>
+				<themekey>Buildings</themekey>
+			</theme>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>structure</themekey>
+			</theme>
+			<place>
+				<placekt>LCSH - Library of Congress subject headings (Washington, DC: LC, Cataloging Distribution Service) http://authorities.loc.gov/</placekt>
+				<placekey>Oregon</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>None</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Mike Thompson</cntper>
+					<cntorg>TechniGraphics, Inc.</cntorg>
+				</cntperp>
+				<cntpos>Director of Geospatial Datasets</cntpos>
+				<cntaddr>
+					<addrtype Sync="TRUE">Mailing and Physical Address</addrtype>
+					<address>2000 Noble Drive</address>
+					<city>Wooster</city>
+					<state>OH</state>
+					<postal Sync="TRUE">44691</postal>
+					<country Sync="TRUE">USA</country>
+				</cntaddr>
+				<cntvoice>330-263-6222</cntvoice>
+				<cntfax>330-263-6294</cntfax>
+				<cntemail>mthompson@tgstech.com</cntemail>
+				<hours Sync="TRUE">8am - 5pm, Monday - Friday, Eastern Time</hours>
+			</cntinfo>
+		</ptcontac>
+		<secinfo Sync="TRUE">
+			<secsys Sync="TRUE">DOD</secsys>
+			<secclass>Unclassified</secclass>
+			<sechandl>Unclassified</sechandl>
+		</secinfo>
+		<native Sync="TRUE">
+Microsoft Windows XP Professional Version 2002 Service Pack 2
+
+TGS PinPoint v1.10.2
+
+Metadata written using TKME by Peter N. Schweitzer (U.S. Geological Survey, Reston, VA 22092) version 2.9.17 &lt;http://geology.usgs.gov/tools/metadata/&gt;
+
+Metadata tested for compliance to FGDC-STD-001-1998 and converted to HTML using MP version 2.8.25 by Peter N. Schweitzer (U.S. Geological Survey) &lt;http://geology.usgs.gov/tools/metadata/&gt;
+</native>
+	</idinfo>
+	<dataqual Sync="TRUE">
+		<attracc Sync="TRUE">
+			<attraccr>
+For entities that were contacted, the name, address, city, state, and five (5) digit zip codes were verified to be correct as of the date indicated by the [CONTDATE] attribute. The existence of the entity was also verified, as well as whether or not it met the criteria for inclusion in this dataset. Four (4) digit zip code extensions were derived from USPS (United States Postal Service) data and were not verified.
+
+All records with a [GEOHOW] = "MANUAL" had the following checks performed on them.
+
+ID Check: The [ID] attribute is not blank and each of its values is unique.
+
+Coordinate Check: Coordinates are not null or zero and the x and y fields match the shape.
+
+Basic Address Check: Physical addresses were verified to be non blank and to not be a "PO Box", "General Delivery", "Highway Contract", or "Rural Route" address. 
+
+Highway Address without Type Check: Physical addresses containing the word "Highway" or "Route" were verified to also contain a type designator such as "State", "US", or "County", if one actually exists for the highway or route. These type designators are often missing from addresses, leading to confusion if more than one "Highway" of the given number exists in an area.
+
+Basic Name Check: Entity name is not blank, is not the same as entity city, and has a minimum of 2 characters. Name does not contain punctuation characters that can interfere with database operations, such as " (quote) and * (asterisk).
+
+Basic Phone Check: All phone numbers (including the area code) are ten (10) numeric digits. Alphabetic characters have been converted to the corresponding numeric digit.
+
+City Check: Entity city is not blank and is found in the named places file within 25 miles. 
+
+County FIPS to State Compare Check: The county represented by the tabular FIPS Code attribute is actually in the state specified by the state attribute.
+
+County Name to State Compare Check: The county represented by the tabular county name attribute is actually in the state specified by the state attribute.
+
+Phone Number Format Check: Phone numbers (including area code) were verified to be formatted as nnn-nnn-nnnn.
+
+NPA_NXX Check: Area codes (sometimes called "Number Planning Areas", or NPA's) and central office codes (sometimes known as exchanges, or NXX's) were validated against data from the North American Number Planning Administration (NANPA). In some cases, NPA-NXX combinations did not show up in the NANPA data but were verified to work.
+
+Area Code Distance Check: Area code (NPA) is valid and is within its area code boundary.
+
+Zip Code Check: The zip code is five (5) or nine (9) numeric digits, is listed in the postal database, is in the same state as indicated by the entity's [STATE] attribute, and is not a PO Box only zip code.
+
+Zip City Check: The entity's zip code and its city were verified to match according to the USPS Address Information System (AIS).
+
+Collocation Check: Entities with different addresses must not share the exact same geospatial location.
+
+Geographic Spell Check: Words that appear in the entity name were checked against a standard English word list (and Spanish word list for entities in Puerto Rico). Words not appearing in these standard word lists were then checked against names appearing in the Geographic Names Information System (GNIS) of geographic features that are located within 25 miles of the entity. Proper names were manually reviewed for correct spelling.
+</attraccr>
+		</attracc>
+		<logic Sync="TRUE">See "Attribute_Accuracy_Report". Many of the checks described in that section check for both attribute accuracy and logical consistency.</logic>
+		<complete Sync="TRUE">
+This dataset includes buildings occupied by the headquarters of cabinet level state government executive departments, legislative offices buildings outside of the capitol building, offices and court rooms associated with the highest level of the judicial branch of the state government, and large multi-agency state office buildings. Because the research to create this data was primarily keyed off of the headquarters of cabinet level state government agencies, some state office buildings that don't house a headquarters for such an agency may have been excluded.
+
+Initially, excluded from this dataset are government run institutions (e.g. schools, colleges, prisons, and libraries).  Also excluded are state capitol buildings.
+
+State owned or leased buildings whose primary purpose is not to house state offices have also been intentionally excluded from this dataset.  Examples of these include "Salt Domes", "Park Shelters", and "Highway Garages".
+</complete>
+		<posacc Sync="TRUE">
+			<horizpa Sync="TRUE">
+				<horizpar Sync="TRUE">The geographic location of contacted entities was verified to be correct relative to the street data and version indicated by the [ST_VENDOR] and [ST_VERSION] attributes. The horizontal accuracy is indicated by the [GEOPREC] attribute. A value of "BLOCKFACE" indicates the entity was geocoded on the correct block and correct side of the street. A value of "ONENTITY" indicates that the location is on the entity's facility, as determined by USGS DOQQ imagery, and is on the correct block and correct side of the street. Entities that are part of a larger institution (e.g., University Campus or Military Base) with "BLOCKFACE" precision may be located at the main entrance to the larger institution.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>State Partners and TGS research</origin>
+						<pubdate>2007</pubdate>
+						<title>State Government Buildings</title>
+						<edition>Unspecified</edition>
+						<geoform>vector digital data</geoform>
+					</citeinfo>
+				</srccite>
+				<typesrc>Online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2007</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>State_Gov_Bldgs</srccitea>
+				<srccontr>This was used as a source for State owned or leased buildings in the United States.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>NAVTEQ</origin>
+						<pubdate>2006</pubdate>
+						<title>NAVSTREETS</title>
+						<edition>2006.4</edition>
+					</citeinfo>
+				</srccite>
+				<typesrc>CD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2006</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>NAVTEQ_Streets_2006_Q4</srccitea>
+				<srccontr>NAVTEQ streets were used as reference for automatic geocoding and for the manual geolocating of entities during the Q407 processing.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>
+TGS 2007 Q4 Processing
+
+1) Verified name, physical address, and phone numbers by contacting the entity or an authority responsible for the entity.
+
+2) Determined or verified the geospatial location for the entity through contact with entity or authority responsible for entity. Entities were asked to describe their geospatial location relative to land marks visible in ortho imagery.
+
+3) During PinPointing, TGS technicians looked for additional entitles to add to the dataset based upon the locations of the headquarters of cabinet level state agencies.
+
+4) Every entity PinPointed during this update was reviewed by a TGS QC Technician. QC technicians are trained to look for inconsistencies within the data and between the data and reference sources, such as ortho imagery. Where inconsistencies exist, the TGS QC technician re-verified the information by contacting the entity.
+
+5) All of the entities that were PinPointed during this update were examined as an aggregate (i.e., not every record was examined individually) by a TGS QC2 technician. The automated checks described above and in the Attribute_Accuracy_Report were used to find any inconsistencies that remained in the data. If necessary, information was re-verified.
+
+6) County name and county FIPS codes were assigned through a spatial join.
+
+7) Four (4) digit United States Postal Service (USPS) zip code extensions were assigned based upon the USPS Address Information System (AIS).
+
+8) All text fields were set to all upper case.
+
+9) Leading and trailing spaces were trimmed from all text fields.
+
+10) Non printable and diacritic characters were removed from all text fields.
+</procdesc>
+				<srcused>State_Gov_Bldgs</srcused>
+				<srcused>NAVTEQ_Streets_2006_Q4</srcused>
+				<procdate>20080228</procdate>
+				<srcprod>OR_State_Government_Buildings</srcprod>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Nicole Hackworth</cntper>
+							<cntorg>TechniGraphics, Inc.</cntorg>
+						</cntperp>
+						<cntpos>Project Manager</cntpos>
+						<cntaddr>
+							<addrtype>Mailing and Physical Address</addrtype>
+							<address>2000 Noble Drive</address>
+							<city>Wooster</city>
+							<state>OH</state>
+							<postal>44691</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>330-263-6222</cntvoice>
+						<cntemail>nhackworth@tgstech.com</cntemail>
+						<hours>8am - 5pm, Monday - Friday, Eastern Time</hours>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE"></srcused><date Sync="TRUE">20080416</date><time Sync="TRUE">16515200</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo Sync="TRUE">
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf Sync="TRUE">
+			<sdtsterm Name="2008_01_25_State_Government_Buildings">
+				<sdtstype Sync="TRUE">Entity point</sdtstype>
+				<ptvctcnt Sync="TRUE">23</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref Sync="TRUE">
+		<horizsys Sync="TRUE">
+			<geograph>
+				<latres Sync="TRUE">0.000001</latres>
+				<longres Sync="TRUE">0.000001</longres>
+				<geogunit Sync="TRUE">Decimal degrees</geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn Sync="TRUE">D_WGS_1984</horizdn>
+				<ellips Sync="TRUE">WGS_1984</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257224</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo Sync="TRUE">
+		<detailed Name="2008_01_25_State_Government_Buildings">
+			<enttyp>
+				<enttypl>State Government Buildings in Oregon</enttypl>
+				<enttypd>This dataset includes buildings occupied by the headquarters of cabinet level state government executive departments, legislative offices buildings outside of the capitol building, offices and court rooms associated with the highest level of the judicial branch of the state government, and large multi-agency state office buildings.</enttypd>
+				<enttypds>TGS</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SHAPE</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ID</attrlabl>
+				<attrdef>Unique identifier for feature.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<udom>Text</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>METLNKID</attrlabl>
+				<attrdef>Link to Metadata.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<udom>Text</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FEATTYPE</attrlabl>
+				<attrdef>Geometry type of feature.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>POINT</edomv>
+						<edomvd>Feature is represented by point.</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SECCLASS</attrlabl>
+				<attrdef>Security classification of feature.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>UNCLASSIFIED</edomv>
+						<edomvd>Entity is unclassified.</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>UNCLASSIFIED - TREAT AS FOUO</edomv>
+						<edomvd>Entity is unclassified and should be treated as "For Official Use Only".</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>NAME</attrlabl>
+				<attrdef>Name of entity.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<udom>Text</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>AREA</attrlabl>
+				<attrdef>Three (3) digit telephone area code for entity.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<udom>Valid area codes without punctuation. Only numeric digits are used. A list of valid area codes can be found at http://www.nanpa.com</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PHONE</attrlabl>
+				<attrdef>Seven (7) digit telephone number for entity formatted as nnn-nnnn. All alphabetic characters have been translated to the corresponding numeric digit.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<udom>Phone numbers formatted as nnn-nnnn. Only numeric digits are used. The first three (3) digits (the exchange) must form a valid combination with the area code. A list of valid area code and exchange combinations can be obtained from http://www.nanpa.com</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ADDRESS</attrlabl>
+				<attrdef>Physical street address for entity. "PO Box", "General Delivery", "Rural Route", and "Highway Contract" addresses are not considered physical addresses and should not appear in this attribute. Some areas do not have regular city style addressing so entities in those areas may not have a street number. In such cases, the name of the road they are located on is listed in this attribute.  Some rural areas may not have named roads.  In these rare cases, this attribute will be blank.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<udom>Text</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ADDRESS2</attrlabl>
+				<attrdef>Location within physical address, e.g., floor, suite, building.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<udom>Text</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>CITY</attrlabl>
+				<attrdef>
+The name of the city associated with the entity's physical address. For physical addresses that the U.S. Postal Service (USPS) delivers to, this should be a "city" acceptable to the USPS as defined in their Address Information System (AIS). Sometimes the USPS does not deliver mail to a physical address but recognizes the location (i.e., they list the location as "undeliverable"). The cities associated with these locations are acceptable. In some cases, the USPS does not recognize individual physical addresses in a city, rather, they list the city as having "General Delivery". In these cases, the city and associated zip code are acceptable (the entity's [ADDRESS] attribute will contain a street address, not "general delivery"). The entity may not actually be located within the city limits of the "city" specified in its city field. Instead, it may actually be located within the city limits of another city. In some cases, the "city" that appears in this attribute may not even be a city in an administrative sense, but it is still an acceptable "city" to the USPS. An example of this is "Notre Dame, IN". There is no city in Indiana called "Notre Dame", but this is considered an acceptable city by the USPS for any delivery going to the University of Notre Dame which is actually located in the city of South Bend. "Notre Dame", like most USPS cities, is an easily recognized place, and it gives the user of the data a good general idea of where the entity is located (if the entity is located in a small municipality, the USPS "city" may be more recognizable than the name of the municipality), and it would be part of the address one would use to send a shipment to the entity's location. Using the USPS acceptable "city" also allows someone to do a logical consistency check between the zip code and the city by using the USPS AIS.
+
+Sometimes an entity may report a city that is not accepted by the USPS, and although TGS has tried to replace those cities with an acceptable alternative, some of them may remain in this dataset.
+</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<udom>Text</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">STATE</attrlabl>
+				<attrdef>Two (2) character abbreviation for state associated with the entity's physical address. In almost all cases this is the same as the state where the entity has been depicted geospatially. However, there are cases, particularly where an entity is part of a larger facility that cuts across state lines, where the entity's location may be depicted in a state other than the one indicated in this attribute. Also, the state in which an entity appears to be located may change depending on the scale of the state boundary theme being used.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Official USPS Abbreviations - State Abbreviations</codesetn>
+						<codesets>United States Postal Service http://www.usps.com/ncsc/lookups/usps_abbreviations.html</codesets>
+					</codesetd>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ZIP</attrlabl>
+				<attrdef>Five (5) digit USPS zip code for entity's physical location.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>USPS Address Information System - Domain is further restricted by only allowing physical (non PO Box) zip codes.</codesetn>
+						<codesets>United States Postal Service</codesets>
+					</codesetd>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ZIPP4</attrlabl>
+				<attrdef>Four (4) digit USPS zip code extension. This attribute was automatically assigned using the entity's physical address and USPS address information system (AIS) data.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>USPS Address Information System (AIS) - ZIP9</codesetn>
+						<codesets>United States Postal Service</codesets>
+					</codesetd>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>COUNTY</attrlabl>
+				<attrdef>County name where entity is located.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Geographic Names Information System (GNIS)</codesetn>
+						<codesets>US Department of the Interior - US Geologic Survey</codesets>
+					</codesetd>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FIPS</attrlabl>
+				<attrdef>Five (5) digit FIPS (Federal Information Processing Standards) Code for the County where entity is located. The first two (2) digits represent the state and the last three (3) digits identify the county within the state.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Federal Information Processing Standards Publications - Counties and Equivalent Entities of the U.S., Its Possessions, and Associated Areas</codesetn>
+						<codesets>National Institute of Standards (NIST) http://www.itl.nist.gov/fipspubs/co-codes/states.txt</codesets>
+					</codesetd>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>DIRECTIONS</attrlabl>
+				<attrdef>Directions to entity location, or description of the entity's location.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<udom>Text</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>EMERGTITLE</attrlabl>
+				<attrdef>Title of person or name of office for emergency point of contact.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<udom>Text</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>EMERGPHONE</attrlabl>
+				<attrdef>Ten (10) digit telephone number of emergency point of contact formatted as nnn-nnn-nnnn. All alphabetic characters have been translated to the corresponding numeric digit.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<udom>Phone numbers, including area code, formatted as nnn-nnn-nnnn. A list of valid area code and exchange combinations can be found at http://www.nanpa.com</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>EMERGEXT</attrlabl>
+				<attrdef>Telephone extension for emergency point of contact.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<udom>Text</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>CONTDATE</attrlabl>
+				<attrdef>Date entity was contacted by TGS.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<udom>Date</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>CONTHOW</attrlabl>
+				<attrdef>Method by which entity was contacted.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>PHONE</edomv>
+						<edomvd>Entity was contacted by phone.</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>FAX</edomv>
+						<edomvd>Entity was contacted by fax.</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>MAIL</edomv>
+						<edomvd>Entity was contacted by mail.</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>EMAIL</edomv>
+						<edomvd>Entity was contacted by email.</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>WEB</edomv>
+						<edomvd>Entity information was gathered and/or verified by official entity website as a last resort.</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>ALT REF</edomv>
+						<edomvd>Geospatial reference information obtained from local authorities, e.g., downloadable parcel maps, 911 streets, and shapefiles.</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>GEODATE</attrlabl>
+				<attrdef>Date entity was geocoded by TGS.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<udom>Date</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>GEOHOW</attrlabl>
+				<attrdef>Method by which entity was geocoded.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>AUTO</edomv>
+						<edomvd>Entity was automatically geocoded.</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>MANUAL</edomv>
+						<edomvd>Entity was manually geocoded.</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>ADJUSTED</edomv>
+						<edomvd>Entity was shifted by TGS to an updated set of NAVTEQ streets. This only applies if the entity was manually geocoded by TGS to a previous version of NAVTEQ streets.</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>PROVIDED</edomv>
+						<edomvd>Entity was geocoded using coordinates provided by the state.</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>NAICSCODE</attrlabl>
+				<attrdef>NAICS (North American Industry Classification System) Code for entity. NAICS Codes (and NAICS Descriptions) have been assigned based upon the entity's primary function, regardless of if that is the function that qualified it to be included in this dataset.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>North American Industry Classification System (NAICS 2002)</codesetn>
+						<codesets>US Census Bureau - http://www.census.gov/epcd/www/naics.html</codesets>
+					</codesetd>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>NAICSDESCR</attrlabl>
+				<attrdef>
+NAICS (North American Industry Classification System) Description for entity. The "Index Entries" that appear on the NAICS webpage (http://www.census.gov/epcd/www/naics.html) are being used to populate this attribute as opposed to the "NAICS Title". While there is a one to one correspondence between NAICS Codes and "NAICS Titles", there is a one to many relationship between NAICS Codes and the "Index Entries". By using the "Index Entries", we have placed the entities that make up this layer into more specific categories; however, the user of this data should be aware that this was not the intended purpose of these "Index Entries". The "Index Entries" were intended as a way to search the NAICS database and as a way of enumerating ways in which establishments falling under the given NAICS Code may be named. Thus, there are often two or more "Index Entries" that are synonyms, for example: "Prisons" and "Penitentiaries". In cases like this, we have standardized on one "Index Entry".
+
+NAICS Descriptions (and NAICS Codes) have been assigned based upon the entity's primary function, regardless of the function that qualified it to be included in this dataset.
+</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>PUBLIC PROPERTY MANAGEMENT SERVICES, GOVERNMENT</edomv>
+						<edomvd>PUBLIC PROPERTY MANAGEMENT SERVICES, GOVERNMENT-[NAICS Code 921190]: Entities that provide public property management services to the United States Government.</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>GEOLINKID</attrlabl>
+				<attrdef>Link ID for the street segment to which the entity was geocoded. Refer to the [ST_VENDOR] and [ST_VERSION] attributes for the street vendor and version that was used to geocode the entity.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<udom>Text</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>X</attrlabl>
+				<attrdef>Longitude in WGS 84 Decimal Degrees.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>-180</rdommin>
+						<rdommax>180</rdommax>
+						<attrunit>WGS 84 Decimal Degrees</attrunit>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Y</attrlabl>
+				<attrdef>Latitude in WGS 84 Decimal Degrees.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>-90</rdommin>
+						<rdommax>90</rdommax>
+						<attrunit>WGS 84 Decimal Degrees</attrunit>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ST_VENDOR</attrlabl>
+				<attrdef>Indicates name of vendor providing original street data used for geocoding.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>NAVTEQ</edomv>
+						<edomvd>NAVTEQ streets were used for geocoding.</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>TGS</edomv>
+						<edomvd>TGS drew in a new street segment that does not exist in the file supplied by NAVTEQ.</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>&lt;BLANK&gt;</edomv>
+						<edomvd>Entity was geocoded using coordinates provided by the original data source; therefore, the street vendor is unknown.</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ST_VERSION</attrlabl>
+				<attrdef>Indicates the version of streets used for geocoding.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>2006Q4</edomv>
+						<edomvd>2006Q4 NAVTEQ Street Data used for geocoding.</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>&lt;BLANK&gt;</edomv>
+						<edomvd>Entity was geocoded using coordinates provided by the original data source; therefore, the street version is unknown.</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>GEOPREC</attrlabl>
+				<attrdef>Geocoding precision.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>BLOCKFACE</edomv>
+						<edomvd>Entity is geocoded to correct block and correct side of street per street data indicated by [ST_VENDOR] and [ST_VERSION].</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>ONENTITY</edomv>
+						<edomvd>Entity is geocoded on entity rooftop per aerial imagery (in most cases USGS DOQQs).</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>&lt;BLANK&gt;</edomv>
+						<edomvd>Entity was geocoded using coordinates provided by the original data source; therefore, geocoding precision is unknown.</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PHONELOC</attrlabl>
+				<attrdef>Indicates whether the phone number in the phone field rings to the actual location of the entity.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>YES</edomv>
+						<edomvd>Phone number rings to the actual entity location.</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>NO</edomv>
+						<edomvd>Phone number does not ring to the actual entity location. It might ring to an administrative office or central location.</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>&lt;BLANK&gt;</edomv>
+						<edomvd>Unknown - It is not known if the entity's phone number rings to the entity's location.</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>QC_QA</attrlabl>
+				<attrdef>Organization that performed Quality Control/Quality Assurance on the record.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>TGS</edomv>
+						<edomvd>TGS has performed Quality Control/Quality Assurance on the entity record after 01/01/2005.</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>&lt;BLANK&gt;</edomv>
+						<edomvd>The record is not TGS added or has not had Quality Control/Quality Assurance performed by TGS, or Quality Control/Quality Assurance was performed prior to 01/01/2005.</edomvd>
+						<edomvds>TGS</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>AGENCIES</attrlabl>
+				<attrdef>
+Indicates the agencies that are located in the building.
+
+Some of the values in this attribute have not been verified by TGS.
+</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<udom>Text</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>AGENCY_PH</attrlabl>
+				<attrdef>Indicates if the twelve digit phone number of an agency within the building.  This phone number will correspond with the agency found in the [AGNECIES] field.</attrdef>
+				<attrdefs>TGS</attrdefs>
+				<attrdomv>
+					<udom>Phone numbers formatted as nnn-nnn-nnnn. Only numeric digits are used.</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<metainfo>
+		<metd>20080228</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Mike Thompson</cntper>
+					<cntorg>TechniGraphics, Inc.</cntorg>
+				</cntperp>
+				<cntpos>Director of Geospatial Datasets</cntpos>
+				<cntaddr>
+					<addrtype>Mailing and Physical Address</addrtype>
+					<address>2000 Noble Drive</address>
+					<city>Wooster</city>
+					<state>OH</state>
+					<postal>44691</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>330-263-6222</cntvoice>
+				<cntfax>330-263-6294</cntfax>
+				<cntemail>mthompson@tgstech.com</cntemail>
+				<hours>8am - 5pm, Monday - Friday, Eastern Time</hours>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+	</metainfo>
+	<Esri><MetaID>{BD94CF87-8E78-4CB9-A0C8-C9EF24F737FC}</MetaID><CreaDate>20080416</CreaDate><CreaTime>16515200</CreaTime><SyncOnce>TRUE</SyncOnce></Esri><distInfo><distributor><distorTran><onLineSrc><linkage Sync="TRUE">http://navigator.state.or.us/sdl/data/shapefile/k24/TGS_StateBuilding.zip</linkage><protocol Sync="TRUE">HTTP</protocol></onLineSrc></distorTran></distributor></distInfo></metadata>

@@ -1,0 +1,1887 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Walker, G.W.</origin>
+				<origin>MacLeod, N.S.</origin>
+				<origin>Miller, R.J.</origin>
+				<origin>Raines, G.L.</origin>
+				<origin>Connors, K.A.</origin>
+				<pubdate>2003</pubdate>
+				<title>Spatial digital database for the geologic map of Oregon</title>
+				<edition>2.0</edition>
+				<geoform>vector digital data</geoform>
+				<serinfo>
+					<sername>Open-File Report</sername>
+					<issue>03-67</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Menlo Park, California</pubplace>
+					<publish>U.S. Geological Survey</publish>
+				</pubinfo>
+				<onlink>http://geopubs.wr.usgs.gov/open-file/of03-67</onlink>
+				<ftname Sync="TRUE">ORE_Geology</ftname><onlink>http://oregonexplorer.info/</onlink></citeinfo>
+		</citation>
+		<descript>
+			<abstract>This report publishes a geologic digital spatial database (ORGEO) for the geologic map of Oregon by Walker and MacLeod (1991) which was originally printed on a single sheet of paper at a scale of 1:500,000 and accompanied by a second sheet for map unit descriptions and ancillary data.  The spatial digital database (GIS) provided in this report supersedes an earlier digital edition by Raines and others (1996).  The dataset was projected to the Oregon Lambert Projection.</abstract>
+			<purpose>This report is one of many being created by the U.S. Geological Survey as an ongoing effort to provide geologic process and mineral resource information for use in spatial analysis in a geographic information system (GIS). This database can be queried in many ways to produce a variety of geologic maps.  This database is not meant to be used or displayed at any scale larger than 1:500,000 (for example, 1:100,000).</purpose>
+			<supplinf>The digital geologic map of Oregon consists of a single coverage (ORGEO) which contains map units and lines.  The feature attribute tables include a geologic linework table, ORGEO.AAT, that relates to the ORGEO.CON (contacts and boundaries), ORGEO.ST2 (structures), and ORGEO.REF (source reference) files, and a rock unit table, ORGEO.PAT, that relates to the ORGEO.RU (rock unit) and ORGEO.REF (source reference) files.</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2003</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-125.391158</westbc>
+				<eastbc>-116.418390</eastbc>
+				<northbc>46.355947</northbc>
+				<southbc>41.906947</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">66462.761232</leftbc><rightbc Sync="TRUE">2345119.134042</rightbc><bottombc Sync="TRUE">88561.164635</bottombc><topbc Sync="TRUE">1682246.074151</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>none</themekt>
+				<themekey>geology</themekey>
+				<themekey>geologic map</themekey>
+				<themekey>geospatial database</themekey>
+				<themekey>state map</themekey>
+			</theme>
+			<place>
+				<placekt>none</placekt>
+				<placekey>Oregon</placekey>
+				<placekey>State of Oregon</placekey>
+				<placekey>USA</placekey>
+				<placekey>Pacific Northwest</placekey>
+			</place>
+		</keywords>
+		<accconst>none</accconst>
+		<useconst>
+This digital database is not intended to be used or displayed at
+any scale larger than 1:500,000.
+
+Any hardcopies utilizing these data sets shall clearly indicate
+their source.  If the user has modified the data in any way
+they are obligated to describe the types of modifications they
+have performed on the hardcopy map.  User specifically agrees
+not to misrepresent these data sets, nor to imply that changes they
+made were approved by the U.S. Geological Survey.
+
+This database has been approved for release and publication by the Director of
+the USGS. Although this database has been subjected to rigorous review and is
+substantially complete, the USGS reserves the right to revise the data
+pursuant to further analysis and review.  Furthermore, it is released on
+condition that neither the USGS nor the United States Government may be held
+liable for any damages resulting from its authorized or unauthorized use.
+</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Robert J. Miller</cntper>
+					<cntorg>U.S. Geological Survey</cntorg>
+				</cntperp>
+				<cntpos>geologist</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>345 Middlefield Road, Mail Stop 901</address>
+					<city>Menlo Park</city>
+					<state>California</state>
+					<postal>94025</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>650 329-5407</cntvoice>
+				<cntemail>rjmiller@usgs.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>
+The National Mapping Division of the U.S. Geological Survey scanned and vectorized mylar compilation sheets and converted the files to ArcInfo; Gary L. Raines and Katherine A. Connors added a data model and additional attribute data for an initial digital edition (Raines and others, 1996) of the Walker and MacLeod (1991) geologic map of Oregon.
+This second digital edition, prepared by Robert J. Miller, represents further revision of Raines and others' (1996) first edition.
+</datacred>
+		<native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI ArcCatalog 8.3.0.800</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<logic>Polygon and chain-node topology present.  Segments making up the outer and inner boundaries of a polygon tie end-to-end to completely enclose the area.  Line segments are a set of sequentially numbered coordinate pairs.  No duplicate features exist nor duplicate points in a data string.  Intersecting lines are separated into individual line segments at the point of intersection.  All nodes are represented by a single coordinate pair, which indicates the beginning or end of a line segment.</logic>
+		<complete>All geologic units were captured from Walker and MacLeod (1991) at a scale of 1:500,000.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Database linework generally fits a scanned and georeferenced image of the original printed map with an error typically of 200-300 meters.  The image used for comparison had a registration RMS error of 91 meters.   This information is useful only in evaluating how well the digital database recreates the original printed map, but does not provide any information regarding the locational accuracy of the geologic features shown on the original printed map.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Walker, G.W.</origin>
+						<origin>MacLeod, N.S.</origin>
+						<pubdate>1991</pubdate>
+						<title>Geologic Map of Oregon</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>State Geologic Map</sername>
+							<issue>Geologic Map of Oregon</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Reston, Virginia</pubplace>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>500000</srcscale>
+				<typesrc>mylar</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1991</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>Walker and MacLeod, 1991</srccitea>
+				<srccontr>The map provided spatial location information in an analog format.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Raines, G.L.</origin>
+						<origin>Sawatzky, D.L.</origin>
+						<origin>Connors, K.A.</origin>
+						<pubdate>1996</pubdate>
+						<title>Great Basin geoscience data base</title>
+						<edition>1.0 (although not specified as such on that publication)</edition>
+						<geoform>vector digital data</geoform>
+						<serinfo>
+							<sername>Digital Data Series</sername>
+							<issue>DDS-41</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Washington, D.C.</pubplace>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<typesrc>CD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1991</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date of Geologic Map of Oregon by Walker and MacLeod.</srccurr>
+				</srctime>
+				<srccitea>Raines and others, 1996</srccitea>
+				<srccontr>The first edition (Raines and others, 1996) was used to prepare the second edition (Walker and others, 2003) of GIS for Walker and MacLeod's (1991) Geologic map of Oregon.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>
+George W. Walker and Norman S. MacLeod compiled the geology on 1:400,000-scale quadrants of the 1982 version of the Oregon topographic basemap.
+USGS (National Mapping Division, Thematic Map Unit) personnel digitized and reprojected the compiled geology to the 1982 1:500,000-scale state base map: this work was done on a SCITEX system.  The SCITEX files were then converted to an ArcInfo format.
+</procdesc>
+				<procdate>1990-1991</procdate>
+				<srcprod>Walker and MacLeod, 1991</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>
+Proof plots were made from the digital files and reviewed by various geologists familar with Oregon geology. A few misidentified polygons were found and the labels corrected. A data model was added and additional attributes coded.
+During the initial digitization process, lines representing faults had been captured in a file separate from the geology unit polygons. A USGS contractor edited the fault linework to connect dotted and dashed fault segments into continous lines. Fault type as well as downdrop direction were added as attributes.
+</procdesc>
+				<srcused>Walker and MacLeod, 1991</srcused>
+				<procdate>1993-1996</procdate>
+				<srcprod>Raines and others, 1996</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>
+For this second edition of the spatial database, the geologic unit and fault coverages were merged to produce a single topology.
+Faults forming geologic unit boundaries (contacts) occurred twice in the Raines and others (1996) dataset, once in the fault coverage (coded as a fault) and a second time in the geology coverage (coded as a "contact").
+During the process of topologically combining the two coverages, if a fault and a contact were coincident (+/- approx. 300 meters), the contact was eliminated and the remaining line retained the attribute coding inherited from the fault coverage.
+
+The topological combination of geology and fault cover was accomplished as follows:
+1) A buffer of fault lines was built with a buffer distance of 300 meters.
+2) The buffer was intersected with the geology coverage, thus creating nodes at the approximate ends of sections of arc in the geology coverage that are duplicated by faults.
+3) The faults were buffered again, this time at 325 meters. This buffer coverage was used to select the duplicate sections of arcs created in step 2.  The selected arcs were deleted.
+4) The fault arcs were imported into the geology coverage.  Dangling contacts in the coverage were extended to intersect the imported faults. Extensive proofing and editing was required to insure that the geologic unit polygons closed properly against the introduced fault arcs.
+
+The entire ORGEO coverage was rubbersheeted to improve the fit with a georeferenced image of the basemap.  The error in registration of the Raines and others (1996) dataset was typically 200-500 meters in the western part, but reached a maximum of 800-900 meters in the eastern third of the map sheet.  After adjustment, the registration of the dataset generally is within 200-400 meters.   The adjustment was accomplished by defining approximately 200 adjustment links throughout the map area, then interpolating between those links to form a uniform distribution of approximately 10,000 links across the map. The high density of links provided a smooth transition in both direction and magnitude of adjustment from one area of the map to another.
+
+In order allow the dataset to be combined with map databases for adjacent states, modifications were made to database linework near the perimeter of the map area:
+1) the map was cropped on the north along the Washington state boundary (generally following the center of the Columbia River).
+2) the eastern and southern boundaries were replaced by state boundaries derived from USGS 1:100,000-scale Digital Line Graph (DLG) files.
+
+Staff at the Oregon Department of Geology and Mineral Industries reviewed the resultant geologic map database and identified thirty-one incorrectly labeled polygons.  R.J. Miller then incorporated the revisions into the GIS.
+</procdesc>
+				<srcused>Raines and others, 1996</srcused>
+				<procdate>2000-2003</procdate>
+				<srcprod>Walker and others, 2003</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>Pamela D. Derkey ran mp 2.8.18 (http://geo-nsdi.er.usgs.gov/validate.php) on the metadata file, made necessary corrections to the metadata, and imported the metadata into the ORGEO coverage.</procdesc>
+				<procdate>20050105</procdate>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><date Sync="TRUE">20070511</date><time Sync="TRUE">15163300</time></procstep><procstep><proccont><cntinfo><cntperp><cntorg>Oregon State University</cntorg></cntperp><cntaddr><addrtype>physical address</addrtype><address>210 Strand Agriculture Hall</address><city>Corvallis</city><state>OR</state><postal>97331-2208</postal></cntaddr></cntinfo></proccont><procdesc>Dataset projected to Oregon Lambert Projection.</procdesc></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">Server=zagreb.library.oregonstate.edu; Service=port:5151; User=sde; Version=sde.DEFAULT</srcused><date Sync="TRUE">20070614</date><time Sync="TRUE">16001900</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="ORE_Geology">
+				<sdtstype>Complete chain</sdtstype>
+				<ptvctcnt>62104</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="label">
+				<sdtstype>Label point</sdtstype>
+				<ptvctcnt>17365</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="polygon">
+				<sdtstype>GT-polygon composed of chains</sdtstype>
+				<ptvctcnt>17364</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="node">
+				<sdtstype>Node, planar graph</sdtstype>
+				<ptvctcnt>49852</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="tic">
+				<sdtstype>Point</sdtstype>
+				<ptvctcnt>4</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="ORE_Geology"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm><esriterm Name="label"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Label</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">17365</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm><esriterm Name="polygon"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">TRUE</esritopo><efeacnt Sync="TRUE">17364</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm><esriterm Name="node"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Node</efeageom><esritopo Sync="TRUE">TRUE</esritopo><efeacnt Sync="TRUE">49852</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm><esriterm Name="tic"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Tic</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">4</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.004511</absres>
+						<ordres>0.004511</ordres>
+					</coordrep>
+					<plandu>meters</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn><lambertc><stdparll Sync="TRUE">43.000000</stdparll><stdparll Sync="TRUE">45.500000</stdparll><longcm Sync="TRUE">-120.500000</longcm><latprjo Sync="TRUE">41.750000</latprjo><feast Sync="TRUE">1312335.958000</feast><fnorth Sync="TRUE">0.000000</fnorth></lambertc></mapproj></planar>
+			<geodetic>
+				<horizdn>North American Datum of 1927</horizdn>
+				<ellips>Clarke 1866</ellips>
+				<semiaxis>6378206.400000</semiaxis>
+				<denflat>294.978698</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">OGICdefaultAG82</projcsn></cordsysn></horizsys>
+		<vertdef><altsys><altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc><altres Sync="TRUE">1.000000</altres></altsys></vertdef></spref>
+	<eainfo>
+		<detailed Name="ORE_Geology">
+			<attr><attrlabl Sync="TRUE">SPATIAL_OB</attrlabl><attalias Sync="TRUE">SPATIAL_OB</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">12</attwidth></attr><attr><attrlabl Sync="TRUE">UNIT</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">5</attwidth><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><enttyp>
+				<enttypl>ORGEO.AAT</enttypl>
+				<enttypd>
+Arc Attribute Table
+ESRI feature attribute table for linear features (contacts, faults, and folds)
+</enttypd>
+				<enttypds>ESRI</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">AREA</attrlabl><attalias Sync="TRUE">AREA</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth></attr><attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">SOURCE_ID</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">5</attwidth><atprecis Sync="TRUE">5</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>SOURCE_ID</attrlabl>
+				<attrdef>Numeric code used to identify the data source for the linear feature.</attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>U.S. Geological Survey, 1993</edomvd>
+					</edom>
+					<edom>
+						<edomv>41</edomv>
+						<edomvd>Walker and MacLeod, 1991</edomvd>
+					</edom>
+					<udom>Complete references for the sources are listed in the ORGEO.REF lookp-up table.</udom>
+				</attrdomv>
+				<attwidth Sync="TRUE">5</attwidth><atoutwid Sync="TRUE">4</atoutwid><attrtype Sync="TRUE">Number</attrtype><attalias Sync="TRUE">PERIMETER</attalias></attr>
+			<attr><attrlabl Sync="TRUE">PERIMETER</attrlabl><attalias Sync="TRUE">OR_GEOL_</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">8</atnumdec></attr><attr><attrlabl Sync="TRUE">OR_GEOL_</attrlabl><attalias Sync="TRUE">OR_GEOL_ID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">10</attwidth></attr><attr><attrlabl Sync="TRUE">OR_GEOL_ID</attrlabl><attalias Sync="TRUE">MAP_UNIT</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">10</attwidth></attr><attr><attrlabl Sync="TRUE">MAP_UNIT</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">9</attwidth><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">SHAPE</attrlabl><attalias Sync="TRUE">UNIT</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">5</attwidth><atprecis Sync="TRUE">5</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">SHAPE_area</attrlabl><attalias Sync="TRUE">SHAPE_area</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">SHAPE_len</attrlabl><attalias Sync="TRUE">SHAPE_len</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr></detailed>
+		<detailed Name="or_geol.pat">
+			<enttyp>
+				<enttypl>ORGEO.PAT</enttypl>
+				<enttypd>
+Polygon Attribute Table: map units
+ESRI feature attribute table for rock units
+</enttypd>
+				<enttypds>ESRI</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">17364</enttypc></enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">12</attwidth></attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">5</attwidth></attr>
+			<attr>
+				<attrlabl>AREA</attrlabl>
+				<attrdef>Area of feature in internal units squared.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attwidth Sync="TRUE">19</attwidth><atoutwid Sync="TRUE">18</atoutwid><attrtype Sync="TRUE">Number</attrtype><atnumdec Sync="TRUE">8</atnumdec></attr>
+			<attr>
+				<attrlabl>PERIMETER</attrlabl>
+				<attrdef>Perimeter of feature in internal units.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attwidth Sync="TRUE">19</attwidth><atoutwid Sync="TRUE">18</atoutwid><attrtype Sync="TRUE">Float</attrtype><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>ORGEO#</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attwidth Sync="TRUE">5</attwidth><atoutwid Sync="TRUE">5</atoutwid><attrtype Sync="TRUE">Number</attrtype></attr>
+			<attr>
+				<attrlabl>ORGEO-ID</attrlabl>
+				<attrdef>User-defined feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Non-sequential unique whole numbers that were generated during the GIS creation and editing process by R.J. Miller.</udom>
+				</attrdomv>
+				<attwidth Sync="TRUE">19</attwidth><atoutwid Sync="TRUE">5</atoutwid><attrtype Sync="TRUE">Number</attrtype><atnumdec Sync="TRUE">8</atnumdec></attr>
+			<attr>
+				<attrlabl>MAP_UNIT</attrlabl>
+				<attrdef>Map unit designation (rock unit label) as it appeared on the printed Walker and MacLeod (1991) map.</attrdef>
+				<attrdomv>
+					<udom>Map unit is described in the ORGEO.RU look-up table.</udom>
+				</attrdomv>
+				<attwidth Sync="TRUE">10</attwidth><atoutwid Sync="TRUE">9</atoutwid><attrtype Sync="TRUE">Number</attrtype></attr>
+			<attr>
+				<attrlabl>UNIT</attrlabl>
+				<attrdef>Numeric code used to identify rock unit.</attrdef>
+				<attrdomv>
+					<udom>Attributes and attribute definitions are given in the ORGEO.RU look-up table.</udom>
+				</attrdomv>
+				<attwidth Sync="TRUE">10</attwidth><atoutwid Sync="TRUE">4</atoutwid><attrtype Sync="TRUE">Number</attrtype></attr>
+			<attr>
+				<attrlabl>SOURCE_ID</attrlabl>
+				<attrdef>Numeric code used to identify the data source for the rock unit.</attrdef>
+				<attrdomv>
+					<udom>Complete references for the sources are listed in the ORGEO.REF look-up table.</udom>
+				</attrdomv>
+				<attwidth Sync="TRUE">9</attwidth><atoutwid Sync="TRUE">4</atoutwid><attrtype Sync="TRUE">String</attrtype></attr>
+			<attr>
+				<attrlabl>SPATIAL_OBJ_ID</attrlabl>
+				<attrdef>Unique numeric identifier for each object in the ORGEO feature attribute tables (ORGEO.AAT and ORGEO.PAT). (This integer is NOT duplicated in the ORGEO.AAT feature attribute table.)</attrdef>
+				<attrdomv>
+					<rdom>
+						<rdommin>410100001</rdommin>
+						<rdommax>410117371</rdommax>
+					</rdom>
+				</attrdomv>
+				<attwidth Sync="TRUE">12</attwidth><atoutwid Sync="TRUE">12</atoutwid><attrtype Sync="TRUE">Number</attrtype></attr>
+			<attr><atnumdec Sync="TRUE">11</atnumdec></attr><attr><atnumdec Sync="TRUE">11</atnumdec></attr></detailed>
+		<detailed Name="or_geol.nat"><enttyp><enttypl Sync="TRUE">or_geol.nat</enttypl><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">49852</enttypc></enttyp><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">12</attwidth><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">5</attwidth><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">ARC#</attrlabl><attwidth Sync="TRUE">19</attwidth><atoutwid Sync="TRUE">5</atoutwid><attrtype Sync="TRUE">Number</attrtype></attr><attr><attrlabl Sync="TRUE">OR_GEOL#</attrlabl><attwidth Sync="TRUE">19</attwidth><atoutwid Sync="TRUE">5</atoutwid><attrtype Sync="TRUE">Float</attrtype><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">OR_GEOL-ID</attrlabl><attwidth Sync="TRUE">5</attwidth><atoutwid Sync="TRUE">5</atoutwid><attrtype Sync="TRUE">Number</attrtype><attrdef Sync="TRUE">User-defined feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs></attr><attr><atnumdec Sync="TRUE">8</atnumdec></attr><attr><atnumdec/></attr><attr><atnumdec/></attr></detailed></eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Geological Survey</cntorg>
+					<cntper>Robert J. Miller</cntper>
+				</cntorgp>
+				<cntpos>geologist</cntpos>
+				<cntaddr>
+					<addrtype>mailing</addrtype>
+					<address>345 Middlefield Rd., Mail Stop 901</address>
+					<city>Menlo Park</city>
+					<state>CA</state>
+					<postal>94025</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(650) 329-5407</cntvoice>
+				<cntinst>
+This report is only available in electronic format at
+URL = http://geopubs.wr.usgs.gov/open-file/of03-67/
+
+OR via a link from
+URL = http://geopubs.wr.usgs.gov/docs/wrgis/state_geol_maps.html
+
+OR via anonymous FTP from
+geopubs.wr.usgs.gov, in the directory pub/open-file/of03-67
+</cntinst>
+			</cntinfo>
+		</distrib>
+		<resdesc>Downloadable data (orgeo.e00) for USGS Open-File Report 03-67</resdesc>
+		<distliab>
+The U.S. Geological Survey (USGS) provides these geographic data "as is".  The USGS makes no guarantee or warranty concerning the accuracy of information contained in the geographic data.  The USGS further makes no warranties, either expressed or implied as to any other matter whatsoever, including, without limitation, the condition of the product, or its fitness for any particular purpose. The burden for determining fitness for use lies entirely with the user.  Although these data have been processed successfully on computers at the USGS, no warranty, expressed or implied, is made by the USGS regarding the use of these data on any other system, nor does the fact of distribution constitute or imply any such warranty.
+
+In no event shall the USGS have any liability whatsoever for payment of any consequential, incidental, indirect, special, or tort damages of any kind, including, but not limited to, any loss of profits arising out of use of or reliance on the geographic data or arising out of the delivery, installation, operation, or support by USGS.
+
+This digital map dataset of the Geologic map of Oregon, is not meant to be used or displayed at any scale larger than 1:500,000 (for example, 1:100,000 or 1:24,000).
+</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>ARCE - ArcInfo export format</formname>
+					<transize>20.699</transize>
+					<dssize Sync="TRUE">0.000</dssize></digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://geopubs.wr.usgs.gov/open-file/of03-67/</networkr>
+								<networkr>http://geopubs.wr.usgs.gov/docs/wrgis/state_geol_maps.html</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>free</fees>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>20050105</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Robert Miller</cntper>
+					<cntorg>U.S. Geological Survey.</cntorg>
+				</cntperp>
+				<cntpos>geologist</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>3345 Middlefield Rd., Mail Stop 901</address>
+					<city>Menlo Park</city>
+					<state>CA</state>
+					<postal>94025</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(650) 329-5407</cntvoice>
+				<cntemail>rjmiller@usgs.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metac>none</metac>
+		<metuc>none</metuc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20070614</CreaDate><CreaTime>16001900</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20090625</SyncDate><SyncTime>15471900</SyncTime><ModDate>20090625</ModDate><ModTime>15471900</ModTime><DataProperties><lineage><Process Name="Project_4" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\Project" Date="20070511" Time="151635">Project z:\projects\oregonexplorer\ore_geography_geology\geology\or_geol\polygon z:\Projects\oregonexplorer\ore_geography_geology\Geology\orgeol_ssc.shp PROJCS['NAD_1983_Oregon_Statewide_Lambert_Feet_Intl',GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Lambert_Conformal_Conic'],PARAMETER['False_Easting',1312335.958005249],PARAMETER['False_Northing',0.0],PARAMETER['Central_Meridian',-120.5],PARAMETER['Standard_Parallel_1',43.0],PARAMETER['Standard_Parallel_2',45.5],PARAMETER['Latitude_Of_Origin',41.75],UNIT['Foot',0.3048]] NAD_1927_To_NAD_1983_NADCON PROJCS['NAD_1927_Lambert_Conformal_Conic',GEOGCS['GCS_North_American_1927',DATUM['D_North_American_1927',SPHEROID['Clarke_1866',6378206.4,294.9786982]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Lambert_Conformal_Conic'],PARAMETER['False_Easting',0.0],PARAMETER['False_Northing',0.0],PARAMETER['Central_Meridian',-120.5],PARAMETER['Standard_Parallel_1',33.0],PARAMETER['Standard_Parallel_2',45.0],PARAMETER['Latitude_Of_Origin',0.0],UNIT['Meter',1.0]]</Process><Process Name="FeatureClassToFeatureClass_5" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20070511" Time="154312">FeatureClassToFeatureClass Z:\Projects\OregonExplorer\ORE_Geography_Geology\Geology\orgeol_ssc.shp "Database Connections\Connection to 128.193.168.111.sde\SDE.SDE.ORE_Natural_Features" ORE_Geology # "AREA AREA true false false 19 Double 0 0 ,First,#,Z:\Projects\OregonExplorer\ORE_Geography_Geology\Geology\orgeol_ssc.shp,AREA,-1,-1;PERIMETER PERIMETER true false false 19 Double 0 0 ,First,#,Z:\Projects\OregonExplorer\ORE_Geography_Geology\Geology\orgeol_ssc.shp,PERIMETER,-1,-1;OR_GEOL_ OR_GEOL_ true false false 9 Long 0 9 ,First,#,Z:\Projects\OregonExplorer\ORE_Geography_Geology\Geology\orgeol_ssc.shp,OR_GEOL_,-1,-1;OR_GEOL_ID OR_GEOL_ID true false false 9 Long 0 9 ,First,#,Z:\Projects\OregonExplorer\ORE_Geography_Geology\Geology\orgeol_ssc.shp,OR_GEOL_ID,-1,-1;MAP_UNIT MAP_UNIT true false false 9 Text 0 0 ,First,#,Z:\Projects\OregonExplorer\ORE_Geography_Geology\Geology\orgeol_ssc.shp,MAP_UNIT,-1,-1;UNIT UNIT true false false 4 Short 0 4 ,First,#,Z:\Projects\OregonExplorer\ORE_Geography_Geology\Geology\orgeol_ssc.shp,UNIT,-1,-1;SOURCE_ID SOURCE_ID true false false 4 Short 0 4 ,First,#,Z:\Projects\OregonExplorer\ORE_Geography_Geology\Geology\orgeol_ssc.shp,SOURCE_ID,-1,-1;SPATIAL_OB SPATIAL_OB true false false 12 Double 0 12 ,First,#,Z:\Projects\OregonExplorer\ORE_Geography_Geology\Geology\orgeol_ssc.shp,SPATIAL_OB,-1,-1" # "Database Connections\Connection to 128.193.168.111.sde\SDE.SDE.ORE_Natural_Features\SDE.SDE.ORE_Geology"</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20090625" Time="154735">FeatureClassToFeatureClass "Database Connections\Connection to tryptophan.sde\SDE.SDE.ORE_Natural_Features\SDE.SDE.ORE_Geology" X:\forDownload ORE_Geology.shp # "AREA 'AREA' true true false 8 Double 8 38 ,First,#,Database Connections\Connection to tryptophan.sde\SDE.SDE.ORE_Natural_Features\SDE.SDE.ORE_Geology,SDE.SDE.ORE_Geology.AREA,-1,-1;PERIMETER 'PERIMETER' true true false 8 Double 8 38 ,First,#,Database Connections\Connection to tryptophan.sde\SDE.SDE.ORE_Natural_Features\SDE.SDE.ORE_Geology,PERIMETER,-1,-1;OR_GEOL_ 'OR_GEOL_' true true false 4 Long 0 10 ,First,#,Database Connections\Connection to tryptophan.sde\SDE.SDE.ORE_Natural_Features\SDE.SDE.ORE_Geology,OR_GEOL_,-1,-1;OR_GEOL_ID 'OR_GEOL_ID' true true false 4 Long 0 10 ,First,#,Database Connections\Connection to tryptophan.sde\SDE.SDE.ORE_Natural_Features\SDE.SDE.ORE_Geology,OR_GEOL_ID,-1,-1;MAP_UNIT 'MAP_UNIT' true true false 9 Text 0 0 ,First,#,Database Connections\Connection to tryptophan.sde\SDE.SDE.ORE_Natural_Features\SDE.SDE.ORE_Geology,MAP_UNIT,-1,-1;UNIT 'UNIT' true true false 2 Short 0 5 ,First,#,Database Connections\Connection to tryptophan.sde\SDE.SDE.ORE_Natural_Features\SDE.SDE.ORE_Geology,UNIT,-1,-1;SOURCE_ID 'SOURCE_ID' true true false 2 Short 0 5 ,First,#,Database Connections\Connection to tryptophan.sde\SDE.SDE.ORE_Natural_Features\SDE.SDE.ORE_Geology,SOURCE_ID,-1,-1;SPATIAL_OB 'SPATIAL_OB' true true false 8 Double 0 12 ,First,#,Database Connections\Connection to tryptophan.sde\SDE.SDE.ORE_Natural_Features\SDE.SDE.ORE_Geology,SPATIAL_OB,-1,-1;SHAPE_area 'SHAPE_area' false false true 0 Double 0 0 ,First,#,Database Connections\Connection to tryptophan.sde\SDE.SDE.ORE_Natural_Features\SDE.SDE.ORE_Geology,SHAPE.area,-1,-1;SHAPE_len 'SHAPE_len' false false true 0 Double 0 0 ,First,#,Database Connections\Connection to tryptophan.sde\SDE.SDE.ORE_Natural_Features\SDE.SDE.ORE_Geology,SHAPE.len,-1,-1" # X:\forDownload\ORE_Geology.shp</Process></lineage></DataProperties><MetaID>{C0E1CE39-E752-42C0-A92D-5678F540624D}</MetaID></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.0.1770</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">ORE_Geology</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">66462.761232</westBL><eastBL Sync="TRUE">2345119.134042</eastBL><northBL Sync="TRUE">1682246.074151</northBL><southBL Sync="TRUE">88561.164635</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-125.426594</westBL><eastBL Sync="TRUE">-116.414501</eastBL><northBL Sync="TRUE">46.364471</northBL><southBL Sync="TRUE">41.897639</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\OE\Oregon Explorer\JenniferC\forDownload\ORE_Geology.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.000</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">OGICdefaultAG82</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="ORE_Geology"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20090625</mdDateSt><distinfo><distrib><cntinfo><cntperp><cntper>Kuuipo A. Walsh</cntper><cntorg>Oregon State University</cntorg></cntperp><cntpos>GIS Analyst</cntpos><cntaddr><addrtype>physical address</addrtype><address>210 Strand Agriculture Hall</address><city>Corvallis</city><state>OR</state><postal>97331-2208</postal></cntaddr><cntvoice>541-737-2034</cntvoice></cntinfo></distrib><distliab>The spatial information hosted at this website was derived from a variety of sources. Care was taken in the creation of these themes, but they are provided "as is". Oregon State University, the Oregon State University Library or any of the data providers cannot accept any responsibility for errors, omissions, or positional accuracy in the digital data or underlying records. There are no warranties, expressed or implied, including the warranty of merchantability or fitness for a particular purpose, accompanying any of these products. However, notification of any errors would be appreciated.</distliab><stdorder><digform><digtinfo><formname>Shapefile</formname></digtinfo><digtopt><onlinopt><computer><networka><networkr>http://oregonexplorer.info/</networkr></networka></computer></onlinopt></digtopt></digform><fees>None</fees></stdorder><resdesc>Downloadable data for USGS Open-File Report 03-67 projected to the Oregon Lambert Projection</resdesc></distinfo><Binary><Thumbnail><Data EsriPropertyType="Picture">Qk3uNwEAAAAAADYAAAAoAAAAyAAAAIUAAAABABgAAAAAALg3AQAAAAAAAAAAAAAAAAAAAAAA////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////4+Pj1dXV1dXV1dXV1dXV1dXV1dXV1dXV
+1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+4+Pj1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXVx8fHudTUtMbG
+tMbGtMbGrre3rre3rre3s8XFudTUq8bGn9XVj6qqg4yMlLm5n9XVj6qqn9XVlLi4iZubmsfHjqqq
+hI2Nn9XVjqmpr///jqmpiZubk7e3lLi4iJqafn5+jqmpjqmpg4yMfn5+iZubk7i4r///r///n9bW
+lLi4g4yMk7i4r///r///qvLyiZubhI2NmcfHj6qqiZubiZubj6qqfn5+fn5+j6qqlLm5fn5+jqqq
+n9XViZubn9XViZubfn5+fn5+hI2NiZychI2NiZubfn5+fn5+iZubg4yMlLm5g4yMqampqamptMbG
+qampqampqampqampudTUrre31dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV4+Pj////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+4+Pj1dXV1dXV1dXV1dXV1dXV1dXVtMbGudTUtMbGrre3tMbGrre3oKmpj6qqiZubn9XVfn5+lLm5
+hI2NmsfHiZubfn5+n9XVn9XVn9XVn9XVhI2NlLi4pOPjpOPjmcbGpeTkntXVpOTko+PjqvLyk7e3
+j6qqjqmpn9XVqvLyqfHxpOPjn9bWk7e3pOTkmcfHn9XViJqajqqqlLi4lLi4fn5+pOPjr///lLi4
+mcbGmcbGpOPjg4yMiZubk7e3jqmphI2NqvLyiJqak7i4iJqapOTkr///jqmplLi4fn5+qvLyjqmp
+g4yMg4yMjqmpg4yMiZubfn5+hI2NpOTkr///mcfHjqmpiJqag4yMfn5+pOTkg4yMg4yMg4yMr///
+pOTkg4yMfn5+fn5+iZubjqmpg4yMmsfHfn5+iZubo+Pjg4yMlLi4mcbGjqmpiZubjqmppOPjjqmp
+pOPjjqmpfn5+hI2NiZubqvLyfn5+g4yMiJqaiZubiZubfn5+fn5+iZubg4yMpeTkiZubjqmpk7i4
+jqmpr///lLi4iJqag4yMlLi4iJqan9XVmsfHfn5+fn5+j6qqn9XVlLi4fn5+udTUrre3qampudTU
+udTUtMbG////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////5OTkudTUudTU
+udTUudTUudTUosbGn9XVn9XVn9XVn9XVn9XVn9XVpOPjr///r///r///ntXVj6qqpOPjr///r///
+n9bWk7e3n9bWpOPjmcfHqvLyjqmpntXVfn5+ntXVpOPjjqmpiZubiZubmcbGmcfHr///n9bWlLi4
+lLi4mcfHlLm5iJqalLi4mMXFmcbGr///r///qvLylLi4hI2NiZublLi4k7e3n9XVn9bWpOPjpOTk
+pOTkr///mcfHiJqapOTkjqmpfn5+j6qqmcfHiZycmcbGiZublLi4mcbGlLi4lLi4mcfHqvLyiJqa
+iZubiZublLi4pOPjr///mcbGpOTklLi4jqmpfn5+iJqajqmpiZubfn5+fn5+g4yMjqmplLi4n9XV
+mcbGmMbGiZubiZubk7e3fn5+qfHxn9bWg4yMj6qqntXVfn5+g4yMhI2Ng4yMiZubiZubmcfHjqmp
+lLm5iZubj6qqpOTkmsfHg4yMfn5+mcfHg4yMg4yMiZubg4yMg4yMmcfHg4yMr///jqmpfn5+n9bW
+lLi4fn5+fn5+iJqapeTkmMbGmsfHg4yMg4yMhI2Nfn5+jqmpiZubg4yMhI2NiJqak7e3lLi4lLi4
+hI2Nn9bWmsfHlLi4g4yMg4yMfn5+jqqqo+Lik7e3r///j6qq////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////1tbWr///r///r///r///r///r///r///r///r///r///r///
+r///r///r///r///mcfHg4yMj6qqqvLyr///r///qvLypOTkqvLyqfLyjqmpr///k7i4hI2Nfn5+
+iZubn9bWiJqaiZublLi4k7i4g4yMmcfHmcbGmcbGpOTkr///ndPTiZubiZubg4yMjqmpr///r///
+r///ntXVg4yMj6qqfn5+jqmpg4yMqvLyjqmpn9bWg4yMj6qqjaiomcfHntXVjqmpj6qqjqmpg4yM
+j6qqqvLyiZycpOPjmcbGj6qqiJqaiZubjqqqg4yMiZubj6qqjqmpqvLymcfHqvLyr///mcbGiZub
+iZubg4yMiZubr///lLi4lLm5jqqqiZubjqmpr///pOPjjqmpg4yMj6qqjqmpiZyclLi4k7e3iZub
+r///k7e3g4yMfn5+g4yMfn5+g4yMiZubn9bWlLi4iZubjqmpfn5+iZubr///n9XVfn5+fn5+g4yM
+pOPjqvLyjqmpk7e3lLi4mcfHr///jqmpiZubfn5+mcbGfn5+fn5+iZubiZubmcbGfn5+g4yMiZub
+g4yMfn5+k7i4mcbGfn5+iJqak7i4n9XVfn5+fn5+ntXVk7e3mcfHiJqajqmpiZubmcbGr///ntTU
+n9XVr///n9bW////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////1tbWr///
+r///r///r///r///r///r///r///r///r///r///r///r///r///qvLymMXFpOTkqvLylLi4n9XV
+r///r///r///j6qqr///pOPjr///qvLyiJqaiZubfn5+mcbGjqmpjqmpjqmpfn5+ntXVj6qqr///
+pOPjpOTklLi4lLi4k7e3n9XVk7e3iJqaqvLyr///pOTkjqmpj6qqr///iZubntTUg4yMfn5+k7e3
+pOPjpOPjpOPjn9bWfn5+hI2NjqmpiZubiJqamcfHntXVpeTklLm5lLm5lLi4mcfHg4yMpeTkfn5+
+fn5+iZubiJqantTUmcbGn9XVn9bWj6qqiZubk7e3jqmpg4yMqvLylLi4mcfHpOTkg4yMfn5+n9XV
+mMXFk7e3jqmphI2Nr///qvLyiZubjqmpj6qqj6qqiZubqvLyiZubfn5+g4yMn9XVqvLyiZublLi4
+iZubfn5+fn5+fn5+lLm5n9XVhI2NlLm5jqmpn9bWmcfHlLi4j6qqfn5+g4yMntXVr///iZubfn5+
+msfHg4yMfn5+g4yMg4yMg4yMjqmpjqmplLi4jqmpg4yMg4yMiZubpOTkfn5+g4yMmcfHfn5+iZub
+g4yMlLi4iZubn9XVk7i4n9XVqvLyn9bWr///mcfHlLi4r///n9bW////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////1tbWr///r///r///r///r///r///r///r///r///r///
+r///r///r///r///n9bWlLi4r///ntTUr///r///r///r///pOTkmcfHmcbGqvLyr///r///mcfH
+g4yMlLi4fn5+fn5+fn5+fn5+iZubpOTkg4yMk7i4ntTUr///lLm5o+Pjn9XVpOTkr///ndPTlLi4
+r///g4yMg4yMqvLyj6qqg4yMfn5+lLi4iJqar///r///r///mcbGn9XVlLi4ntXVj6qqpOTkiJqa
+fn5+mcbGiZubhI2NiJqafn5+iZubfn5+hI2Nfn5+g4yMpOTkr///k7e3lLi4g4yMk7e3n9XVj6qq
+fn5+g4yMr///n9XVg4yMntTUqvLyg4yMfn5+pOTkntXVmMXFk7e3iZublLi4fn5+fn5+iZubg4yM
+lLi4jqmpmcfHmcbGmcfHfn5+pOPjjqmpfn5+jqmpj6qqfn5+fn5+fn5+j6qqjqmphI2Njqmpfn5+
+g4yMiZubn9XVpeTkiZubndPTiZublLi4fn5+jqmpjqqqiJqag4yMfn5+iZubg4yMg4yMqvLymcfH
+fn5+iJqaiZublLi4lLi4mcfHntXVmcfHfn5+fn5+jqqqiJqamcfHlLi4fn5+pOTkr///mcfHmcbG
+j6qqiJqaqfLyn9bW////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////1tbW
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///lLi4pOTkr///r///r///
+r///r///r///mMXFn9XViZubg4yMiZubjqmpn9bWfn5+lLi4jqmpn9bWmcfHjqmpfn5+g4yMfn5+
+iJqapOPjr///lLi4jqmpmcbGmcbGqvLyk7e3jqmpj6qqhI2NiJqamcfHiJqag4yMntXViZubqvLy
+pOPjr///mMXFlLi4qvLyiJqantTUiZubg4yMiJqag4yMiZubiZublLi4iZubjqqqiJqaiJqahI2N
+g4yMmcbGpOTkpOTkqvLyiZubjqmpr///lLi4mcbGj6qqiZubqvLyiZublLi4k7e3g4yMhI2Ng4yM
+lLm5jqmplLi4fn5+g4yMiJqaj6qqmcfHjqqqntXVr///lLi4lLm5jqmpj6qqiZubmsfHg4yMg4yM
+fn5+n9bWiZubk7i4fn5+mcbGpOPjfn5+jqmplLi4g4yMiJqajqqqlLi4fn5+ntXVfn5+iZubhI2N
+g4yMfn5+hI2NhI2Nfn5+hI2NhI2Ng4yMr///jqmpiZubg4yMhI2NiJqalLi4lLi4mcbGiZubiZub
+ntXVfn5+g4yMg4yMr///lLi4r///r///n9bWlLi4r///qvLylLi4lLi4////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////1tbWqvLyr///r///r///r///r///r///r///r///
+r///r///r///r///r///iZubmMXFpOPjmcbGr///r///r///r///fn5+hI2NlLi4iZubhI2NlLi4
+r///iJqaqvLyiZubjqmpmcfHk7e3jqmphI2Ng4yMiZubj6qqlLi4jqmppOTkr///msfHj6qqjqmp
+iZubiZublLm5qvLyg4yMiZubmcfHjqmplLi4n9bWmcfHpOTkpOPjqvLyqvLymcfHntTUn9bWjqqq
+jqmpj6qqg4yMmcfHiJqaj6qqjqmpiJqag4yMlLi4qvLyr///jqmplLi4iZubk7i4ntXVr///j6qq
+jqmpjqqqfn5+g4yMiJqafn5+lLm5iJqaiJqafn5+iZubk7e3j6qqj6qqn9bWlLm5n9XVn9XViZub
+jqmpr///mcfHg4yMlLi4k7i4g4yMjaiojqmpmcfHfn5+iZubj6qqfn5+g4yMpOTkj6qqk7i4g4yM
+fn5+lLi4j6qqhI2Nfn5+iJqalLm5iZubiZubfn5+iZubg4yMfn5+g4yMiZubhI2Nfn5+g4yMg4yM
+lLi4mcfHlLi4jqmpfn5+iZubg4yMfn5+g4yMjqmpr///j6qqj6qqiZubr///r///r///r///iZub
+mcfHlLi4ntXVn9bWuNPT////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////n9bWr///r///r///r///r///r///r///r///r///r///r///r///qvLyg4yMlLi4mcbGr///
+pOTkn9bWr///r///pOPjj6qqqvLyjqmpg4yMntXVmcbGmcfHfn5+fn5+fn5+g4yMfn5+hI2NiJqa
+fn5+iJqapOPjr///r///ntXVr///lLi4peTkiJqapeTklLm5iZublLi4fn5+iZubqvLyn9bWj6qq
+r///r///mcbGr///n9bWlLi4lLi4jqmpjqmpiZubiZubfn5+fn5+g4yMpOPjpOPjg4yMjqmpfn5+
+n9bWpOTkr///qfHxpOTkfn5+ntXVqvLylLi4lLi4lLi4ntXVfn5+iJqamcfHlLi4fn5+n9bWj6qq
+fn5+iZubfn5+fn5+iZublLi4fn5+mcfHj6qqj6qqk7e3pOTkjqmpiJqajqmpiJqaj6qqlLi4iZub
+k7e3iZubfn5+fn5+mcfHn9bWk7e3g4yMfn5+fn5+fn5+hI2NiJqaiZubiZubhI2NhI2Ng4yMiJqa
+fn5+fn5+g4yMfn5+g4yMiZubg4yMfn5+g4yMhI2NqvLyntXVk7i4fn5+lLi4g4yMg4yMk7e3lLi4
+iZubr///k7i4iZubiZubk7e3ntTUo+Pjj6qqj6qqjqqqr///qvLylLi4s8XF////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////n9bWr///r///r///r///r///r///r///
+r///r///r///r///r///n9bWfn5+k7e3mcbGpOPjn9bWntXVntTUr///r///mcbGqvLyk7e3msfH
+g4yMj6qqiZubg4yMjqqqlLi4n9bWj6qqg4yMlLi4fn5+fn5+mcbGiJqantXViZublLi4iZubiZub
+pOTkn9bWiZubiJqafn5+iZubg4yMhI2NjqmpiZubr///n9XVpOPjfn5+lLi4fn5+g4yMmMXFjqmp
+n9XVqvLyfn5+hI2Ng4yMn9XVfn5+iZublLi4fn5+jqmpjqmppOTkjqmppOTkiJqapOPjqvLyjqqq
+pOTkg4yMmsfHiJqaiZubn9XViJqag4yMg4yMg4yMiZubmsfHhI2NiZubiJqafn5+g4yMfn5+fn5+
+fn5+k7e3mMbGg4yMfn5+fn5+lLm5k7i4iZubg4yMk7e3g4yMiJqafn5+g4yMg4yMjqmpntXVfn5+
+fn5+iJqafn5+msfHg4yMiJqalLi4iJqag4yMfn5+k7i4fn5+g4yMfn5+fn5+hI2Ng4yMhI2Ng4yM
+iZubfn5+hI2NndPTfn5+g4yMg4yMk7i4iJqan9bWg4yMr///mMXFg4yMfn5+lLi4qvLyntTUg4yM
+msfHlLi4r///ntTUr///uNPT////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////n9bWr///r///r///r///r///r///r///r///r///r///r///r///lLi4iJqajqmphI2N
+pOTkn9bWfn5+lLi4lLi4r///jqmpjqmpiZubjqmpiZubfn5+hI2NiJqar///r///iZubg4yMfn5+
+g4yMfn5+iZubiZublLi4qvLyj6qqntXVhI2NiZubiJqajqqqjqmpqvLyjqmpiZubjqmpg4yMg4yM
+g4yMiJqamcfHiJqajqmpiJqag4yMg4yMg4yMmcfHlLi4r///g4yMg4yMmcfHlLi4n9XVg4yMjqmp
+k7i4g4yMlLm5jqmpg4yMiJqamcfHmcfHmcbGjqmpiJqag4yMlLi4jqmpr///r///k7e3mcbGfn5+
+mMXFk7e3j6qqg4yMg4yMg4yMfn5+g4yMfn5+hI2Njqmpfn5+iZubiJqag4yMfn5+fn5+msfHiJqa
+msfHiZubj6qqntXViZubjqmpjqmplLi4mcbGiZycfn5+iZubg4yMqvLymcfHiZubiJqaiZubg4yM
+jqqqg4yMg4yMg4yMg4yMiJqag4yMfn5+jqmplLi4iZubfn5+fn5+fn5+fn5+g4yMfn5+g4yMfn5+
+g4yMlLi4pOPjiJqafn5+k7e3o+PjhI2Nj6qqiZubmcfHr///n9bWg4yMpOTks8XF////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////n9bWr///r///r///r///r///r///
+r///r///r///r///r///r///ntXVlLi4lLi4g4yMg4yMmsfHfn5+lLm5jqmpr///pOTkiJqafn5+
+j6qqfn5+iJqaiJqafn5+n9bWqfLyiZubiZubqvLymcbGqvLyfn5+g4yMfn5+iZubg4yMiZubfn5+
+jqmpj6qqlLi4lLi4qvLyn9XVjqmpjqqqiZublLi4lLm5mcfHn9XVj6qqfn5+jqmpjqmpiJqaiJqa
+iJqaqvLyntXViZubjqmpiZubpOTkqvLyg4yMj6qqiJqaj6qqiZubfn5+g4yMntXVntXVhI2NlLi4
+iZubjqmplLi4iJqak7e3r///r///g4yMiZubpOPjiZubg4yMfn5+lLi4iZubg4yMfn5+lLm5hI2N
+iZubg4yMg4yMntTUjqmpjqqqfn5+jqmpfn5+hI2Nfn5+g4yMmsfHmcfHiZubiJqalLm5mcfHfn5+
+jqmpiZychI2Nfn5+pOTkr///iZubjqmpg4yMg4yMiZubhI2NiZubfn5+fn5+k7e3iJqag4yMntXV
+qvLyhI2Nfn5+g4yMiJqafn5+g4yMfn5+iZubfn5+fn5+jqmpiZubntXVlLm5mMXFr///mcbGn9bW
+r///g4yMn9bWjqmpjqmpjqqqqamp////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////n9bWr///r///r///r///r///r///r///r///r///r///r///r///n9bWr///mMXF
+g4yMiZubj6qqfn5+pOPjfn5+pOTkr///mcbGfn5+n9XViJqaiJqafn5+g4yMg4yMqvLyiJqag4yM
+jqmpiJqaiJqajqmpfn5+g4yMfn5+hI2Ng4yMg4yMmcfHmsfHiJqaj6qqjqmpiJqag4yMg4yMjqmp
+hI2NiZubmcfHjqmpiZubhI2NiZubfn5+lLi4r///n9XVmcfHg4yMpOTkjqmpmMXFk7e3pOPjjqmp
+iZubg4yMj6qqjqmpiZubiJqaiJqag4yMhI2Nk7e3iZubfn5+hI2NpOPjqvLyjqmplLi4jqmpiZub
+jqmpjqmpiZubr///jaion9bWfn5+iZublLi4ntXVg4yMfn5+pOPjr///fn5+lLi4jqqqiJqapOPj
+mcfHj6qqpOTkqvLyjqmpmcfHlLi4fn5+mcfHj6qqg4yMiZubfn5+mcfHlLi4r///g4yMmcfHlLi4
+hI2Nfn5+fn5+jqmpiZubg4yMhI2Ng4yMhI2NlLi4j6qqmcbGjqmpiZublLi4fn5+fn5+g4yMfn5+
+fn5+iZubhI2Nk7i4mMXFg4yMk7e3r///peTkjqmpn9bWmcfHlLi4ntTUhI2Njqmpqamp////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////n9bWr///r///r///r///r///
+r///r///r///r///r///r///r///lLm5n9XVk7i4lLm5iZubj6qqg4yMmcbGhI2NiJqan9XVmcbG
+iZubfn5+hI2NlLi4fn5+fn5+fn5+fn5+iZubiZubiZubfn5+fn5+ntXVhI2NhI2NiZubfn5+g4yM
+iZubfn5+g4yMfn5+lLi4iZubjqmphI2NjqmplLi4g4yMntTUn9bWhI2NiZubjqqqn9XVhI2NmMXF
+pOPjntXVpOPjiZubjqmplLi4jqmpjqmphI2Nfn5+g4yMiZubhI2Njqmpg4yMiZubiZubj6qqfn5+
+g4yMiZubjqmpn9XVlLi4j6qqpeTkg4yMg4yMiJqag4yMjqqqiZubpOTkiZubg4yMfn5+iZubr///
+qvLyfn5+lLi4lLm5msfHhI2NmsfHjqqqiZubpOTkr///lLi4r///qfHxg4yMmcbGiZubfn5+jaio
+mcbGg4yMg4yMj6qqmsfHn9XVqvLyiJqalLi4mcfHqvLypOPjfn5+fn5+jqmpiJqafn5+fn5+fn5+
+k7e3fn5+fn5+fn5+k7e3mcfHfn5+iZubhI2Ng4yMhI2Nk7e3iZubiJqak7e3j6qqqvLyfn5+iZyc
+iZublLi4pOPjpOTkmcbGlLi4jqqqqamp////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////osbGr///r///r///r///r///r///r///r///r///r///r///pOPjlLm5iZub
+iZubr///n9bWjqmpmcfHiZubiZubfn5+qvLyr///jqmplLi4iZubjqmpk7e3mcfHhI2NhI2NiZub
+n9XVjqmpg4yMpeTkjqmphI2NiZubpOPjiZubqvLyqvLyjqmpg4yMfn5+fn5+mMbGiZubmcbGj6qq
+fn5+g4yMntTUg4yMg4yMg4yMjqmpg4yMmcfHqvLyjqmpmcbGlLi4iZubiZubj6qqfn5+lLm5iJqa
+jqqqn9bWlLi4fn5+j6qqjqmplLm5fn5+hI2Nk7e3iJqamcfHqvLyfn5+jqmpiZubqvLymcfHfn5+
+j6qqk7e3iZubqfLyfn5+iZubfn5+jqmpfn5+pOTkiZubjqmpjqmpntXVg4yMjqmpiZubfn5+fn5+
+hI2NiJqaqvLyr///pOPjntXVqvLyiZubn9bWr///r///r///n9XVlLi4r///jqqqfn5+ntXVr///
+mMXFpOPjqvLyj6qqg4yMk7e3r///n9XVg4yMfn5+g4yMg4yMg4yMfn5+jqmpjqmpfn5+fn5+fn5+
+r///iZubj6qqfn5+jqmpj6qqmMXFn9XVg4yMr///r///r///r///pOPjqvLyiZubiJqas8XF////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////uNPTr///r///r///r///
+r///r///r///r///r///r///r///r///n9bWlLm5mcfHiJqar///k7e3qvLyfn5+mcfHhI2NntXV
+r///mcfHfn5+hI2Nfn5+jqmpqvLymcfHhI2Nfn5+fn5+iJqajqmpiZubk7e3g4yMiZubr///n9bW
+n9bWr///ntXVfn5+lLi4lLi4fn5+fn5+iZubiZubqvLyg4yMg4yMj6qqjqmpg4yMiZubiZubfn5+
+r///pOPjn9bWiZubfn5+iJqajqmpfn5+fn5+iZubiZubmcfHfn5+iZublLi4g4yMg4yMmcfHfn5+
+iZubk7i4pOTkntXVj6qqg4yMmcbGr///pOTkg4yMj6qqg4yMk7i4jqmpg4yMmcfHn9XVg4yMlLm5
+iJqag4yMmcbGmMXFmcbGhI2NjqmpiZubfn5+fn5+fn5+g4yMr///qvLypOPjr///n9XVlLi4g4yM
+r///r///r///r///r///r///iJqajqmpr///pOPjlLi4k7e3pOTkn9bWg4yMg4yMr///r///iZub
+fn5+fn5+hI2NiJqamsfHiZubn9XVr///lLm5hI2NhI2NiZubjaiofn5+fn5+fn5+g4yMr///n9bW
+qvLyr///r///ntXViZubqvLyfn5+iZub1tbW////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////uNPTr///r///r///r///r///r///r///r///r///r///r///r///r///
+g4yMmcfHpOTkr///n9bWjqmpjqmpg4yMlLi4jqmpr///qvLyntXVhI2Nfn5+lLi4mcfHr///lLi4
+pOTklLm5fn5+iZublLi4fn5+lLi4k7e3r///r///g4yMpOPjmcbGjqmpn9bWr///lLm5fn5+jqmp
+jqmpntXVntXVn9XVjqmpg4yMiJqag4yMfn5+fn5+mcbGr///jqmpfn5+g4yMjaiofn5+g4yMg4yM
+mcbGpOTkqvLyjqmpfn5+n9bWj6qqjqqqjqqqiZubg4yMn9bWr///mcfHpOTkntXVg4yMmcbGjqmp
+r///iJqaj6qqmcfHg4yMfn5+ntXViZubiJqapOTkmcfHiZubjqmplLi4fn5+mcfHj6qqmMbGlLi4
+fn5+iZubjqmpmcfHiZubjqmpntXVg4yMjqmpfn5+jqmppOPjr///r///r///r///j6qqn9bWmcbG
+n9bWr///lLi4jqmpn9bWg4yMhI2NmcbGpOPjiZubr///j6qqfn5+fn5+hI2NiZubjqmpqvLyiJqa
+iZubhI2Nn9bWjqmpj6qqjqmpjqmpiJqaiZubpOPjg4yMr///qvLymcbGlLi4fn5+g4yMjqmp1tbW
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////uNPTr///r///r///
+r///r///r///r///r///r///r///r///r///r///jqmpiJqantXVjqmpqvLyr///lLi4ntXVjqmp
+k7e3r///r///r///r///mcfHiJqag4yMqvLyr///r///mcfHfn5+jqmpfn5+iZubj6qqiZublLm5
+jqmpjqmplLi4pOPjiZubn9bWmcbGqvLyfn5+jqmpmsfHiZubfn5+n9bWk7e3jqmpiJqaiZubiZub
+jqqqmcbGr///g4yMjqmpiZubiZubg4yMjqmpg4yMr///mcbGr///g4yMk7i4g4yMqvLyiJqaiZub
+n9bWlLi4mcfHpeTkpOTkjqmpmsfHjqmppeTklLi4iZubiJqar///jqmplLm5qvLyjqmpjqqqg4yM
+r///mcfHpeTklLi4j6qqfn5+lLi4iZychI2NjqmpjqqqiZubiZubjqmpmcbGhI2NiZubfn5+fn5+
+fn5+fn5+g4yMr///qvLyr///r///jqqqmsfHjqmppOTkr///mcbGjqqqjqmpg4yMg4yMmcfHmcbG
+iJqaqvLyntTUjqmpfn5+fn5+iZubjqqqfn5+k7e3j6qqj6qqfn5+jqmpiJqaqvLypOPjg4yMn9XV
+k7e3jqmpfn5+hI2NiJqalLi4mcfHn9XViZub1tbW////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////uNPTr///r///r///r///r///r///r///r///r///r///r///r///
+r///g4yMqvLyqvLyjqmplLi4n9XVjaiomcfHpOPjg4yMpOPjr///r///r///r///fn5+jaiontXV
+r///r///iZubfn5+fn5+hI2NiZubiZubiZubn9XVpOPjr///lLi4fn5+iZublLi4mcbGlLi4pOTk
+pOPjqvLymsfHjqmpmcfHjqmphI2Nfn5+k7e3jqmpj6qqn9bWr///j6qqfn5+jqqqn9bWqfHxmcfH
+pOTkr///r///ntTUjqmphI2NlLm5pOPjr///r///n9bWg4yMiZubqfLymcfHmMXFk7e3iZubiJqa
+qvLyn9XVjqmpfn5+hI2NqvLyn9bWg4yMiZubmcfHr///pOTkmcfHr///r///iZubiZubjqqqjqqq
+mcfHntTUmcfHj6qqfn5+hI2NiZubntXVhI2NlLi4n9XVjqqqfn5+iJqaqvLyr///k7e3msfHlLi4
+iZublLi4qvLyg4yMiZubk7e3qvLyfn5+iZubhI2Nfn5+iZubk7e3ntTUg4yMmcfHiZubjqmplLi4
+g4yMg4yMiZubg4yMg4yMjqmpr///qvLyr///mcbGr///n9bWlLm5fn5+g4yMlLi4qvLypOPjk7e3
+1tbW////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////uNPTr///r///
+r///r///r///r///r///r///r///r///r///r///pOTkiZubiZyck7e3jqmppOPjiJqalLi4g4yM
+pOPjlLi4lLm5r///r///r///r///ntXVg4yMiZubr///r///r///lLi4j6qqg4yMiJqag4yMiZub
+qvLymcfHlLi4mcfHiZublLi4qvLypOPjg4yMfn5+j6qqqvLyqvLyqfLyg4yMj6qqiZubg4yMfn5+
+fn5+k7e3mcfHpOTkfn5+r///jqmpmcfHqvLyg4yMr///mcfHpOTkmcbGmcbGlLi4r///iZubn9bW
+r///g4yMk7i4r///r///n9XVlLi4pOPjqvLyj6qqj6qqg4yMfn5+g4yMmcbGqvLylLi4fn5+k7i4
+ntXVmcfHn9XVhI2NjqmpqvLyk7i4fn5+fn5+jqmpiZubfn5+k7i4iZubiZubfn5+lLi4j6qqiJqa
+iJqamcfHfn5+iZubjqmpr///r///lLi4j6qqmcbGj6qqmcbGntXVjqmppOPjr///qvLyfn5+jqmp
+k7i4fn5+fn5+jqmpqfLyg4yMg4yMg4yMhI2Nj6qqj6qqfn5+fn5+iJqafn5+mcfHr///r///pOPj
+jqmpk7e3iZubjqmpmcfHjqmplLi4msfHmcfHfn5+1tbW////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////s8XFr///r///r///r///r///r///r///r///r///r///r///
+r///k7e3iZubiJqapOTkjqmpr///mMXFmsfHjqmplLi4iJqaiZubqvLyr///r///r///r///lLm5
+iJqalLi4r///pOTkqvLyr///j6qqhI2Nfn5+jqmpr///n9bWlLi4jqmpjqmpjqmpmcfHntXViJqa
+jqmpg4yMfn5+g4yMfn5+fn5+iJqan9bWfn5+jqmpj6qqhI2Nk7e3lLm5g4yMr///mcfHg4yMmMXF
+n9XVk7e3pOPjn9bWiZublLi4lLm5r///ntTUr///qvLyj6qqjqmpntXVn9XVpOPjj6qqntTUpOTk
+g4yMiJqamcbGmcbGr///ntXVjqqqiZubg4yMj6qqqvLyfn5+fn5+g4yMg4yMntXVmMbGjqmpfn5+
+iZubiZubfn5+iJqag4yMg4yMfn5+fn5+hI2NqvLyfn5+jqmpjaioiZubn9bWqfHxr///jqmpfn5+
+fn5+iZublLi4mcfHr///r///r///lLi4iZubiZubfn5+lLi4fn5+iZubg4yMn9XVlLi4iZycr///
+j6qqg4yMiZubfn5+fn5+g4yMfn5+lLm5g4yMfn5+lLi4iZubg4yMg4yMg4yMjqmppOPjiZubiZub
+fn5+1tbW////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////1tbWr///
+r///r///r///r///r///r///r///r///r///r///r///fn5+jqmpn9XVjqmppOPjn9XVjqmpntTU
+g4yMr///ntXVfn5+j6qqr///r///r///r///qvLyk7e3fn5+jqmpfn5+iZubqvLypOTkjqmpiZub
+iZubj6qqjqmpmcfHiZubjqmpiZubfn5+fn5+fn5+j6qqg4yMiZubg4yMmsfHhI2NiZyclLi4iZub
+j6qqjqmpmcfHr///jqmpiZubmcfHjqmpg4yMiZubpOPjg4yMr///ntTUn9XVg4yMn9bWmcbGmMbG
+pOTkn9bWntTUo+PjjqmpntXVqvLyn9bWn9XVhI2NhI2NqvLyn9bWk7e3r///iZubjqmpiZublLm5
+hI2Nj6qqfn5+fn5+mcbGfn5+j6qqg4yMiJqaiZublLm5g4yMfn5+fn5+jqmpjqmpg4yMhI2Nj6qq
+mcfHjqmpj6qqn9bWlLi4jqmpg4yMfn5+g4yMg4yMiJqaiZubr///r///r///r///r///mcbGg4yM
+fn5+hI2Ng4yMg4yMfn5+fn5+iZubjqqqjqqqg4yMlLm5jqmphI2NhI2Nfn5+hI2NmcfHiZubiZub
+lLm5fn5+j6qqiZubfn5+jqqqqvLyk7i4fn5+g4yMfn5+1tbW////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////1tbWr///r///r///r///r///r///r///r///r///r///
+r///mMXFfn5+mcfHn9XVn9XVqvLyjqmpjqmppOPjg4yMr///qvLyiJqag4yMn9bWr///r///r///
+r///ntXViZubjqmpqvLyjqmpfn5+fn5+mcfHjqmpfn5+j6qqiJqafn5+fn5+fn5+iJqag4yMfn5+
+n9bWiZubiJqafn5+iJqajqmpiZublLm5fn5+j6qqfn5+fn5+hI2NntTUjqmpiZubfn5+mcfHjqmp
+iZubg4yMmcfHqvLyiZubg4yMfn5+n9bWpOPjmcfHpOTkpOPjiZubr///pOTkqvLypeTkiZubmsfH
+iZubjqmppOTkn9bWg4yMn9XVjaioiZubmcfHjqmpjqmpmcfHk7i4mcfHpOTkr///pOTkg4yMg4yM
+fn5+jqmpg4yMiJqahI2NmcfHlLi4jqmpjqmpjqmppOTkr///mcbGg4yMpeTkfn5+j6qqg4yMn9XV
+fn5+g4yMfn5+fn5+pOTkr///r///k7e3lLm5mMXFjqqqfn5+fn5+fn5+lLm5fn5+iJqajqmpn9XV
+g4yMpOTkpOTkhI2NlLi4fn5+g4yMlLi4qvLyntTUjqmpiJqajqmpfn5+iJqaiZubiZubjqmpfn5+
+hI2Nfn5+1tbW////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////1tbW
+r///r///r///r///r///r///r///r///r///pOTkr///g4yMfn5+jqmppOPjmcbGlLi4mcbGntTU
+iJqag4yMr///n9bWjqqqg4yMiZubr///r///r///r///r///r///ntXVo+Pjr///mcbGg4yMg4yM
+iZubg4yMj6qqpOPjjqmpjqmpk7e3r///j6qqfn5+jqmpn9bWg4yMjqmpk7e3iZublLi4pOTkg4yM
+qvLylLi4iZubjqmpiZubg4yMntXVlLm5msfHlLi4lLi4g4yMiZubmcbGfn5+fn5+jqmpjqmpmcbG
+pOPjqvLyfn5+g4yMqvLyntXVmcfHjqmpmcfHn9bWjqmpjqmpn9bWjqmpjqmpg4yMjqmpmcbGpOTk
+r///jqmpmsfHmcfHr///fn5+mcbGj6qqiZubjqmpj6qqiZubg4yMiZubg4yMg4yMiJqag4yMiZub
+ndPTr///mcbGfn5+mcfHj6qqlLi4iZycntXVmcfHmcfHjqmpmcfHfn5+ntTUpOPjqvLymcbGr///
+pOPjjqmpfn5+iJqafn5+jqmpntXVjqmpr///n9bWhI2Nr///lLi4iZubg4yMfn5+iJqaiZubj6qq
+iZubiZycfn5+mcfHfn5+fn5+g4yMlLm5iZycg4yMiZubfn5+////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////1tbWr///r///r///r///r///r///r///r///r///
+qvLyqvLylLm5iZubiJqajqmpn9XVn9XVmcbGpOTklLi4iJqamcbGr///n9XVjqmpjqmpiZubn9XV
+qvLyr///r///r///r///qvLymcbGqvLyiZubk7i4iZubiJqaiZyclLi4iJqaiZubk7i4lLi4fn5+
+g4yMn9bWjqmplLi4lLi4jqqqjqmpr///n9bWg4yMiZubn9XVfn5+iZubiJqajqmpiZyclLm5msfH
+g4yMr///k7i4iJqag4yMmcbGj6qqiZubiZyclLi4ntXViZubiJqapOTkjqmpjqqqiZubpeTkk7e3
+r///g4yMg4yMmcbGjqmpmcfHntXVmcbGlLi4r///pOPjiJqaiZubr///r///iZubjqmphI2Ng4yM
+iJqafn5+g4yMhI2Ng4yMj6qqiJqag4yMfn5+g4yMntTUqvLymcfHfn5+iJqalLi4iZublLi4mcfH
+fn5+iZubg4yMn9bWfn5+g4yMj6qqlLi4n9bWr///mcbGiZubiZubfn5+hI2NmcfHlLi4n9bWr///
+qvLyjqmpjqmpiZubqvLylLi4n9XVfn5+fn5+fn5+mcbGlLi4g4yMhI2NntXVhI2Nk7i4mcfHj6qq
+fn5+mcbGfn5+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+1tbWr///r///r///r///r///r///r///r///r///r///jqmpmcfHmMXFjqmpjqqqjqmpr///qvLy
+mcfHr///fn5+jqmpr///r///peTkg4yMiZyck7e3j6qqmcfHqvLyr///r///r///qvLymcbGjqmp
+jaioqvLyjqmpmcbGk7e3n9bWfn5+fn5+g4yMg4yMfn5+iZubhI2NhI2NmcbGpOPjfn5+j6qqlLi4
+mcbGiZubjqmpn9XVjqmpiJqaj6qqjqmpj6qqr///mcbGr///mcfHiZubiZubhI2NjqmpiZubj6qq
+jqmpjqqqntXVj6qqmsfHhI2Nfn5+k7e3iZubiZubr///iZubmsfHlLi4jqmpmcfHntXVjqmplLm5
+r///r///jqmpiZubg4yMg4yMjqqqhI2Njqmpg4yMg4yMiZubn9XVjqqqiZubmMXFpOPjmcfHjqmp
+ndPTjqmpqvLylLi4fn5+jqmpqvLyiZubfn5+g4yMiJqag4yMfn5+fn5+fn5+hI2Nn9XViJqamcfH
+mcfHn9bWfn5+pOPjg4yMhI2Ng4yMjqmpn9bWn9XVn9XVfn5+lLi4k7i4pOPjmcbGlLm5g4yMfn5+
+fn5+lLi4iZubg4yMiJqaiZubjqmpjqmpg4yMj6qqg4yMiZublLm5////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////1tbWr///r///r///r///r///r///r///r///
+r///r///pOTkjqmpmcbGjqmpk7i4g4yMmcbGr///ntTUr///jqmppeTklLi4lLi4jaioiZubg4yM
+mcfHn9XVg4yMlLi4fn5+fn5+fn5+fn5+iZubiZycg4yMlLm5iJqaj6qqg4yMhI2NiZubfn5+n9XV
+fn5+iZubg4yMpOPjjqmppOTkr///jqmpn9bWk7e3g4yMiZubj6qqiJqar///jqmpfn5+hI2Nfn5+
+r///qvLymsfHmsfHhI2NpOPjiZubjqmpmcbGiZubqvLyk7i4jqmpg4yMiZubfn5+g4yMk7i4iZub
+mcbGjqmpmcfHiZubiJqaiZublLi4lLi4lLi4mcbGpOTkmcfHg4yMmcfHg4yMfn5+iZubfn5+iJqa
+iJqajqmpj6qqmMbGjqmpg4yMn9bWr///mcfHg4yMmcfHntTUr///qfHxpOPjn9XVmcfHg4yMfn5+
+g4yMiZubpeTkiZubfn5+fn5+fn5+g4yMlLi4g4yMj6qqjqmpmcbGiJqaiZubfn5+g4yMhI2Nn9bW
+jqmpj6qqg4yMmcbGlLm5iZubmsfHn9XVg4yMj6qqjqmpiZubfn5+fn5+jqmpjqmppOPjmcbGfn5+
+iZubk7e3hI2NlLm5////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////5OTkpOTkr///r///r///r///r///r///r///r///r///r///pOTkn9bWg4yMhI2Njqmpr///
+ntXViZubjqmpjqmpjqmpmsfHiZubk7i4n9XVpOTkr///r///r///r///jqmpj6qqjqmpiZychI2N
+iZubhI2Ng4yMhI2Njqmpk7i4jqmpjqmpj6qqjqmpjqmppOPjmcfHjqmpg4yMntTUn9bWk7e3k7e3
+mcbGmcbGhI2NmcbGiZubiJqafn5+jqmpiJqak7e3r///r///pOPjmcfHg4yMn9XVjqmpj6qqiZub
+iZublLi4mcfHfn5+lLi4hI2NjqmpiZubk7e3mMbGn9XVlLi4fn5+iZubjqqqiZubg4yMjqmpn9bW
+qvLypOPjn9XVfn5+iZubk7e3iJqafn5+fn5+iJqaiZubj6qqr///qvLyj6qqg4yMk7e3r///qvLy
+iJqaiZubr///r///jqmpntXVfn5+iJqapOTkpOPjr///r///pOPjg4yMg4yMntXVpOPjmMXFhI2N
+hI2Ng4yMhI2NntXVn9bWfn5+fn5+fn5+fn5+jqmphI2NiZublLi4n9XVpOTkqvLylLi4fn5+g4yM
+g4yMjqmpiZubfn5+jqmpg4yMg4yMjqmpj6qqjqmppOPjjqmpjqqqiZub////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////n9bWr///r///r///r///r///r///
+r///r///r///r///r///jqmpj6qqpOTkn9bWpOTkj6qqntXVlLi4lLm5iZubiJqaiJqaiJqag4yM
+iZycjaiontTUntTUr///n9bWk7i4iJqajqqqiZubiJqak7i4k7i4n9XViZubntXVmcbGiZubiZub
+g4yMiJqalLi4ntXVfn5+g4yMmcbGqvLypOTkpeTkjaiok7e3ntTUiZubjqmpn9XVk7e3qvLyr///
+r///r///r///r///r///g4yMqvLylLm5mcbGlLi4jqqqhI2NjqmpntXVqvLyiZubg4yMg4yMntXV
+jqmpqvLyfn5+peTkhI2Nfn5+fn5+k7i4jqqqjqmpn9bWlLi4lLi4hI2NlLi4iZubiZubiZubfn5+
+fn5+hI2Njqmpr///r///qfHxntXVk7e3r///r///jqmpg4yMr///pOPjpOPjg4yMpOTkn9XVr///
+k7e3j6qqg4yMg4yMfn5+fn5+iZubn9XVjqmpfn5+hI2Nfn5+iJqaqvLyqvLypOPjiZubfn5+iZyc
+lLi4hI2Ng4yMfn5+mcbGk7i4lLi4r///k7i4fn5+iJqaiZubjqqqjqmpiJqajqqqpeTkntXViJqa
+jqqqfn5+msfHlLm5fn5+////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////n9bWr///r///r///r///r///r///r///r///r///r///r///mcfHlLi4iZubntXV
+mcfHqvLyn9bWjqmpiZubmcfHpOPjk7e3jqqqmMXFn9bWqvLyr///ntXVr///r///mMbGfn5+iZub
+lLi4jqmpiZubiZubqvLyr///j6qqqvLylLi4fn5+k7e3hI2Ng4yMpOTkg4yMlLm5iZubmsfHlLi4
+msfHk7e3fn5+iZycj6qqg4yMlLi4qvLyn9bWr///r///r///r///qvLylLi4jqqqg4yMlLi4pOTk
+hI2Ng4yMntXVjqmpr///ntXViZublLi4k7e3j6qqiZubiZubiZubg4yMlLi4r///n9XVpOPjfn5+
+fn5+lLi4mcfHlLi4fn5+lLi4g4yMiJqag4yMjqmpn9bWg4yMiJqajqmpiJqantXVmcfHjqmpr///
+r///n9bWg4yMlLi4mcbGr///qvLyr///r///lLm5g4yMg4yMfn5+fn5+fn5+g4yMlLi4g4yMfn5+
+lLm5hI2NiZycg4yMqvLyr///lLi4iZubiZubiZubfn5+jqmphI2Nfn5+pOPjjqmpn9bWmsfHg4yM
+fn5+g4yMfn5+iZubiZycj6qqn9XVr///jqmpmcbGiZubg4yMjqmpiZublLm5////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////n9bWr///r///r///r///r///
+r///r///r///r///r///r///qvLyjqmplLi4mcbGjqqqiZubqfLyg4yMfn5+mcbGqvLylLi4jqmp
+mcbGr///ntTUr///ntXVpOTklLi4k7e3pOPjk7e3n9XVg4yMpeTkj6qqg4yMmsfHntXVg4yMg4yM
+iZublLi4fn5+jqmplLm5jqqqj6qqfn5+jqmpjqmpfn5+g4yMjqqqg4yMlLi4mcbGn9bWjqqqpOPj
+r///r///n9bWr///pOTkg4yMmcfHmcbGn9bWg4yMhI2Nfn5+iZublLm5mMXFqvLymcfHg4yMhI2N
+iZubfn5+iJqaqvLyfn5+iJqalLi4msfHj6qqfn5+jqmpntXViJqajqmpfn5+g4yMjqmpqvLypeTk
+mcfHiJqantXViJqalLi4g4yMiZubfn5+g4yMg4yMlLi4n9bWntXVjqmpmcfHr///pOPjr///mcbG
+fn5+fn5+g4yMfn5+g4yMg4yMiJqamsfHqvLyiZubiZubg4yMg4yMjqmplLi4n9XVn9XVj6qqg4yM
+g4yMmcfHjqqqiZubiZubj6qqfn5+iZubmcfHntXVfn5+fn5+jqmpfn5+g4yMr///pOPjr///msfH
+iJqan9bWhI2NpOTkpOPjosbG////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////n9bWr///r///r///r///r///r///r///r///r///r///r///r///k7e3pOPj
+pOTkndPTmcbGfn5+fn5+lLi4iJqaqvLymcfHpOTkmcbGr///ntXVpOPjjqqqr///ntXVpOPjn9bW
+lLi4lLi4ntXVg4yMiJqamsfHg4yMjaiog4yMjqmphI2NjqmpmcbGn9bWqvLyntXVg4yMfn5+jqmp
+k7i4iZubiZubjqmpiJqafn5+iJqajqmpfn5+mcfHlLi4n9XVqvLyqvLyqvLyg4yMlLm5pOPjpeTk
+iJqamcbGlLi4iJqaiJqamcfHr///ntXVk7e3n9bWiJqag4yMfn5+fn5+iZubj6qqk7e3jqqqlLm5
+hI2NlLi4ntTUfn5+k7e3jqmplLi4k7i4lLi4iZubmcfHiZubmcbGjqmpqvLyiZublLi4j6qqfn5+
+mcfHhI2NqfLymcfHiZubpOTkmcfHr///r///lLi4g4yMiZubj6qqiZubg4yMfn5+jqmplLi4mcfH
+iJqafn5+hI2Nfn5+ntXViZubg4yMj6qqlLi4mcbGqvLymcfHfn5+ntXVr///ntXViZubk7i4k7e3
+lLm5fn5+j6qqr///msfHfn5+g4yMpOTkqvLyg4yMg4yMjqmpiZubmcfHlLi4s8XF////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////n9bWr///r///r///r///
+r///r///r///r///r///r///r///r///k7e3r///iZubiZubr///g4yMjqqqn9XViZubpOTkjqqq
+lLi4r///r///r///pOPjg4yMiZubjqmpiZubjqmpg4yMiZycjqqqlLi4fn5+mcbGiZubhI2NiZub
+g4yMhI2Nfn5+iZubj6qqjqmpjqmpfn5+mcbGg4yMjqmpg4yMg4yMfn5+jqmpg4yMndPTiJqag4yM
+jqmpr///pOPjmcfHk7e3iJqaiZubpOPjr///n9bWpOPjk7e3iZubjqmpmcbGndPTr///qvLyiZub
+mcfHqvLyfn5+hI2NiJqalLi4pOTkg4yMfn5+msfHiJqaiZubjqmplLi4iZubk7e3iZubmMbGmcbG
+msfHlLi4g4yMiZubiJqak7i4g4yMhI2NiZubiZubn9bWjqmppOPjmcfHlLi4qvLyqvLyr///pOTk
+mcfHjqmpfn5+iZubj6qqg4yMiZubiJqapeTklLi4lLi4fn5+jqmpiZubg4yMiZubj6qqiJqaiZub
+g4yMr///k7i4lLi4jqmpg4yMk7e3qfHxpOPjk7e3g4yMfn5+jqmpjqmpg4yMmcfHhI2NqvLylLi4
+j6qqiZubiZubiZubj6qqj6qqqamp////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////n9bWr///r///r///r///r///r///r///r///r///r///r///r///pOTk
+iZubhI2Nfn5+ntXVg4yMlLm5g4yMqvLyn9bWjqmpn9XVqvLypOTkpOTkr///lLi4mcfHmcfHmcfH
+hI2NiZycqvLyqvLylLi4k7e3hI2Ng4yMiZubfn5+iZubqvLylLm5hI2NlLi4iJqaiJqaiZubfn5+
+g4yMiJqag4yMiZubj6qqg4yMjqmpjqmpjqmplLi4iZubqvLyr///jqmplLi4jqmpjqmpr///r///
+r///g4yMjqmpj6qqiZubg4yMmcfHpOTkn9bWlLi4iZubpOTklLi4fn5+j6qqo+Lir///iZublLi4
+fn5+iZubfn5+pOPjr///ntXVmcfHfn5+n9XViZubqvLyg4yMjqmpg4yMhI2NiZubg4yMfn5+g4yM
+jqmpjqmpiZubg4yMfn5+g4yMntXVr///pOTkmcfHg4yMiJqapOTkjaiomcfHlLm5lLm5g4yMmcbG
+msfHlLi4pOPjlLi4iZubg4yMiZubg4yMiZubhI2Ng4yMg4yMqfHxk7e3mMXFlLi4jqmplLi4mcfH
+g4yMjqmpmcfHfn5+fn5+lLm5n9XViZubntXVlLi4qvLyn9bWntTUg4yMn9XVg4yMuNPT////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////qsXFr///r///r///
+r///r///r///r///r///r///r///r///r///r///j6qqiZubjqmpg4yMlLi4pOTkiZubn9bWiZub
+mcfHr///r///qvLyntXVr///r///r///g4yMo+PjjqmpqvLyr///r///iJqag4yMg4yMiZubiZub
+jqmpg4yMg4yMjqmpg4yMiZubfn5+iZublLi4g4yMmcbGiZubpOPjj6qqj6qqg4yMjqqqg4yMfn5+
+g4yMjqmpmcbGr///ntXVfn5+g4yMjqmplLi4jqmpn9bWpeTkg4yMj6qqmcbGntXVqvLymcbGj6qq
+iZubfn5+k7e3jqmpiZubn9XVr///r///pOPjr///r///lLi4pOPjr///r///r///n9XVg4yMn9bW
+lLi4qvLymcfHg4yMg4yMiZublLm5lLi4fn5+g4yMiZubj6qqpOPjg4yMhI2Ng4yMfn5+iJqaiZub
+g4yMjqmpr///r///jqmpmMXFmcfHfn5+g4yMr///iJqan9bWmcbGmcbGfn5+hI2Nfn5+fn5+lLm5
+fn5+g4yMlLi4jqqqjqmplLi4lLi4peTkiZubn9XVk7e3qfHxg4yMhI2Nfn5+g4yMhI2NmMXFr///
+ntXVr///pOTkmcbGmcfHr///k7e3uNPT////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////uNPTr///r///r///r///r///r///r///r///r///r///r///r///
+r///ndPTiZubjqmpqvLyr///k7e3k7i4iJqalLi4qvLyr///r///r///r///r///r///r///ntTU
+mcfHjqmpiZublLi4r///qfHxmMbGmMXFmcbGg4yMlLi4hI2Nfn5+g4yMfn5+fn5+fn5+iJqamMXF
+k7e3iZubfn5+g4yMfn5+g4yMk7e3iZubjqqqjqmpfn5+fn5+iJqajqmppOPjfn5+jqmpk7e3r///
+o+PjmcfHhI2NlLm5r///lLi4hI2NiZubpOTkfn5+jqmpn9bWjqmpntXVqvLyr///r///r///mcbG
+lLi4pOPjiJqapOTkntXVn9XVr///jqmpfn5+r///qvLylLm5j6qqg4yMntXVjqmplLi4mcfHg4yM
+mcbGntXVlLi4fn5+iZubiZycfn5+fn5+fn5+j6qqiZubiZubmcfHlLi4mcfHr///g4yMhI2Njqmp
+iZubiZubmcbGiZubj6qqiZubfn5+g4yMfn5+iZubg4yMiZychI2NiZubfn5+lLi4mcbGk7e3lLi4
+r///lLi4g4yMiZubg4yMiJqag4yMg4yMmcbGlLi4iJqaj6qqmcbGr///k7e3k7e3mcfHuNPT////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////uNPTr///r///
+r///r///r///r///r///r///r///r///r///r///r///lLi4iZubjqmpr///r///mcbGg4yMjqmp
+r///r///r///r///r///r///iJqajqqqpOTkpOTkk7e3iZubiZubg4yMr///lLi4k7e3k7i4iJqa
+fn5+lLi4fn5+fn5+iZubfn5+fn5+g4yMiZubn9bWfn5+fn5+jqmpmcfHg4yMiZubj6qqj6qqfn5+
+k7e3g4yMhI2NiZubiZubjqmpg4yMmsfHg4yMn9XVjqmpmcbGjqmphI2NpOTko+LiqvLyk7i4mcfH
+iZubjqmpjqmplLi4r///r///pOPjpOPjjqmpntXVn9bWhI2NhI2NhI2Ng4yMfn5+msfHfn5+mcfH
+o+Lir///lLi4iZubr///pOTkmcfHg4yMjqmpiZubg4yMn9bWlLm5k7i4iJqalLi4jqmpiZubiZub
+n9bWfn5+hI2NlLm5fn5+iZubqvLyjqqqqvLyr///r///g4yMiZublLm5ntXVjqmphI2Nfn5+g4yM
+fn5+fn5+fn5+g4yMg4yMntXVmMXFjqmphI2Nj6qqj6qqiZubjqmpn9bWn9bWk7e3pOPjg4yMiZub
+jqmphI2NpOTkqvLymcfHg4yMjqmpk7e3uNPT////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////uNPTr///r///r///r///r///r///r///r///r///r///r///
+r///r///ntXVlLi4g4yMmcfHr///n9bWlLi4iZubr///r///r///r///r///qvLyiZubg4yMo+Pj
+pOTklLm5fn5+g4yMg4yMj6qqr///pOPjj6qqg4yMg4yMfn5+fn5+g4yMjqmpjqmpg4yMfn5+iJqa
+mcfHfn5+k7i4jqmpk7i4iJqag4yMiJqaj6qqjqqqlLi4mcfHg4yMqvLyr///msfHjqqqlLm5g4yM
+fn5+iZubiJqar///mcfHlLi4g4yMk7i4iZyciZycfn5+j6qqjqmppeTklLi4n9XVmcbGjqmpjqmp
+n9XVfn5+g4yMpOTkjqmpmcfHjqmpmcbGjqmpiZubr///r///mcfHg4yMr///iZubfn5+fn5+iZub
+iJqajqqqfn5+iZubjqmpntTUmcbGiJqaj6qqg4yMfn5+j6qqfn5+iZycjqmpiZubg4yMiZubk7e3
+pOPjr///n9bWjqqqfn5+jqmpfn5+iZyclLm5g4yMjqmpg4yMfn5+fn5+lLi4mcfHiZubiZubj6qq
+iZubg4yMmcfHg4yMj6qqmMXFntTUmcfHlLi4iZubjqmpiJqapOTkr///qfLyhI2Ng4yMndPTuNPT
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////uNPTr///
+r///r///r///r///r///r///r///r///r///r///r///r///lLi4g4yMfn5+mcbGr///lLi4qvLy
+n9XVr///r///r///r///g4yMg4yMhI2NjqmpmMXFpOTkj6qqhI2Nn9XVr///qvLylLi4lLi4mcbG
+lLm5fn5+mcfHfn5+mcfHlLi4pOPjpOPjfn5+g4yMfn5+g4yMjqmpntTUiZubn9XVlLi4fn5+lLi4
+k7e3lLi4lLi4jqmpr///n9XVmcfHmcfHr///r///mcfHlLi4g4yMr///qvLylLi4mcfHk7i4iZub
+mcfHhI2Nk7e3mcfHpOTkjqmpjqmpfn5+iZublLi4n9XVmcfHk7e3g4yMiJqalLi4iZubhI2NiJqa
+g4yMmcbGpOTkmcbGiZubfn5+mcbGfn5+fn5+hI2NiZubfn5+fn5+mcbGjaioiZubpOTkpeTkjqmp
+fn5+g4yMg4yMjqmpg4yMfn5+j6qqn9bWqvLypOPjlLi4n9XVjqmpfn5+lLi4lLi4iZycg4yMhI2N
+g4yMfn5+g4yMfn5+lLi4g4yMg4yMjqmpmcfHlLi4hI2NpOPjiZublLi4lLm5n9bWmcbGhI2Njqmp
+pOPjr///jqmpiZubn9bWpOPjhI2Nfn5+lLm5vcbG////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////uNPTr///r///r///r///r///r///r///r///r///r///
+r///r///r///qvLymcfHg4yMj6qqlLi4g4yMfn5+j6qqqvLyr///r///qvLyj6qqlLi4iJqahI2N
+mMXFpOTklLi4k7e3mcfHiZycmcbGk7e3msfHiZubn9bWhI2NlLm5k7i4lLi4mcbGg4yMlLi4fn5+
+iJqafn5+g4yMn9XViJqag4yMk7e3lLi4jqqqmcfHfn5+fn5+qvLymMXFk7e3peTklLm5pOTkr///
+r///k7e3pOPjntTUpOPjg4yMiZubfn5+hI2Ng4yMlLi4ntTUqvLymcfHjqmpg4yMjqmpn9XVg4yM
+j6qqntTUntXVmcbGpOTkmcfHn9XVn9XVmcfHiJqafn5+iJqar///mcfHg4yMiZubmcfHfn5+fn5+
+jqmpn9XVn9XViZubmcfHlLm5qfLypOTkmcfHhI2NlLi4lLm5mcfHmcbGmcbGhI2NiZubn9bWr///
+r///r///r///r///n9XVlLi4mcfHfn5+fn5+hI2Ng4yMfn5+fn5+fn5+fn5+g4yMk7i4lLi4lLi4
+lLm5fn5+fn5+jqmpmsfHn9bWjaion9XVn9XVjqmpqvLyjqmpfn5+mMXFr///mcfHiJqaiZubiZub
+1tbW////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////vcbG
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///iZubj6qqg4yMmMXF
+hI2Ng4yMr///r///r///qvLyiZubiJqaj6qqhI2NmcfHiZubqvLyndPTr///pOPjjqmpmcbGmcbG
+j6qqg4yMjaioqvLylLi4peTklLm5lLi4iJqajqmpmcfHg4yMfn5+mcbGiZubiZubn9bWjqmppOPj
+jqmpg4yMg4yMo+LiiZubn9XVlLi4j6qqlLi4r///r///lLm5iJqajqmpk7e3qvLyiZublLm5jqmp
+r///r///r///r///r///msfHjqmpiZubn9XVlLm5mcfHn9XVg4yMiZubjqmppOPjr///r///r///
+mcbGj6qqj6qqpOPjhI2NlLm5hI2Ng4yMfn5+iJqaiZubjqqqiZubg4yMlLi4n9XVn9XVqvLyhI2N
+g4yMlLi4jqqqmcbGntXVlLi4n9bWiZubjqmpfn5+mcbGpOPjn9XVjqmpmcbGn9XVlLm5hI2Njqmp
+fn5+fn5+hI2NhI2Ng4yMfn5+g4yMiZubjqmpiJqaiZubfn5+iZyciJqag4yMpOPjpOPjntTUr///
+lLi4jqmpmcbGg4yMj6qqr///r///pOPjlLi4r///1tbW////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////1tbWr///r///r///r///r///r///r///r///r///
+r///r///r///r///r///r///pOTkjqqqhI2NmcfHiZubpeTkr///r///r///r///jqmpr///r///
+ntXVg4yMfn5+mcfHlLi4lLi4iZubjqmpo+PjntXVlLi4jqmpndPTr///r///qvLyhI2NiZubmsfH
+lLi4lLi4iJqamcfHj6qqhI2NmcfHfn5+g4yMj6qqfn5+iZubjqmpj6qqg4yMiZubntTUlLi4g4yM
+mcfHn9XVjqmplLm5qvLyntTUmcfHjqqqjqmpqvLyr///r///r///mcfHqfLyqvLyjqqqg4yMfn5+
+g4yMk7e3jqmpntTUr///r///r///r///r///pOPjpOTkjqmpfn5+fn5+fn5+g4yMjqmpiZubfn5+
+lLi4lLm5hI2NlLm5fn5+g4yMjqqqg4yMn9bWg4yMlLi4lLm5fn5+n9XViJqaiZubg4yMpOTkn9bW
+jqmpntTUiJqamcbGmcbGjqmpk7e3qvLyfn5+g4yMg4yMfn5+fn5+fn5+k7e3iZubiZubg4yMjqmp
+mMXFg4yMiZubiZubiZubg4yMmcfHmcbGmMbGpOPjjqmplLi4g4yMjqmpiZubr///pOTkfn5+lLi4
+pOTk1tbW////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+1tbWr///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///iZubiZub
+pOTkr///r///r///r///mcbGmcbGn9bWr///r///qfHxjqmppOPjg4yMpOTkntXViZublLi4iZub
+n9bWjqqqhI2NlLi4r///r///r///ntXVlLi4mcfHmMXFqvLyjqmpiZubfn5+fn5+fn5+iZycg4yM
+fn5+lLi4g4yMiZubg4yMhI2Nr///lLi4lLm5jaiok7i4qvLymcfHr///r///r///pOPjntXVmcfH
+jaiontTUpOPjqvLyiJqar///r///k7e3fn5+fn5+k7i4fn5+pOPjmcfHqvLyr///pOPjr///lLi4
+lLi4lLi4fn5+g4yMmsfHfn5+iZubmcfHpOPjpOTkfn5+j6qqn9bWg4yMjqmpfn5+fn5+iJqaiJqa
+fn5+ntXVk7e3iZubiZubfn5+fn5+iJqar///r///r///r///r///r///qvLyg4yMqvLyqvLyfn5+
+fn5+fn5+hI2Nfn5+g4yMntXVjqmpfn5+fn5+iZubjqmpfn5+k7i4jqqqfn5+g4yMr///k7e3g4yM
+jqmpiZubj6qqjqmpfn5+iJqaiZubpeTkiZubn9bWj6qq1tbW////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////1tbWr///r///r///r///r///r///r///r///
+r///r///r///r///r///r///r///r///ndPTfn5+lLi4r///r///r///r///ntXVn9bWlLi4ntTU
+jqmpmcfHpOTklLi4g4yMr///qvLyjqmpqvLyj6qqj6qqfn5+jqqqn9bWn9bWr///r///r///g4yM
+g4yMg4yMqvLylLi4lLm5fn5+fn5+jqmpg4yMpOPjqvLyiZubjqmpqvLyhI2NiZubg4yMjqmpjqmp
+r///iJqaqvLymMXFr///r///r///k7e3r///qvLyiZublLi4k7e3jqmpntXVmcbGmcfHiZubhI2N
+pOPjg4yMg4yMmcbGmsfHlLi4ntXVjqmpntTUn9bWmcfHk7e3fn5+g4yMj6qqjqmplLi4j6qqg4yM
+iJqahI2NiZubpOTklLi4lLi4fn5+iJqajqmpfn5+jqmphI2NmcfHlLi4iZubg4yMjaioiZubqvLy
+r///r///r///r///r///r///lLi4pOTkqvLyfn5+fn5+fn5+fn5+n9bWjqmpfn5+fn5+fn5+fn5+
+jqmpiJqafn5+g4yMhI2Nfn5+jqmpjqmpqvLyfn5+g4yMmMXFjqmpiZubfn5+g4yMg4yMjqmpiJqa
+jqmpg4yM1tbW////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////1tbWr///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///qvLy
+g4yMiZublLi4r///r///r///r///mcbGjaiopOTklLm5lLi4j6qqjqmpfn5+qvLymcbGpOTkj6qq
+iZubqvLymcfHg4yMk7e3pOTkpOPjr///r///jqmphI2Nk7e3qvLyhI2NjqmpiZubiZubmcfHfn5+
+jqmpntXVmcbGiZubmcfHiZubfn5+iZubpOTkiZubiZubg4yMg4yMiZubn9XVr///r///k7e3r///
+ntTUqvLyj6qqiZubiZubn9XVlLm5hI2Ng4yMiJqalLi4g4yMk7i4g4yMiJqajqmppOPjiZublLi4
+qvLymcbGg4yMj6qqhI2NhI2NjqmplLi4jqmphI2Ng4yMk7e3g4yMntXVmcbGlLi4k7e3msfHj6qq
+lLi4pOTkmcfHlLi4lLi4g4yMg4yMfn5+lLi4jqqqn9XVn9XVr///r///r///pOPjr///ntXVfn5+
+fn5+jqmpk7e3k7i4n9XVmcfHfn5+k7i4g4yMfn5+g4yMfn5+hI2Nfn5+fn5+fn5+fn5+mcfHr///
+jqqqhI2Ng4yMjqmpfn5+fn5+g4yMn9bWqvLyfn5+hI2NiZub1tbW////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////1tbWr///r///r///r///r///r///r///
+r///r///r///r///r///r///r///r///r///r///iJqafn5+lLm5r///r///r///r///pOTkjqmp
+r///r///lLi4g4yMhI2Nk7i4qvLypOTkiZubiZubg4yMiZubiZublLi4j6qqr///iJqar///lLi4
+iZubhI2NhI2NiZubj6qqjqmpk7i4jqqqj6qqj6qqjqqqjqmpg4yMg4yMlLi4mcfHjqmplLi4mcfH
+jaiofn5+qvLyjqmpiJqag4yMr///r///lLi4mcfHn9XVlLi4mcfHg4yMn9XViZubk7e3fn5+g4yM
+iZublLi4n9XViJqaiJqar///r///pOPjiZubiZubqvLyiJqan9XVg4yMfn5+jqmpr///qvLyjqmp
+iJqag4yMjqmpjqmpiZubk7e3jqmpfn5+qvLylLi4lLi4jqmpqvLyqvLyjqmpfn5+iJqaiZubg4yM
+fn5+jqmpfn5+iZubg4yMjqmpg4yMfn5+fn5+g4yMg4yMmcfHn9XViZubn9bWmMXFiZubiZubiZyc
+n9bWlLi4fn5+fn5+fn5+fn5+jqqqiZubg4yMn9XVjqmpg4yMfn5+iJqaiZubjqmpiZubmcbGqvLy
+fn5+fn5+fn5+1tbW////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////1tbWr///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///
+r///mMXFfn5+pOPjr///r///r///r///r///k7e3r///pOPjmcbGjqmpfn5+jqmpr///n9XViJqa
+iZyclLi4qfHxlLi4qvLylLi4r///jqmpqvLyg4yMlLi4jqmpj6qqfn5+g4yMpOPjn9XVg4yMfn5+
+iZublLi4lLi4hI2Nfn5+pOTkg4yMhI2NiZubjqmpo+Pjjqmpg4yMj6qqg4yMfn5+pOTkr///r///
+mcbGjqmpiZubjqmpiZubhI2NlLm5jqmplLm5g4yMmcbGjqmplLm5mcbGqfHxr///r///r///r///
+r///pOPjmcbGjqmpiZubhI2NiZubn9bWr///iZubk7e3jqmpfn5+pOTkr///pOPjiZubjqqqpOTk
+r///n9bWr///pOTkk7e3mcfHn9XViJqafn5+mcfHntXVjqmppOTkjqmpfn5+fn5+fn5+fn5+g4yM
+g4yMpOTkr///g4yMiZubjqmpfn5+jqmpmcfHfn5+iZubg4yMfn5+fn5+fn5+g4yMfn5+fn5+iZub
+iZubjqmplLi4n9bWmsfHlLm5hI2Nfn5+g4yMjqmpiZubmcbGn9bW8vLy////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////8vLyn9bWr///r///r///r///r///
+r///r///r///r///r///r///r///r///r///r///r///n9bWiZubpOPjr///r///r///lLi4mcfH
+lLm5j6qqj6qqiZubmcbGmcbGqvLyr///iZubhI2NqvLyr///r///iJqar///mMXFr///qfHxmcfH
+fn5+iZubiJqaiZubiJqag4yMiZubmcbGg4yMg4yMjqmplLi4g4yMfn5+hI2Ng4yMg4yMiJqalLi4
+iZubmcfHg4yMhI2NlLi4qvLyiZubmcfHr///r///pOTkg4yMn9XVlLm5g4yMjqmpmcfHlLm5lLi4
+g4yMr///k7e3jqmppOTkr///r///r///r///r///r///iZubg4yMiZubj6qqhI2Nfn5+mcfHpOTk
+jqmpiZubhI2Ng4yMjqmpmcfHqvLypOPjj6qqk7i4pOTklLi4qvLyjqmpntTUjqmpqvLymcfHiZub
+mcbGr///r///r///pOPjfn5+fn5+fn5+g4yMiZubiJqar///mcfHlLm5iZubjqmpg4yMiZubfn5+
+g4yMfn5+fn5+fn5+fn5+fn5+iZubjqmpg4yMfn5+g4yMiZubn9bWn9XVk7i4r///iZubfn5+g4yM
+lLi4iJqalLi4iZub////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////n9bWr///r///r///r///r///r///r///r///r///r///r///r///r///r///
+r///r///pOTkg4yMg4yMjqmpk7e3k7e3pOPjr///n9bWr///iJqaqfLyr///qvLyr///r///r///
+pOPjjqmpr///r///jqmppOPjmcfHn9bWiJqar///iZubg4yMntXViZubiZubiZubjqmppOTkntXV
+mcfHfn5+g4yMiZubiZubhI2Nj6qqg4yMmcfHiZubjqmplLi4k7e3iZubhI2NjqmpmcfHpOPjr///
+r///pOTkj6qqpeTkiZubhI2NiZubjqmpiZubk7i4fn5+n9XVk7e3mcfHqvLyn9XVn9XVpOPjr///
+r///pOPjpOTkg4yMiZubfn5+iZubj6qqfn5+g4yMiJqahI2Ng4yMmcbGiZubfn5+qvLyqvLyiJqa
+iZublLi4mcfHiZublLm5lLm5lLm5r///r///iZubg4yMr///pOTkqvLyfn5+iJqaiZubg4yMj6qq
+mcbGk7e3n9XViZubfn5+lLi4qvLyiZubiJqajqmpqfHxg4yMjqqqfn5+g4yMfn5+fn5+fn5+g4yM
+iZycg4yMmcfHjqmppOTkiZubjqmpiZubiZubfn5+fn5+fn5+iZublLm5////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////n9bWr///r///r///r///
+r///r///r///r///r///r///r///r///r///r///r///r///r///jqmpfn5+jqmpntXVr///r///
+r///qvLyjaioqvLyr///n9XVntXVr///r///r///r///r///r///mcbGlLm5mcbGlLi4jqqqjqmp
+lLm5iZubjqmplLi4fn5+j6qqfn5+mcbGn9bWjqmpjqmpiZubiZubiZubg4yMiJqaj6qqjqmphI2N
+pOPjk7e3lLi4iZubiZubiZubk7e3iZubntXVpOPjqvLymcbGn9XVmsfHg4yMj6qqhI2NhI2NiZub
+msfHg4yMqvLyiZubiZubj6qqk7i4qvLylLi4qfLyr///pOPjqvLyjqmplLm5jqmpqvLyntXVfn5+
+fn5+fn5+fn5+g4yMqvLypOPjk7e3qvLyk7e3iJqar///r///pOPjjqqqfn5+iZubr///r///r///
+j6qqiZubmcbGjqqqiZycmcfHr///g4yMiZubfn5+pOTklLi4jqqqiZubiJqaiJqamcfHiZubn9bW
+iZubiZubg4yMhI2Nfn5+fn5+fn5+g4yMjqmpfn5+fn5+iZubj6qqlLi4pOPjfn5+g4yMiZubk7e3
+jqmpg4yMjqqqpOTkj6qq////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////n9bWr///r///r///r///r///r///r///r///r///r///r///r///r///
+r///r///r///r///jqmpmcbGr///pOPjjqmpqvLyr///r///r///r///r///k7i4mcfHpOPjpOPj
+r///r///r///r///mMXFiJqaiJqajqmpjaiontXVfn5+lLm5jqmpfn5+fn5+fn5+lLi4fn5+iJqa
+mcbGlLi4hI2Ng4yMg4yMiZubg4yMiJqak7e3hI2Njqmpr///g4yMfn5+mcfHjqmpj6qqn9bWg4yM
+g4yMn9bWiJqafn5+iZubg4yMg4yMpOPjpeTkj6qqpeTkjqqqn9XVj6qqfn5+g4yMjqmpmcfHlLi4
+k7e3mcbGjqmpj6qqlLi4lLi4fn5+jaiofn5+g4yMfn5+fn5+fn5+hI2Nr///r///lLi4hI2NiZub
+jqmpr///ntXVjqmpg4yMiZubg4yMr///r///pOTkfn5+hI2NiZublLm5jqmpqvLyiZubhI2Nfn5+
+hI2NiZubiZubj6qqk7i4fn5+fn5+g4yMjqmpiZubfn5+fn5+fn5+iZyciZubfn5+fn5+g4yMjqmp
+k7e3hI2NiZubk7i4lLi4lLm5jqqqg4yMj6qqjqqqlLm5g4yMg4yMlLi4iZub////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////n9bWr///r///r///
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///n9bWiJqapOTkr///qfHx
+qvLyr///r///r///r///r///r///r///r///qfHxr///r///n9XVjqmpjqmplLm5jqmpiZubiZub
+qfLymcfHhI2Nfn5+jqqqiJqaiZubiZubg4yMn9XVn9XVlLi4jqmpk7e3lLm5jqqqiZubj6qqlLm5
+iZubjqmpr///hI2NlLm5jqmpk7i4hI2Nn9bWn9XVntXViZubk7e3mMXFiZubg4yMj6qqn9bWlLi4
+jqmpg4yMhI2Ng4yMg4yMjqqqlLi4hI2NqvLyn9XViZubiZubg4yMfn5+iZubg4yMiJqamcfHhI2N
+jqmpjqmpfn5+j6qqg4yMk7e3mcfHntTUiZubjqmppOTkqvLyg4yMg4yMjqmpj6qqjqmplLm5r///
+pOTkfn5+fn5+pOPjmcfHfn5+lLm5n9bWfn5+iZubpeTkg4yMg4yMlLi4fn5+jqmpiZubiJqajqqq
+lLm5fn5+fn5+g4yMhI2Nfn5+fn5+hI2Nfn5+fn5+mcfHfn5+lLi4iZubn9bWlLi4peTkntXVfn5+
+qvLyr///pOTkfn5+iJqamcfH////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////n9bWr///r///r///r///r///r///r///r///r///r///r///r///
+r///r///r///r///r///n9bWmcfHmsfHr///r///r///r///r///r///r///r///r///r///qvLy
+qvLyr///r///r///r///iZubmcfHqvLyiZubk7e3pOTkjqmpj6qqfn5+g4yMg4yMfn5+jqqqqvLy
+jqmpmcfHr///g4yMg4yMiZyciZycfn5+jqmpiJqaqvLyjqmpjqmpg4yMj6qqg4yMiJqag4yMn9bW
+iJqafn5+lLi4mMbGmcfHjqmpk7i4jqmpqvLyqvLyhI2Ng4yMfn5+fn5+g4yMn9XVn9XVntXVjqmp
+jqqqg4yMiZubg4yMg4yMqfHxiJqajqmpntTUk7e3mMXFk7e3fn5+jqmppOPjjqmpiZubg4yMfn5+
+iJqaiZublLi4n9XVfn5+jqmphI2NiZubfn5+iJqaqvLyiZubg4yMg4yMn9XViZubg4yMg4yMiJqa
+qvLypOTkiZubhI2Ng4yMjqmpntXViZubjqmpfn5+fn5+fn5+fn5+mMXFmcbGhI2Ng4yMfn5+fn5+
+fn5+lLi4iZubr///j6qqlLi4iZubqvLypOTkiZubr///r///r///r///jqmpiZub5OTk////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////osbGr///r///
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///jqmpfn5+r///
+r///r///r///r///r///r///r///qvLyn9XVmcfHk7e3r///r///r///msfHiZubn9bWmcfHjaio
+iJqamcbGk7i4mcfHfn5+fn5+fn5+hI2NhI2NjqmpiZubiZubg4yMjqmpg4yMfn5+jqmpiJqamcbG
+mMbGjqmphI2NiZubg4yMmsfHhI2NpOPjfn5+r///iZubfn5+j6qqiZubiZubpOTkqvLyr///mcbG
+qvLyjqmpmcbGqvLyg4yMlLm5ntTUk7e3jqmpk7i4fn5+k7e3n9XVr///qvLyntXVn9bWiZublLm5
+iJqak7e3jqmpg4yMpOPjpOPjiJqamcfHg4yMhI2NlLi4jqqqg4yMiZubg4yMg4yMg4yMfn5+g4yM
+g4yMg4yMlLi4fn5+g4yMiZycfn5+iZubpOPjr///r///mcfHfn5+fn5+n9XVlLi4jqqqiZublLm5
+iZubg4yMiZubg4yMiZubr///j6qqfn5+lLi4g4yMjqmpiZubiZubjqmplLi4g4yMhI2Nn9XVr///
+jqmpr///r///r///r///n9bWk7i4pbe3////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////uNPTr///r///r///r///r///r///r///r///r///r///r///
+r///r///r///r///r///r///r///jqmpiZubqvLyr///r///qvLylLi4iZubjqmpmcbGjqmpntXV
+pOPjr///lLi4r///r///lLi4ntXVr///iZubiZubqvLypOPjk7e3jqmpiZycg4yMfn5+g4yMg4yM
+lLm5iZubg4yMr///n9XVn9bWfn5+iZubntXViZubhI2Ng4yMjqmpfn5+jqmpiZubg4yMr///hI2N
+lLi4fn5+hI2Njqmpn9bWiZubpOTkqvLylLi4r///r///qvLypOPjiZubg4yMntXVqvLyg4yMfn5+
+iZubmcfHr///r///r///pOTklLi4iZubfn5+g4yMg4yMg4yMiZubiZubqvLyjqmplLm5iZubfn5+
+fn5+jqmpg4yMhI2NiZubg4yMmcbGr///g4yMmcbGfn5+fn5+fn5+iJqag4yMg4yMfn5+iZubpOTk
+r///r///jqmpk7e3mcfHiZubfn5+lLi4r///r///n9XVmcfHjqmpiJqamcfHn9bWmsfHfn5+mcfH
+lLi4k7e3n9bWmcbGiZubj6qqg4yMg4yMlLi4lLi4n9XVlLi4mcfHpOTkr///r///g4yMlLi4////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////uNPTr///
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///jqmpk7i4
+pOTkr///lLi4mcfHr///r///r///qvLyj6qqr///r///r///r///r///lLi4fn5+k7i4j6qqjqmp
+g4yMfn5+iJqaiZublLi4iZubiZubk7i4iZubfn5+jqmpn9bWpOTkqvLyk7i4iZubg4yMjqmpj6qq
+hI2Ng4yMiZubpOTkqvLyiJqaj6qqjqqqlLi4g4yMg4yMg4yMqvLyiZubiZubiZubntXVr///r///
+r///r///r///r///ndPTqvLyjqmpmcbGj6qqfn5+mcfHlLm5ntXVjaior///lLi4mcbGiZubiJqa
+iZubjqmpiZubfn5+g4yMn9XVpeTkfn5+fn5+hI2NjqmpiZubg4yMr///pOTkjqmpg4yMlLm5iZub
+g4yMj6qqiZubmsfHiZubjqmpg4yMfn5+iZubn9XVn9XVg4yMg4yMlLi4lLi4jqqqfn5+pOPjn9XV
+n9XViZubmcfHhI2NiZubiZubmcfHiJqaj6qqjqmppOTkk7e3iZubmcfHfn5+g4yMg4yMg4yMjqmp
+jqmpg4yMmcfHiZubiJqalLm5n9XVjqmpmcfH////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////uNPTr///r///r///r///r///r///r///r///r///r///
+r///r///r///r///r///r///r///r///jqmpfn5+iJqantXVr///qvLypOPjntTUntXVmcbGmcbG
+r///pOTkpOPjjqmpfn5+iZycfn5+fn5+jqqqjqmpiJqag4yMiZubiZubfn5+iZubiZublLm5jqmp
+fn5+ntTUlLi4k7e3n9XVjqmpntXVfn5+fn5+j6qqn9XVmcfHiZubg4yMlLi4lLi4fn5+fn5+g4yM
+fn5+j6qqiZycfn5+fn5+j6qqg4yMiZubpOTkr///r///r///r///r///mMXFmcfHiZubr///hI2N
+k7e3g4yMmcfHjqqqr///r///r///msfHjqmpiJqamcbGlLi4fn5+fn5+iZubfn5+msfHiZubfn5+
+j6qqiZubjqmpiZubmcbGr///lLi4lLm5j6qqfn5+peTkhI2NiZubjqmpfn5+pOPjjqmpfn5+iJqa
+r///r///mcfHlLi4iZubmcfHk7e3pOPjpOPjr///r///r///pOPjhI2NiZubiZubg4yMlLm5g4yM
+iJqajqmpiZubfn5+fn5+iZubjqmpjqmpfn5+iZubfn5+mcbGg4yMlLm5n9XVn9XVlLi4jqmpqvLy
+uLi4////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////uNPT
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///lLi4
+fn5+qvLylLi4jqmpiZubn9bWr///r///r///r///qvLylLi4ntXVfn5+g4yMjqmpiZubfn5+iZub
+iZubiJqag4yMlLm5hI2Nfn5+fn5+hI2Nk7e3pOPjn9bWhI2NiZubmcbGiZubjqmpn9bWfn5+fn5+
+g4yMjqmpiZubiZubfn5+g4yMiZubmcfHg4yMfn5+fn5+mcfHn9XVn9XVpOPjk7i4fn5+jqqqlLm5
+r///r///r///r///g4yMg4yMntXVlLi4mcfHjqmpfn5+iZubmcbGjqmpmcbGmcbGqvLylLi4jqmp
+hI2NhI2NiZubfn5+fn5+fn5+hI2NlLm5iZubfn5+fn5+fn5+g4yMjqmpj6qqj6qqlLi4iZubiZub
+mcfHiZubhI2Nr///mcbGlLi4g4yMhI2Ng4yMfn5+r///r///ntTUntXVlLi4g4yMpOTkr///r///
+r///r///r///qfHxpOTkj6qqiZubmcfHfn5+lLi4j6qqhI2Nfn5+hI2NjqmphI2Njqqqg4yMmcfH
+jqmppOPjr///jqmplLi4n9XVmcbGjqmpqvLyr///vcbG////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////uNPTr///r///r///r///r///r///r///r///r///
+r///r///r///r///r///r///r///r///r///n9bWlLi4msfHr///r///r///r///pOTkmcfHiZub
+k7e3n9XVmcfHg4yMfn5+lLi4hI2NiJqafn5+qvLyqvLyiZubiZubfn5+hI2NiZubhI2NhI2Nfn5+
+g4yMg4yMg4yMiZubntXVjqqqlLi4mcfHhI2Nfn5+g4yMj6qqiZubk7i4fn5+iZubk7e3lLi4g4yM
+iZubjqmpg4yMr///iJqaiZubiZubiJqaiZubr///r///r///r///r///k7e3jqqqpOPjr///jqmp
+g4yMfn5+jqqqn9XVqvLyk7e3r///mcfHjqmphI2NlLm5fn5+fn5+fn5+g4yMg4yMfn5+iZubg4yM
+jqmpjqqqfn5+fn5+lLi4n9XVjqmpg4yMiJqaiZubqvLyj6qqg4yMpOTkiZubiJqag4yMg4yMfn5+
+iZubr///r///ndPTr///mcfHmcbGr///r///r///r///r///r///g4yMpOTkqvLymcbGqvLylLi4
+lLi4j6qqfn5+fn5+g4yMg4yMmcfHiZubiJqamsfHmcbGqvLymcbGmcfHr///r///r///r///mcfH
+oKmp8vLy////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+uNPTr///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///
+pOTkiJqalLi4pOPjr///r///r///r///r///r///r///r///r///g4yMhI2NpOPjfn5+iZubiZub
+r///ntXVmcfHfn5+fn5+lLm5mcfHpOPjpOPjk7e3iZubmcfHlLi4lLi4mcbGg4yMhI2NiZubfn5+
+fn5+hI2Nfn5+hI2Nfn5+iZubiZubjaiok7i4jqmpg4yMmcfHg4yMmcfHqvLyg4yMhI2NiZubhI2N
+mcfHqvLyr///r///r///j6qqk7e3mMXFiZubg4yMiJqag4yMiZubmcbGpOPjk7e3iZubg4yMfn5+
+hI2NhI2Nfn5+fn5+iZycjqqqfn5+jqmpfn5+k7i4jqmpiJqaiZubr///mcfHiZubjqmphI2NlLm5
+k7e3g4yMmcfHjqqqiJqag4yMg4yMfn5+g4yMiZubhI2NiZubr///ntTUqvLyiJqar///r///jqmp
+r///qvLyn9XVr///fn5+k7i4j6qqqvLyr///r///iZubhI2NlLm5fn5+g4yMr///r///qvLymcfH
+ntXVqvLymcfHpOTkjqqqmcfHr///r///r///r///l6mp1dXV////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////x8fHr///r///r///r///r///r///r///r///
+r///r///r///r///r///r///r///r///r///r///pOTkfn5+n9XVlLi4o+Pjr///r///r///r///
+pOPjk7e3n9XVpOTkr///jqqqjqmpjqqqhI2NntXVr///ndPTmsfHjqmpiZubg4yMjqmpmcfHhI2N
+fn5+iJqaiZubpOPjn9XVntTUmcbGntXVn9XVmcfHiJqaiZycfn5+g4yMg4yMlLi4g4yMiZubfn5+
+fn5+g4yMjqmpjqmpiZubn9bWiZubfn5+fn5+g4yMfn5+n9bWr///r///r///hI2NmcbGiZubiZub
+iZubiZubjqmpk7i4g4yMmcfHg4yMfn5+j6qqiJqaiZubg4yMg4yMjqmppOPjg4yMjqmpfn5+g4yM
+iZubg4yMfn5+iZubmcfHpOTkfn5+iJqag4yMfn5+r///mMXFg4yMmcbGqvLyiZubg4yMg4yMg4yM
+fn5+g4yMj6qqmcfHpOTkn9bWfn5+n9bWr///mcfHr///k7e3pOTkr///hI2NiJqan9XVpOPjlLi4
+r///mcfHhI2NpOTkmcfHg4yMr///lLi4ntXVmcfHr///k7e3o+PjlLm5jqmpg4yMr///r///r///
+r///pOTkoKmp////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////1tbWr///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///
+r///r///mcfHr///iJqan9XVn9XVr///r///r///r///r///j6qqiZubk7e3pOPjg4yMhI2Nfn5+
+r///r///mcfHn9bWiJqalLi4g4yMiZycg4yMmcbGqvLylLi4g4yMjqmpg4yMqvLyn9XVmcfHn9XV
+r///mcbGfn5+fn5+fn5+iZubr///lLi4mcfHmcfHfn5+mcfHlLm5g4yMiZubg4yMg4yMhI2NiJqa
+n9XVntXVlLi4r///r///r///iJqaiZubiJqaiJqajqqqqvLyqvLymcfHqvLyfn5+n9bWmcfHmcfH
+iZubg4yMj6qqn9XVr///r///mcfHfn5+iZubfn5+jqmpfn5+iZubfn5+iJqar///pOPjmcbGfn5+
+fn5+hI2NmcfHmMbGr///lLi4fn5+fn5+fn5+fn5+lLm5n9XVfn5+lLi4r///n9bWfn5+pOTkjqmp
+pOTkr///qfHxr///qfLyiZubg4yMhI2Nr///mMXFntXViZubiZubmcfHr///iZubjqmpg4yMjqmp
+r///qvLylLi4qvLypeTkiZubntXVr///jqmpk7e3lLi4k7e3mcfH5OTk////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////1tbWr///r///r///r///r///r///r///
+r///r///r///r///r///r///r///r///r///r///r///r///n9bWr///qvLymcfHqvLyn9XVpOPj
+r///r///r///qvLyhI2Ng4yMr///ntXVg4yMg4yMpOTkn9bWntXVqvLyn9bWfn5+g4yMlLi4jqmp
+mcfHiJqalLi4iZubfn5+k7e3pOPjlLi4jqmpqvLyr///mcfHfn5+g4yMlLi4g4yMiZubfn5+g4yM
+g4yMg4yMfn5+iZublLi4peTkjqmpiJqaiJqalLi4jqmpg4yMfn5+g4yMqvLyr///mcfHqvLyhI2N
+ntXVg4yMg4yMiZubg4yMmcfHmcfHr///iJqak7e3iZubfn5+fn5+n9XVr///r///g4yMg4yMiZub
+mcbGntXVj6qqmcfHmcfHpOTkr///r///mcbGr///k7e3fn5+iZubiZubmsfHjqmpfn5+g4yMntXV
+mcfHjqqqiZubjqmpiZubr///qvLyfn5+r///qvLyr///r///r///r///mcbGpOTkiZubmcfHlLi4
+ntXVpOTkfn5+iZublLm5n9XVfn5+fn5+fn5+n9bWqvLylLi4pOPjr///iJqaiZubn9bWlLm5r///
+r///k7e3pbe34+Pj////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////1tbWr///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///
+r///r///r///ndPTr///r///mcbGpOTkr///qvLyn9XVr///pOPjn9XVqvLymcbGr///mcfHfn5+
+iZubntXVntTUmcfHr///qvLyjqmpjqmpmcbGhI2NpOTkmcfHiZubhI2NpOPjjqmpg4yMlLm5iZub
+iZubg4yMqvLyjqmpfn5+n9XViZubmcbGg4yMiZubg4yMjqqqfn5+msfHn9XVmcbGn9bWfn5+hI2N
+iZubmcbGiZubfn5+fn5+k7e3j6qqhI2Nr///g4yMmcfHfn5+fn5+g4yMfn5+fn5+peTkr///r///
+r///pOTkj6qqn9XVg4yMr///r///r///r///r///r///r///qvLyqvLyr///r///r///r///qvLy
+g4yMiJqajqmpfn5+g4yMntTUr///qvLyqvLypOPjlLm5jqqqlLi4ntTUg4yMj6qqfn5+fn5+mcbG
+mcbGiJqajqmpqfLyr///mMXFk7e3iJqan9XVjaiontXVpOPjj6qqg4yMg4yMjqmpfn5+hI2NiZub
+fn5+fn5+j6qqmcbGlLi4mcbGiZubmcfHiJqamcfHm5ubiZubuLi4////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////1tbWr///r///r///r///r///r///
+r///r///r///r///r///r///r///r///r///r///r///r///r///ndPTpOPjlLi4r///r///r///
+r///r///n9XVmcbGlLi4fn5+jqmpg4yMiZubfn5+fn5+n9XVlLm5r///r///pOPjjqmpg4yMhI2N
+jqmpn9XVpeTklLm5iZubjqmpiZubg4yMjqqqfn5+fn5+fn5+iZublLi4g4yMiZyck7e3fn5+mcfH
+jqmpiZubg4yMhI2Nfn5+lLi4mcbGg4yMiJqaiZubiZubhI2Njqmpg4yMfn5+mcfHfn5+iZubfn5+
+iJqaiZubjqmpjqmpiZublLi4pOTkk7e3r///n9XVqvLyiZubjqmpmcfHg4yMntTUo+Pjr///r///
+r///n9XVpOTkr///r///r///r///r///r///pOTkk7e3ntXVr///iZubg4yMqvLyr///r///iZub
+g4yMfn5+iZubg4yMfn5+fn5+fn5+fn5+fn5+k7i4qvLyjqmpiZubr///r///iJqahI2NntXVlLm5
+n9bWqvLyj6qqiZubiJqag4yMg4yMg4yMfn5+g4yMfn5+iZubg4yMiZubmcfHiZublLm5l6mp8vLy
+qamp////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////1tbWr///r///r///r///r///r///r///r///r///r///r///r///r///r///r///
+r///r///r///r///k7e3pOPjmcfHr///r///r///r///r///r///ntXViZubj6qqfn5+mcfHg4yM
+fn5+g4yMmcfHn9bWr///r///mcfHfn5+iJqafn5+fn5+iZublLi4mMXFmcfHiZubhI2Nj6qqmcfH
+fn5+jqmplLi4fn5+j6qqfn5+mcfHmcbGiZubmcfHmcfHmsfHhI2NiZubg4yMg4yMhI2NjqmpiZub
+jqqqfn5+hI2Nfn5+n9bWg4yMfn5+fn5+iJqaiZycfn5+k7i4fn5+mcbGpOTkg4yMmcfHr///r///
+n9XVr///mcbGj6qqg4yMqvLymcfHpOTkr///r///r///r///r///r///r///r///r///r///qvLy
+qvLyr///n9XViZubg4yMn9XVpOTkmcfHj6qqg4yMfn5+fn5+g4yMiZublLi4r///fn5+jqmpg4yM
+mcbGn9bWr///o+Lir///j6qqg4yMn9bWiZubiZubmsfHj6qqg4yMiZubiZubiZublLi4hI2NiZub
+g4yMfn5+fn5+fn5+g4yMfn5+g4yMjqmphI2N////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////5OTkpOTkr///r///r///r///
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///mcfHfn5+g4yMmcbGqfLy
+pOTkr///r///pOTkg4yMhI2NjqmpiZubg4yMfn5+fn5+lLi4ntXVg4yMn9bWpOTkr///msfHjqmp
+jqmplLi4lLi4ntXVlLi4jqmphI2NiZyciZubfn5+fn5+fn5+fn5+iZublLi4jqmpqfHxlLm5k7e3
+n9bWg4yMlLm5mcfHhI2Ng4yMpOTkjqmpjqmpn9bWjqmpg4yMg4yMg4yMhI2NiJqag4yMfn5+fn5+
+iJqag4yMiJqapOTkn9bWr///pOPjiZubfn5+ntXVr///r///ntXViJqantXVmcbGlLi4qvLyr///
+r///r///r///r///n9XVntTUr///mcbGr///mcbGmcbGqvLyj6qqfn5+fn5+k7e3jqqqjqmppOPj
+g4yMfn5+fn5+hI2Ng4yMiZubhI2NmsfHjqmpqfHxfn5+qvLyr///r///r///ntXVfn5+fn5+iZub
+ntXVjqmpk7e3fn5+g4yMlLm5fn5+hI2NhI2NiZubjqmpg4yMfn5+fn5+iJqafn5+jqqqjqmpjIyM
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////n9bWr///r///r///r///r///r///r///r///r///r///r///r///r///
+r///r///r///r///r///pOTkfn5+hI2NpOTkr///r///r///r///r///jqmpiZubjqmplLi4iZyc
+lLi4ntXVj6qqntTUjqmpjqmpr///pOTkg4yMmcfHk7e3jqmpiJqag4yMiZubg4yMlLi4n9XVmcfH
+lLi4lLi4jqmpjqmpiZubfn5+fn5+g4yMiZubjqmpj6qqiZubfn5+iZubfn5+k7e3jqmplLi4mcfH
+ndPTpOPjfn5+fn5+jqqqhI2NhI2NjqmplLm5mcfHg4yMjqmpn9XVr///lLi4r///lLi4g4yMmcfH
+ntXVr///r///qfLyk7e3r///r///pOTkg4yMntXVpOPjr///r///qvLyiZubiJqag4yMn9XVlLi4
+lLm5hI2Ng4yMfn5+fn5+g4yMfn5+g4yMmcbGhI2Nfn5+g4yMg4yMiZubiJqafn5+iZubiZublLi4
+g4yMmcfHr///r///r///r///r///j6qqjqmpk7e3iZubfn5+iZubg4yMjqqqjqmplLi4fn5+j6qq
+lLi4g4yMj6qqpOPjg4yMj6qqlLm5fn5+iZub8vLy////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////n9bWr///r///r///
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///fn5+g4yMpOTk
+r///r///r///r///qvLyfn5+g4yMfn5+n9XViJqamcfHiZubpOTkk7i4mMXFfn5+qfLypOPjj6qq
+iZubn9XVr///mMXFfn5+jqmpqvLyqvLyntXVfn5+iZyclLi4qfHxg4yMfn5+iJqag4yMk7i4j6qq
+fn5+k7e3mcbGmcbGiZubfn5+jqmplLi4n9bWk7e3n9XVmcbGpOPjhI2NiJqaiJqaiJqahI2NiZub
+mcfHg4yMjqmpr///r///pOPjn9XVqvLymcbGmcfHpOPjn9XVqvLypOTkiZubn9XVmcbGj6qqiZub
+jqmpk7e3k7e3k7e3fn5+iZubhI2NmsfHfn5+fn5+fn5+fn5+fn5+g4yMlLi4n9bWqvLylLi4n9XV
+iZubg4yMg4yMo+PjlLi4mcfHqvLyg4yMhI2Nfn5+iJqar///r///r///r///r///r///mcfHpeTk
+n9bWg4yMfn5+g4yMfn5+fn5+iZubj6qqn9XViZubg4yMiZubiZubiJqaiJqafn5+g4yMfn5+j6qq
+1tbW////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////n9bWr///r///r///r///r///r///r///r///r///r///r///r///
+r///r///r///r///r///r///r///g4yMfn5+qfLyr///pOTkpOTkr///mcbGmcfHmcfHr///ntXV
+iZubfn5+fn5+n9bWmMXFk7e3lLi4pOPjr///k7i4iZubmsfHj6qqg4yMfn5+n9XVqvLylLm5iJqa
+lLi4hI2Njqmpr///k7e3g4yMiJqafn5+iJqaiZubfn5+lLi4g4yMg4yMiZubiJqaqvLyiZubn9bW
+n9XViZubntTUr///pOPjfn5+iZubn9XVjqmpmcbGiZubiZubjqmppOPjqfLyiJqamcfHn9XViZyc
+fn5+n9bWn9XVntTUpOTkg4yMfn5+fn5+ntXVjqmpg4yMmcbGiZubhI2NiZubfn5+jqqqfn5+fn5+
+jqmpjqmpg4yMkra2pOPjr///r///r///r///r///qvLyjqmpn9XVlLi4jqqqlLi4jqmpiZubiZub
+pOTkfn5+lLi4r///r///r///r///r///ntXVj6qqg4yMfn5+g4yMfn5+fn5+fn5+fn5+fn5+iZyc
+iZubfn5+iZubn9bWn9bWj6qqr///pOTkfn5+lLi41tbW////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////n9bWr///r///
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///iJqahI2N
+r///r///n9XVqvLyr///r///r///qvLyfn5+n9bWqvLyfn5+fn5+iJqamMXFjqmppeTklLi4r///
+n9bWfn5+iZubiZubhI2NqvLymMXFr///fn5+mcfHlLi4iZubiZubn9XVfn5+jqmpg4yMk7i4iZyc
+fn5+fn5+lLi4g4yMhI2NjqmppeTkjqmpg4yMn9bWfn5+g4yMhI2NlLi4qvLyiZubg4yMr///n9XV
+jqmplLm5k7i4g4yMg4yMntXVr///r///iZubpOPjjqmpg4yMn9XVmcbGmsfHiJqalLi4r///ntXV
+lLi4g4yMiZubj6qqfn5+j6qqiJqafn5+lLm5k7e3fn5+n9XVpeTkntTUntTUn9XVmcbGntTUk7e3
+mcfHiZubhI2Ng4yMpOTklLi4ntTUn9XVqvLyjaioiJqag4yMjqmpr///r///r///r///n9bWlLm5
+g4yMlLm5jqmpfn5+g4yMhI2Ng4yMjqmplLi4jqmpfn5+fn5+g4yMg4yMj6qqg4yMg4yMiZubk7e3
+r///nbi4////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////n9bWr///r///r///r///r///r///r///r///r///r///r///
+r///r///r///r///r///r///r///r///jqmpiJqaqvLyr///pOPjr///r///r///r///r///lLi4
+iZubr///pOTkg4yMiJqajqmpjqmpiJqalLi4qvLyjqmpn9bWndPTfn5+lLm5n9XVmcfHlLi4qfLy
+jqmpk7i4lLi4jqmpiZubpOTkpOTkjqmpjqmpmcbGn9XViZubjqqqfn5+iZubg4yMg4yMjqmpfn5+
+jqmpiZubfn5+fn5+fn5+fn5+g4yMiJqamcfHqvLyk7e3jqmpqvLyqvLyjqmpg4yMpOPjlLi4mcbG
+r///ntXVpeTkqvLyiJqaj6qqjqmpg4yMfn5+iZubhI2NiZubqvLyr///fn5+fn5+fn5+mcfHqvLy
+iZycfn5+iZubg4yMhI2Nk7i4mcfHqvLyiZubfn5+fn5+jqmpg4yMlLi4mcbGntTUntTUntTUntTU
+k7e3fn5+n9bWlLi4r///pOTkqvLyr///k7e3n9XVjqmpg4yMiZubg4yMjqqqiZubntTUk7e3n9XV
+lLi4jqmpntTUmcfHfn5+fn5+fn5+fn5+g4yMiZubiZubpeTks8XF////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////n9bWr///
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///jqmp
+hI2NiZubr///r///r///r///r///r///r///r///iJqar///r///r///mcfHhI2NmcbGk7e3g4yM
+iJqan9bWpOTkmcbGhI2Nfn5+j6qqjqmplLi4iZubg4yMk7i4j6qqj6qqiZycn9XVg4yMfn5+iZub
+fn5+jqmpqvLyhI2Nfn5+jqmpk7i4fn5+g4yMjqmpfn5+pOPjg4yMiJqamcfHmcfHiJqaiZubjqmp
+mMXFqvLyg4yMmcfHiZublLm5g4yMiZubmcfHjqmppOTkj6qqj6qqpOPjpOPjpOPjk7e3jqmpg4yM
+fn5+iZubmcfHk7e3fn5+g4yMfn5+fn5+g4yMj6qqiZubfn5+jqmpn9XVr///n9bWfn5+lLi4g4yM
+mcfHg4yMmcfHr///mcfHg4yMr///r///r///r///jqmpiJqag4yMlLm5mcbGqfLyqvLyr///lLm5
+n9bWiZublLi4lLi4n9XViZycmsfHjqmpmcfHr///mcfHg4yMiZubjqmpjqqqg4yMg4yMfn5+g4yM
+fn5+iZubg4yMkZqa////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////qsXFr///r///r///r///r///r///r///r///r///r///
+r///r///r///r///r///r///r///r///r///mcfHfn5+iZubjqmpr///r///r///r///r///r///
+mcbGlLi4mcbGr///r///r///iJqag4yMjqmpiZubpOTkmcfHmcfHpOTkfn5+fn5+fn5+mcbGpOTk
+lLi4iZubfn5+iJqajqmpmcbGr///ntTUpOPjjqmpiJqafn5+jqmpfn5+g4yMiZubg4yMfn5+k7e3
+iZubiZubiZublLi4mcfHlLi4jqmphI2Nfn5+g4yMiZubqvLyiZubg4yMfn5+fn5+r///jqmpg4yM
+hI2Njqmpr///r///ntXVr///r///ntTUg4yMjqqqjqmpjqmplLi4fn5+iZubiJqafn5+fn5+peTk
+qvLyg4yMg4yMqvLyr///qvLyhI2NiJqapOTkmcfHg4yMfn5+pOTkr///iJqan9XVfn5+jqmpr///
+r///mcfHiZubhI2Nfn5+jqmpo+PjmsfHn9XVjqmppOPjqfHxr///g4yMfn5+hI2Ng4yMfn5+g4yM
+mcfHiZubg4yMiZycn9bWhI2Nfn5+j6qqg4yMiZublLi4jqmpg4yMjqqq8vLy////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////uNPT
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///
+n9bWfn5+lLi4fn5+qvLyr///r///r///r///r///jqmpmcbGlLm5n9bWr///r///lLi4g4yMfn5+
+k7e3iZubiJqamcbGj6qqfn5+g4yMg4yMntXVmcfHiZyclLi4peTkiZubfn5+fn5+iJqaj6qqmcfH
+fn5+fn5+fn5+fn5+fn5+iZubfn5+fn5+fn5+lLi4k7i4fn5+iZublLm5n9XVpOTkk7e3mcbGiZub
+jqqqntXVpOTkqfLyfn5+g4yMn9XVpOPjmcfHn9XVr///r///g4yMj6qqjqmpk7e3mcfHpOPjjqmp
+lLi4r///qvLyiZubmcfHjqmpg4yMfn5+iJqaqvLyr///mMXFjqmpr///qvLyj6qqjqmpjqmpr///
+r///j6qqpOPjr///r///r///qvLypOPjjqmpmcfHn9XVj6qqlLi4fn5+fn5+iZubjqqqiZycj6qq
+g4yMjqmpiZubfn5+fn5+fn5+fn5+iZubqfHxk7e3mcfHn9XViZubfn5+iZubjqmpjqmpk7e3lLi4
+mcfHn9XVjqmpg4yMiZubuLi4////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////uNPTr///r///r///r///r///r///r///r///r///
+r///r///r///r///r///r///r///r///r///r///lLi4jqmplLi4fn5+ntXVr///r///r///r///
+r///jqmpiZubqvLyg4yMpOPjr///jqmpg4yMjqqqiZubiZubg4yMiZubfn5+g4yMfn5+fn5+fn5+
+k7i4j6qqhI2NiZubfn5+fn5+g4yMiZubg4yMj6qqfn5+g4yMfn5+lLi4g4yMfn5+iZubjqqqg4yM
+g4yMfn5+g4yMhI2NmcbGn9XVj6qqg4yMg4yMfn5+fn5+k7e3jqmpmsfHfn5+k7e3jqqqmsfHg4yM
+k7e3jqmpn9XVjqmpfn5+fn5+fn5+fn5+g4yMjqqqiZublLi4mcbGqvLyiZubfn5+hI2NiJqar///
+r///r///ntXVjqmppOTkiJqafn5+jqmplLi4fn5+hI2Ng4yMntXVr///r///r///mcfHjqmpg4yM
+iZubj6qqhI2Ng4yMlLi4g4yMfn5+g4yMjqmpfn5+iZublLi4g4yMg4yMjqmpfn5+jqmpiJqag4yM
+jqmpqvLyjqmplLm5lLi4lLi4r///r///j6qqfn5+k7e3jqmpiZubg4yMiZubjIyM////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+uNPTr///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///
+r///n9bWjqmpn9bWg4yMiZubn9XVr///pOPjntXVr///n9XVqfHxr///n9XVlLm5iZubiZycqvLy
+k7e3qvLymcbGfn5+fn5+g4yMhI2NhI2Nn9XVjqmpjqqqfn5+hI2NhI2NiZycjqqqfn5+jqqqntXV
+n9XVjqmpmcfHhI2NiZubj6qqiZubfn5+fn5+g4yMfn5+fn5+fn5+pOTkmcbGqvLyiJqafn5+iJqa
+iZubfn5+jqmpiJqafn5+fn5+iZubfn5+pOTkk7e3n9XVntXVjqmpjqmpfn5+g4yMfn5+hI2Ng4yM
+g4yMiZubhI2NqvLyr///mcfHiJqaj6qqqvLyr///r///r///j6qqiZubj6qqg4yMjqqqjqmpiZub
+mcfHqvLyr///r///r///r///r///iJqapOPjlLi4iJqahI2Nk7i4fn5+fn5+iZubiJqaiZyciZub
+jqmplLm5mcfHg4yMjqmpk7e3jqmpiZubiZubiZubfn5+iZubhI2NiZubqvLyiZubr///r///iZub
+iZyciZubmcbGr///mcbGj6qqlLm51tbW////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////uNPTr///r///r///r///r///r///r///r///
+r///r///r///r///r///r///r///r///r///r///r///pOTkjqmpqvLyfn5+lLi4jqqqmsfHpOPj
+iZubjqmpjqmppOPjlLi4g4yMhI2Nj6qqj6qqfn5+g4yMg4yMk7i4iJqag4yMntXVlLi4jqmpj6qq
+lLi4g4yMhI2NiZubiZubqvLyjqqqpOPjlLi4pOTkg4yMg4yMfn5+g4yMg4yMg4yMg4yMiZubg4yM
+fn5+g4yMiJqalLm5r///iZubiZubg4yMiZubjqmpqvLyiZubiZubfn5+g4yMjqmpiZublLi4lLi4
+pOPjpOPjjqmpmcfHg4yMlLi4hI2Nk7i4hI2Nj6qqiJqaqvLyiZubmcfHr///r///pOPjr///r///
+r///qvLyg4yMiZubn9XVfn5+fn5+iZubiZublLm5r///r///r///r///r///r///lLi4mcbGr///
+qvLyjqmpiZubfn5+fn5+iJqajqmpg4yMlLm5fn5+fn5+hI2NpOTkn9XVpOPjqvLyiZubfn5+g4yM
+iZubj6qqg4yMjqmpg4yMk7e3iZubjqmpg4yMfn5+iZublLi4lLi4mcbGfn5+g4yMmcfHm5ub4+Pj
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////uNPTr///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///
+r///r///n9bWfn5+lLm5g4yMj6qqjqmpiJqaiJqajqmppOTkr///iZubiZubfn5+g4yMiZyck7e3
+hI2Nfn5+iZubg4yMk7e3iZubr///r///k7i4fn5+hI2Ng4yMk7e3iZycj6qqg4yMhI2Nj6qqn9XV
+n9bWg4yMfn5+fn5+k7i4fn5+fn5+iZublLi4jaiog4yMiZubn9XVjqmpqvLyjqmpiZubn9bWqvLy
+fn5+iZubj6qqlLi4jqmpg4yMr///lLi4g4yMlLm5g4yMmcfHg4yMfn5+fn5+iZubiJqaiZubfn5+
+iZubfn5+n9bWfn5+g4yMlLm5k7e3r///r///pOPjiZubfn5+iJqar///r///qvLyg4yMiZubfn5+
+g4yMr///r///r///r///r///pOPjqvLyr///mcbGlLi4qvLyiZubfn5+fn5+iZubmcfHhI2Nn9XV
+j6qqlLi4iZubiZubmcfHn9XVpOPjjqmpiZubj6qqlLi4r///pOPjhI2NiZubiJqaiJqamcfHmcfH
+hI2Njqqqn9XVjqmpk7i4iJqao+PjpOPjqvLylLi4xsbG////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////vcbGr///r///r///r///r///r///r///
+r///r///r///r///r///r///r///r///r///r///r///r///pOTkmcfHfn5+fn5+jqqqjqmpmcfH
+jqqqg4yMg4yMjaiohI2NhI2Ng4yMiZubiJqamcbGiZubmMXFfn5+lLi4jqmpfn5+jqmplLi4jaio
+fn5+iZubpOPjqvLyfn5+k7i4iZubiZubg4yMiJqaiZubg4yMfn5+hI2Ng4yMjqmpfn5+g4yMg4yM
+g4yMg4yMjqmpntXVk7e3g4yMj6qqj6qqntXViZubfn5+j6qqjqmpg4yMjqqqn9bWmcbGr///qvLy
+lLi4qvLyr///r///g4yMn9XVo+PjiZubfn5+iZubiZubmsfHjqmpmcbGpOTkfn5+g4yMiZublLi4
+hI2NlLi4fn5+hI2NlLi4r///r///r///r///r///r///r///r///r///r///r///fn5+pOTkr///
+iZubiJqag4yMiZubhI2NjqmpntTUj6qqlLi4r///g4yMntXVfn5+g4yMfn5+fn5+fn5+iZycqvLy
+ntXVr///r///r///mMXFn9XVjqmplLm5jqmpfn5+g4yMpOPjpOTkiZubg4yMjqmpqvLyqvLypOPj
+ntXVl6mp////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////1tbWr///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///
+r///r///r///r///iZubfn5+g4yMj6qqpOPjr///pOPjmcfHfn5+fn5+fn5+fn5+fn5+k7e3g4yM
+mcfHqvLyk7e3hI2NmcfHlLi4g4yMg4yMiZubiJqaiZubfn5+iJqaiJqajqmpmcbGqvLylLi4lLi4
+pOPjmcbGfn5+jqmpfn5+jqqqiJqafn5+fn5+iZubfn5+iZubg4yMjqmpk7e3mcbGmcbGiZubqvLy
+hI2NiJqan9XVpOPjpOPjmcfHn9bWiZubr///r///ntXVfn5+iZubpOTkkra2fn5+r///j6qqiZub
+j6qqfn5+g4yMlLi4pOTkr///r///lLi4jqmplLi4fn5+iZubfn5+fn5+pOTkr///r///qfHxqvLy
+r///r///r///r///r///r///r///iZubjqmpntXVqvLyjqmpg4yMlLm5iZubg4yMlLi4iZycjqmp
+iZubg4yMjqqqg4yMlLi4iZubjqmpiZublLi4pOTkntTUqfHxr///pOPjntXVr///iJqaiZubiZyc
+g4yMiJqantXVr///jqmpjqmpjqmpfn5+lLi4jqmpntXVn9bWuLi4////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////1tbWr///r///r///r///r///r///
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///mcfHfn5+lLi4r///r///
+qvLylLi4jqmpfn5+g4yMmcfHn9XVpOPjj6qqfn5+hI2Nn9XVmsfHiZubfn5+mcbGr///j6qqk7i4
+peTkg4yMhI2Nj6qqfn5+fn5+lLi4mcfHg4yMg4yMg4yMiZubiZubfn5+fn5+g4yMfn5+fn5+fn5+
+g4yMfn5+jqmpg4yMr///lLi4lLi4n9bWj6qqmcfHmcfHiZubmcfHpOPjr///k7e3g4yMjqqqr///
+r///r///pOPjmcfHiZubhI2NmsfHn9XVqfLyiJqahI2Nfn5+fn5+ntTUr///lLi4r///qvLyjqqq
+iZubhI2NjqmpiZyck7i4r///r///r///pOPjqvLyr///r///r///r///r///r///r///r///mcbG
+jqmpjqmppOPjk7e3jqmpjqmpn9bWjqmplLi4iZubg4yMg4yMg4yMhI2NlLm5iZyclLm5hI2Njqmp
+r///iZubg4yMmcfHhI2Nr///ntXViZublLi4mcfHfn5+g4yMg4yMk7e3fn5+jqmpg4yMntXVmcfH
+lLm5pOTkg4yMg4yM8vLy////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////1tbWr///r///r///r///r///r///r///r///r///r///r///r///r///r///r///
+r///r///r///r///r///n9bWfn5+pOTkmcfHiZubg4yMfn5+fn5+fn5+iJqapOTkr///r///n9bW
+jqqqiJqag4yMjaiojqqqiZubj6qqr///r///pOTkg4yMpOTkiZubfn5+fn5+fn5+fn5+hI2Nfn5+
+jqqqg4yMiZubg4yMg4yMfn5+iZubg4yMg4yMfn5+g4yMfn5+mcfHmcbGpOTkfn5+mcbGfn5+fn5+
+j6qqhI2NjqmpmcfHhI2NqvLyntXViZubntTUr///r///r///r///r///r///qfHxr///g4yMjqmp
+k7i4lLi4jqmpiZycjqmpr///k7i4r///r///mcfHfn5+hI2NiZubhI2NqvLyqvLyiZubqvLyr///
+r///r///r///r///mcbGr///r///r///r///r///pOPjiZubiZubiJqajqmpjaiomcbGk7i4mcfH
+pOTklLi4pOPjpOPjfn5+jqmpfn5+jqmpjqmpjqmpmcfHg4yMiZubjqmpiZublLi4g4yMqvLyiZub
+iZubg4yMfn5+jqmpiZubhI2NjqmpjqmpiZubpeTkr///mcfHmcbGlLi41tbW////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////1tbWr///r///r///r///r///
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///qvLyfn5+lLi4mcfH
+fn5+fn5+fn5+g4yMfn5+msfHr///qvLyn9XVjqqqg4yMfn5+fn5+g4yMg4yMfn5+g4yMqfHxr///
+r///g4yMj6qqlLi4fn5+fn5+hI2Nfn5+iZubqvLyjqmpfn5+j6qqiZubjqmpjqqqhI2NiJqag4yM
+iZubhI2NiJqapOTkpOPjn9XViZubmcfHiZubpOTkpOPjn9XVlLi4jqmpiZyciZubmcfHiZubmcbG
+r///mcbGmcfHr///r///r///r///r///lLi4g4yMfn5+j6qqiJqaiJqaiZubiJqafn5+g4yMj6qq
+k7e3iJqag4yMiZubfn5+fn5+lLm5iJqaiJqan9XVn9XVn9XVqvLyn9XVpOPjg4yMmcbGmcbGqvLy
+ntXVlLi4iJqag4yMg4yMiZubn9XVk7e3jqmpntTUntXVr///r///pOTkfn5+g4yMmcfHiZycg4yM
+j6qqk7e3fn5+g4yMhI2NhI2NjqmpiZubjqqqjqmplLi4iJqag4yMfn5+g4yMjqmpjqmpmcfHjqmp
+n9bWr///iJqajqmpmcfH5OTk////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////1tbWr///r///r///r///r///r///r///r///r///r///r///r///r///r///
+r///r///r///r///r///r///r///fn5+iZubg4yMmcbGfn5+k7i4fn5+g4yMfn5+g4yMj6qqhI2N
+iZubjqmpg4yMiZubfn5+fn5+jqmpk7e3lLi4jqmppOTkiJqag4yMhI2NhI2Ng4yMmcbGfn5+jqmp
+r///lLi4iZubg4yMfn5+fn5+fn5+lLi4fn5+iZubj6qqiZubg4yMmcfHiZubn9XVj6qqlLi4mcfH
+msfHk7e3hI2NiZubpOPjr///j6qqg4yMg4yMiZubn9XVg4yMk7i4r///r///r///r///r///lLi4
+iJqag4yMiZubg4yMntXVmcfHn9XVr///g4yMmcfHiZubj6qqfn5+jqmpfn5+jqmpmcfHmsfHhI2N
+lLi4iZubqvLylLi4lLi4mcfHiZubntTUr///lLm5j6qqiZubqvLyn9XViZubg4yMr///lLi4qvLy
+r///pOTkpOTklLi4lLm5jqmpjqmpfn5+qvLyjqmpjqmpntXVk7i4lLi4jqmpg4yMn9XVjqmpg4yM
+hI2Ng4yMg4yMiZubfn5+fn5+g4yMiZubj6qqhI2NiZubiZublLi4iJqag4yM8vLy////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////1tbWr///r///r///r///
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///hI2NhI2N
+jqmpfn5+fn5+iZyciZubhI2Nfn5+g4yMiZubfn5+mcbGjqmpn9XVjaiog4yMg4yMhI2Nfn5+pOTk
+qvLylLi4fn5+mcbGlLi4g4yMjqmpfn5+jqqqg4yMk7e3iZubfn5+fn5+fn5+iZubfn5+msfHiZub
+iZubmcbGjqqqfn5+ntTUj6qqiZubg4yMjqmpk7e3iZubfn5+iZubmcbGiZubjqmpn9bWiZubiZub
+iZycfn5+jqmppOTklLi4j6qqg4yMpOPjqvLyiZubg4yMn9bWqvLyr///mcbGqvLyr///r///r///
+r///iZubjqmphI2NmcfHmsfHmcbGmcfHmcbGmcfHiZubhI2NlLi4pOTkr///r///k7e3r///r///
+mcbGjqmpk7i4n9XVlLm5ntXVjqmpjqqqpOPjpOPjr///r///lLm5j6qqmcfHlLm5fn5+g4yMiZub
+lLm5lLi4lLi4jqmpk7e3iZubhI2NlLi4jqqqk7i4jqqqiZubhI2Nfn5+hI2Ng4yMfn5+jqmpfn5+
+iZubiJqafn5+jqqqg4yMg4yM1dXV////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////8vLyn9bWr///r///r///r///r///r///r///r///r///r///r///r///
+r///r///r///r///r///r///r///r///jqmpiZubj6qqhI2NmcbGlLi4qvLyg4yMfn5+n9bWiJqa
+iZubg4yMiZubg4yMiJqamcfHjqmpmcfHfn5+lLi4r///r///jqmppOPjlLi4fn5+fn5+iJqafn5+
+lLm5n9XVlLi4lLi4n9XVfn5+fn5+fn5+g4yMjqqqk7e3mMXFk7e3j6qqlLi4jqqqiZubg4yMiJqa
+pOTkr///pOPjk7e3jqmpqvLypOPjhI2Nk7i4fn5+hI2Nfn5+k7e3pOTkg4yMg4yMlLm5lLm5jqqq
+r///lLm5n9bWr///r///iZubiJqapOTkr///r///r///r///iJqan9XVpOPjn9bWr///r///n9XV
+n9XVjqmpiJqamcfHlLi4iZubr///r///r///r///ntTUpOPjfn5+iZubjqmpo+Pjn9bWfn5+iZub
+jqqqn9XVmcbGpOPjhI2NiZubiZubiZubqfHxlLi4n9XVr///lLi4g4yMj6qqfn5+jqmphI2NlLi4
+lLi4jqmpjqqqg4yMntXVfn5+lLm5iJqamcfHg4yMfn5+g4yMj6qqfn5+g4yMjqmpg4yM8vLy////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////n9bWr///r///
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///pOTk
+mcfHfn5+fn5+jqmpg4yMlLi4lLi4jqmpr///iZubmcfHiZubiJqahI2Nk7e3g4yMhI2Nr///g4yM
+ntXVr///r///pOTkg4yMntXVjqmpk7i4r///fn5+hI2NlLi4iZycmcbGg4yMg4yMfn5+hI2NhI2N
+jqmphI2Nfn5+iZubjqmpg4yMhI2NiZubiZycfn5+mcbGpOTkmcfHiZubg4yMiZubntXVpOPjg4yM
+iZubfn5+n9XVr///qvLyg4yMmcfHr///lLi4k7i4r///r///r///r///r///r///pOPjqfHxqfLy
+lLi4r///n9XVn9bWr///qvLyqvLyr///r///r///r///ntXVj6qqfn5+fn5+j6qqiZubmcbGpOPj
+r///ndPTr///fn5+g4yMjqmplLi4msfHj6qqk7i4pOPjn9XVr///fn5+iZubhI2NiJqajaion9XV
+r///r///j6qqg4yMjqmpiZubg4yMjqmpiZubjqmplLi4mcbGjqmppOPjr///lLi4iZubfn5+iZub
+g4yMg4yMg4yMfn5+iZubjqmpr///iZubx8fH////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////n9bWr///r///r///r///r///r///r///r///r///r///r///
+r///r///r///r///r///r///r///r///r///r///fn5+g4yMiZubg4yMjqmppeTkqvLyr///r///
+r///r///fn5+jqqqhI2Ng4yMiZubjqqqqfLyjqqqlLi4r///r///r///lLm5k7e3r///qvLyg4yM
+g4yMfn5+g4yMjqmplLi4ntXVfn5+g4yMiZubiZubg4yMfn5+fn5+fn5+iZubg4yMhI2Nk7i4j6qq
+hI2Ng4yMr///r///msfHfn5+iZubg4yMqvLylLi4iZubj6qqiZubg4yMg4yMntXVmsfHqvLymcbG
+mcbGr///r///qvLyqvLyr///r///lLi4jqqqg4yMjqmpr///jqmpntXVpOTkr///r///r///r///
+r///r///r///qvLyj6qqg4yMiZublLi4mcfHk7i4qvLyndPTr///g4yMfn5+iZubn9XVqvLyn9XV
+qvLyr///r///r///pOTkj6qqj6qqqvLyg4yMpOTklLi4hI2Njqmpn9bWlLi4g4yMk7e3mcfHqvLy
+r///r///r///g4yMn9XVlLi4qvLyqvLylLi4g4yMfn5+qvLymcbGj6qqiZubqvLyk7e3ntXVg4yM
+5OTk////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////n9bWr///
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///
+r///g4yMfn5+hI2Njqmpfn5+lLi4pOPjiZubiJqag4yMlLi4g4yMg4yMg4yMj6qqlLi4jqqqpOPj
+g4yMmcfHr///r///r///peTkk7i4r///mcbGk7i4fn5+mcfHr///mMbGfn5+iZyciJqalLm5j6qq
+lLi4lLi4hI2NjqmpiJqaiZubfn5+iJqafn5+fn5+fn5+r///r///lLi4iZubiZubiZubg4yMiJqa
+g4yMfn5+fn5+mcbGr///iJqar///r///o+Pjj6qqjqmpr///jqmpfn5+g4yMpOTkr///pOTkiJqa
+g4yMfn5+qvLyo+Lir///r///r///r///r///r///r///r///r///r///r///mcbGiZubmsfHn9XV
+iZubpeTkk7e3qvLyg4yMiZubpOPjr///r///r///r///r///r///r///r///peTkpeTkr///r///
+qvLyk7i4fn5+iJqaqvLyiZublLi4jqmpr///r///r///r///ntXVjqqqlLm5r///r///mcfHj6qq
+g4yMfn5+lLi4pOTkpOTkqvLyqvLyr///r///mMXF1tbW////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////n9bWr///r///r///r///r///r///r///r///r///r///
+r///r///r///r///r///r///r///r///r///r///r///iJqafn5+fn5+iZubg4yMj6qqj6qqg4yM
+jqmpjqmplLm5hI2Nfn5+fn5+fn5+qvLymcfHfn5+iJqajqmppOPjmcfHntXVqvLylLm5iZubfn5+
+iZubjqmpn9bWpOPjg4yMfn5+k7i4pOPjn9bWj6qqn9bWhI2NlLi4iJqag4yMjqmpiZubg4yMiZub
+hI2NhI2Nn9XVjqmpg4yMlLi4jqmpfn5+fn5+fn5+hI2Nfn5+fn5+n9XVjqmpqvLyqvLyr///r///
+pOPjg4yMpOTkfn5+iZubfn5+fn5+pOPjlLi4fn5+jqqqmcbGj6qqr///r///mcfHn9XVjqmpr///
+r///r///r///r///r///r///r///pOPjqvLymcfHiZubiZubfn5+iJqaiZycmcbGr///lLi4r///
+r///r///ntTUr///r///mcbGiJqalLi4r///n9XVg4yMpeTkjqmpiZubk7e3iZubqvLyn9bWr///
+r///r///r///mcbGn9XVmcfHmcbGqvLyjqmpiZubiZubg4yMpOPjr///r///qvLyqvLylLi4r///
+mcbGqamp////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////n9bW
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///
+r///r///k7e3fn5+hI2NmcfHpOTkk7e3jqmpiZubfn5+g4yMfn5+g4yMg4yMfn5+j6qqiZubjqmp
+g4yMjqmpjqmpj6qqmcfHj6qqjqmpg4yMj6qqfn5+iZubpOPjfn5+fn5+fn5+fn5+jqqqpOPjlLm5
+g4yMmcbGk7i4pOPjiZubfn5+fn5+jqmplLi4fn5+iZycpOPjlLi4lLm5jqmpfn5+g4yMfn5+g4yM
+g4yMjqmpg4yMmcbGlLi4g4yMqfLyr///r///r///r///iJqar///iZubn9XVg4yMg4yMfn5+fn5+
+iZubjqmpr///ntXVntXVlLi4iJqan9bWntXVpOTkr///r///r///r///r///r///r///r///r///
+r///n9bWr///r///ntXVlLi4iZubj6qqr///r///qvLymcbGpOPjmsfHr///pOPjntXVr///r///
+fn5+iJqak7i4fn5+n9bWr///jqmpj6qqlLi4qvLyr///r///ntXViZubqvLypOTkntXVj6qqg4yM
+iZubiZubiJqaqfLyr///r///ntTUr///ntXVntXVpOTkqamp////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////mcfHr///r///r///r///r///r///r///r///r///
+r///r///r///r///r///r///r///r///r///r///r///r///lLi4iZubhI2NlLm5ntXVjqmpk7e3
+iZubg4yMfn5+fn5+iZubfn5+g4yMjqqqfn5+jqmpj6qqg4yMpOTkj6qqj6qqpeTkfn5+lLi4g4yM
+g4yMg4yMfn5+g4yMfn5+g4yMjqmpfn5+iZublLm5jqmppOPjk7e3fn5+fn5+iZubg4yMntXVqvLy
+pOPjiJqag4yMhI2NlLi4hI2Nfn5+fn5+g4yMfn5+mcbGg4yMiZubpeTkn9XVjqmpiZubpOTkr///
+r///r///iZubmcfHfn5+iZubg4yMfn5+iZubqvLyjqqqiZubqvLyqvLyg4yMfn5+pOTkj6qqqvLy
+r///r///r///r///r///r///r///r///r///r///pOTkqvLyr///r///r///pOTkjqmpiZubiZub
+g4yMn9XVr///r///r///lLi4qvLyr///r///r///ntXVk7i4g4yMntXVjqmppOPjk7i4lLi4jqmp
+n9bWr///n9bWfn5+n9bWlLm5mcfHmcfHfn5+jqmppOPjfn5+g4yMn9bWr///r///r///r///r///
+jqmpn9bWfn5+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+uNPTr///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///
+r///r///qvLyjqmpjqmpr///lLm5jqmppOPjqvLyiZubg4yMfn5+g4yMiJqaj6qqmsfHiZubg4yM
+fn5+mcfHmsfHfn5+fn5+g4yMg4yMhI2Nk7e3mcfHiZubg4yMfn5+lLi4lLm5hI2Nfn5+iZubk7e3
+g4yMfn5+fn5+fn5+g4yMfn5+g4yMg4yMfn5+fn5+k7i4o+Pjg4yMntXVlLi4mcbGfn5+fn5+g4yM
+hI2NhI2Nfn5+mcfHjqmpiJqan9XVg4yMpeTkr///r///pOTkg4yMmcbGiJqaiZubfn5+jqmplLi4
+g4yMiJqalLi4qvLyjqmpjqmpg4yMiZubfn5+mcfHqvLyqfHxr///r///r///r///r///r///r///
+msfHjqqqr///r///r///r///r///r///pOPjiJqantXVr///r///r///r///r///mcbGr///r///
+r///r///jqmpg4yMlLm5iZubiZubhI2NlLm5fn5+qvLyr///pOTkg4yMk7e3jqmpjqmphI2Nfn5+
+fn5+g4yMg4yMiZubn9bWr///r///r///mcfHpOTkiJqar///jqmp8vLy////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////uNPTr///r///r///r///r///r///r///r///
+r///r///r///r///r///r///r///r///r///r///r///r///r///iZubg4yMqvLyn9bWg4yMhI2N
+n9XVhI2NiJqaiZublLm5lLm5j6qqfn5+fn5+k7i4iJqaiZubiJqafn5+fn5+fn5+fn5+fn5+jqqq
+hI2NiZubfn5+fn5+fn5+fn5+fn5+fn5+mcbGg4yMfn5+jqmpfn5+g4yMjqmpfn5+fn5+fn5+fn5+
+lLi4lLm5n9XVjqmplLm5hI2Nfn5+mcbGr///lLi4lLi4fn5+jqmpqvLyr///msfHiJqalLi4r///
+r///r///r///qfHxjaiojqmpmcfHfn5+iZubiJqajqqqj6qqmcfHntXViJqaqfLyiZubjqmpj6qq
+g4yMlLi4lLi4r///r///r///r///r///r///r///r///mcbGqvLyr///r///r///r///r///r///
+ntXVjqmpr///r///r///r///r///qvLypOTkr///r///r///j6qqfn5+fn5+qvLyr///jqqqhI2N
+mcbGr///r///pOTkqvLypOTkj6qqmcfHg4yMfn5+mcfHhI2NiZubfn5+r///r///pOTkmcfHmcbG
+r///jqmppOTkmMXFvcbG////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////uNPTr///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///
+r///r///r///r///n9bWjqmpfn5+g4yMfn5+n9XViZubfn5+k7e3peTkk7i4k7e3fn5+fn5+fn5+
+iZubfn5+g4yMfn5+lLm5fn5+g4yMfn5+hI2NiJqag4yMg4yMg4yMg4yMiJqaiJqaiZubqvLyn9bW
+fn5+iZubfn5+g4yMiZubg4yMfn5+iJqahI2NiZubqvLylLm5ntXVfn5+fn5+k7i4qfHxpOPjpOTk
+lLi4qvLylLi4j6qqr///r///lLi4iZublLi4qvLyr///r///r///r///n9XViZubhI2Ng4yMlLi4
+jqmpntXVmcbGjqmplLi4jqmppOPjn9XVn9XVqvLyjqmpiJqamcbGpOPjr///r///r///r///r///
+r///qvLypOTklLi4qvLyr///r///r///qvLyntXVpOTkr///r///r///r///r///r///r///mMXF
+r///r///ntXVlLi4fn5+hI2Nn9bWqvLyg4yMqvLyr///r///r///r///r///n9bWn9bWn9bWjqmp
+lLi4j6qqg4yMfn5+g4yMpOTkpOTkqvLylLi4r///r///g4yMlLi4jqmplqio8vLy////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////uNPTr///r///r///r///r///r///r///
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///n9bWk7i4jqmpiZycfn5+
+fn5+jqmpg4yMlLm5o+Pjr///pOTkhI2NjqqqlLi4fn5+iZubg4yMjqqqmsfHfn5+mcbGiZubg4yM
+g4yMlLi4k7i4mcbGiJqafn5+jqmpn9XVqvLyg4yMpOPjr///ntXVg4yMfn5+qvLyjqmplLi4g4yM
+iZubr///r///hI2NiZublLi4g4yMlLi4mcbGiJqapOPjr///mcbGmcfHjqmppOTkqvLymsfHjqmp
+mcfHr///r///pOPjjqmpmcfHg4yMfn5+iJqag4yMlLm5jqmplLi4mcfHmcbGlLi4msfHlLi4qvLy
+r///jqmpmcfHr///pOPjlLi4r///pOPjr///r///r///n9bWr///r///mcbGr///qvLylLi4iJqa
+iJqalLi4r///r///qvLyg4yMlLi4n9XVntXVlLi4qvLyr///g4yMiZublLi4mMbGlLm5k7i4jqmp
+r///r///r///r///r///r///qvLyr///n9bWlLi4g4yMj6qqpOTkg4yMpOPjr///r///r///r///
+r///jqmpjqmpo+PjmcfHfn5+x8fH////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////uNPTr///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///
+r///r///r///r///r///iJqag4yMlLm5iZubfn5+fn5+fn5+j6qqpOTkr///r///g4yMpOTkg4yM
+jqmphI2NiZubfn5+jqmpjqmpiZubr///n9XVg4yMhI2NmcfHmcfHjqmpmcbGmcfHjqmpiZubfn5+
+iJqajqqqr///r///iZubmcbGlLi4jqmplLm5hI2NiZubhI2NlLm5jqmpjqmpg4yMj6qqiJqamcfH
+jqmpr///n9XVmsfHfn5+k7i4fn5+ntXViZubjqmpmcbGntTUj6qqfn5+lLi4g4yMmcfHmcbGg4yM
+g4yMg4yMfn5+k7e3mcfHqvLyr///fn5+iZubn9XVn9XVqvLyr///r///qvLyn9XVg4yMjqmpn9XV
+pOTkr///ndPTr///r///r///mcbGg4yMfn5+iZubiZubiZubjaiojqmpjqmpntXVhI2NmcbGj6qq
+r///mcbGn9bWj6qqlLm5r///ndPTg4yMiZubk7i4mcbGr///r///r///r///r///r///qvLyg4yM
+fn5+mcfHn9bWqvLyjqmpr///r///r///r///r///r///jqmpjqmpr///ntTUg4yMnLe38vLy////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////uNPTr///r///r///r///r///r///
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///mcfHlLi4g4yMfn5+
+lLm5pOPjjqmpfn5+peTkr///r///mcbGjqmphI2NlLi4j6qqiJqalLm5mcfHiJqar///r///qvLy
+g4yMfn5+fn5+mcfHlLi4mcfHlLi4g4yMg4yMjIyMqampjIyMjqmpn9XVlLi4r///qvLypOPjjqqq
+g4yMfn5+iZubiZublLm5iZubk7e3r///iZubn9bWk7e3mcbGqvLylLi4hI2NjqmpqvLyg4yMfn5+
+r///r///ntTUntXVn9XVn9XVj6qqg4yMlLi4hI2NjqmpiJqak7e3r///r///mcbGk7e3fn5+iJqa
+lLi4r///r///r///r///lLi4lLi4fn5+g4yMfn5+g4yMg4yMiZublLi4mcfHr///pOTkjqmplLi4
+lLm5jqqqg4yMiZubntXViZubmcbGjqmpiZubqvLyr///pOTkj6qqlLi4qvLyr///mcfHjqmpiJqa
+fn5+iZycr///r///r///r///r///qfHxmcbGhI2NmcfHr///pOTkpOTklLi4r///r///r///qvLy
+qvLylLi4fn5+mcbGr///r///iZubg4yM5OTk////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////x8fHr///r///r///r///r///r///r///r///r///r///r///r///r///r///r///
+r///r///r///r///r///r///r///j6qqiZubn9bWlLi4n9XVfn5+g4yMlLm5qvLyiZubpOTkmcbG
+fn5+qvLyk7e3iZubjqmpiZublLi4n9bWpOPjj6qqfn5+g4yMhI2NiJqaiZubfn5+jIyMx8fHuLi4
+4+Pj////////uLi4qampjIyMiZubg4yMk7e3jqmpk7i4g4yMlLi4msfHlLi4fn5+lLi4iZubiZub
+iZubmcfHiZublLi4jqmpjqqqmcfHlLi4fn5+fn5+iZubiZubiJqalLi4r///r///qvLyntXVfn5+
+g4yMmcfHjqmpr///r///qvLyk7e3pOPjj6qqntTUg4yMmcbGr///qvLymcbGqvLypOTkmcbGmcfH
+jqmpj6qqjqmplLi4k7e3hI2Njqmpr///iJqalLi4mcfHqvLyfn5+jqmpmcfHlLi4g4yMfn5+iJqa
+r///r///r///n9XVjqmpn9XVj6qqmcbGpOPjpOTkiZubg4yMmsfHr///r///r///r///iJqafn5+
+iZubr///r///r///pOTkpOTkr///r///qvLylLi4qvLymcfHg4yMpOTkr///r///n9bWjqmpuLi4
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////1tbWr///r///r///r///r///
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///g4yMfn5+
+lLi4lLi4lLm5iJqag4yMfn5+iZubfn5+fn5+iJqag4yMjqmphI2Nfn5+lLm5hI2NiZubg4yMfn5+
+g4yMg4yMg4yMg4yMm5ubuLi44+Pj////////////////////////////////8vLyx8fHoKmpjqmp
+lLi4iZubjqmpiZubiZubj6qqlLi4n9bWiZubjqmpg4yMj6qqlLi4iZub8vLyjIyMlLi4iZubiJqa
+g4yMfn5+fn5+fn5+pOPjqvLypOTkj6qqg4yMiZubr///r///qvLypOPjmcbGpOTkiJqapOTkmcbG
+n9bWlLi4jqmpntTUmcbGjqmpr///r///r///n9bWg4yMiZubfn5+iJqajqmplLi4mMXFiZubg4yM
+fn5+iZubg4yMlLm5k7e3k7e3jqqqiZubj6qqjqmpr///r///r///qvLypOPjmcfHiJqao+LintXV
+g4yMfn5+qvLyr///hI2Nr///r///pOTkfn5+ntXVr///r///r///r///r///mcbGr///r///qvLy
+qvLyr///pOPjjqmpr///r///r///r///iJqahI2N8vLy////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////1tbWr///r///r///r///r///r///r///r///r///r///r///r///r///r///
+r///r///r///r///r///r///r///r///jqmpiZubk7i4pOTkr///pOTkn9XVmcfHntXVr///mcfH
+jqmpj6qqiZubj6qqntXViZubjqqqjqmpjqqqn9bWj6qqfn5+jIyM1dXV////////////////////
+////////////////////////////////8vLyx8fHiZubjqqqjqmpjqmpg4yMntXVlLi4g4yMfn5+
+jqmpiZublLi4iZuboKmp////8vLy1dXV1dXV1dXV8vLykZqalLm5iJqag4yMmcbGiZubg4yMfn5+
+mcfHjqmpmcfHn9XVg4yMfn5+lLm5k7e3qvLyjaioqvLyqfLylLi4n9XVr///jqmpr///r///qvLy
+qvLyg4yMj6qqiJqantTUjaior///jqmpfn5+fn5+fn5+fn5+fn5+n9XVj6qqiZubhI2NiZubiZub
+jqmpo+Pjr///r///r///r///r///mMXFqvLyjqmpfn5+pOPjfn5+jqmphI2NlLi4pOPjqvLyn9XV
+r///r///r///r///r///qvLyqvLyr///r///r///r///r///qvLylLi4ntXVr///r///r///pOTk
+iJqaqamp////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////1tbWr///r///r///r///
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///jqmp
+iZubn9bWr///r///r///r///r///r///r///r///qvLyfn5+iZubk7e3iJqamcbGg4yMntXVpOTk
+n9bWfn5+fn5+1tbW////////////////////////////////////////////////////////////
+////uLi4jIyMm5ubrre3kZqajqmpiZubiZubkpubqampudTUqamp8vLy////////////////////
+////////////4+PjuLi4fn5+fn5+g4yMhI2Nx8fHuLi4tMbGjIyMg4yMfn5+g4yMg4yMg4yMg4yM
+iZubr///r///jqmpjaion9XVpOPjiJqajqmpmcfHr///lLi4mcfHndPTr///ndPTj6qqhI2Njqmp
+ntXVn9XVjaioiZubk7e3fn5+iZubj6qqjqmphI2Nfn5+mMbGr///r///r///r///r///mcfHmsfH
+g4yMfn5+r///mMXFjqmpfn5+iJqajqmpj6qqr///r///r///r///r///r///n9bWn9bWr///mcbG
+pOTkr///r///qfLyj6qqjqmpiJqar///r///qvLyiZubuLi4////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////1tbWr///r///r///r///r///r///r///r///r///r///r///r///r///
+r///r///r///r///r///r///r///r///r///jqmpiZubiZubk7e3qvLypOTkjqmpk7e3r///r///
+r///lLi4jqmpqvLyntXVntXVmcfHiZubr///ntXVjqmpfn5+fn5+uLi4////////////////////
+////////////////////////////////////////////////////////////////////4+Pj1dXV
+8vLy////////////////////////////////////////////////////////8vLym5ubjIyM1dXV
+////////////////4+Pj1dXVfn5+j6qqiJqalLi4r///r///qvLyk7e3r///r///r///qvLypOPj
+pOPjmcbGj6qqjqmpk7e3ntTUiJqan9XVlLi4r///iJqaiJqaiZubhI2Nn9bWlLi4g4yMj6qqn9bW
+r///n9bWj6qqn9bWpOPjr///r///r///r///fn5+fn5+iZublLi4iZubfn5+g4yMjqmpr///pOTk
+ntXVr///r///r///r///r///r///r///r///jqmpr///r///r///r///j6qqiJqajqmpqvLyr///
+mcfHqqqq////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////1tbWr///r///r///
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///
+jqmpg4yMg4yMmsfHr///r///r///r///r///r///n9XVn9bWn9XVlLi4pOPjiZubfn5+mcfHlLi4
+n9XViJqaj6qqfn5+rre3////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////4+PjqampiZub
+g4yMmsfHpOPjmcfHqvLyr///r///r///r///r///r///r///r///k7i4iZubqvLyjqmppOPjiZub
+hI2Nfn5+j6qqfn5+mcbGr///r///r///n9XVmcbGlLi4n9bWiZubmcfHmcbGg4yMn9XVlLi4lLi4
+g4yMg4yMfn5+fn5+g4yMhI2Nfn5+fn5+mcfHmcfHpeTkmcbGr///r///r///r///r///r///r///
+pOPjr///r///r///r///n9bWiJqaiZubpOPjpOTkjqmp1tbW////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////1tbWqvLyr///r///r///r///r///r///r///r///r///r///r///
+r///r///r///r///r///r///r///r///r///pOTkfn5+fn5+fn5+k7e3mcfHn9XVqvLyr///r///
+mcbGlLi4k7e3mcbGiZubpOTkjqmpg4yMiZubjqqqmsfHn9bWmcbGiZubx8fH////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////8vLyuLi4lLi4msfHpOPjmcbGr///r///r///r///
+r///r///r///r///pOPjn9XVpOPjr///n9XVk7e3lLi4j6qqhI2NlLm5fn5+lLi4mcbGr///r///
+n9bWiZubpOPjiZubg4yMqvLyn9bWiZubfn5+fn5+lLm5fn5+lLi4iZubiZublLm5fn5+mcfHiZub
+hI2NiZubk7e3ntXVr///r///r///r///r///r///r///r///r///r///r///pOTkg4yMfn5+lLm5
+mcfHg4yM8vLy////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////n9bWr///
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///
+r///hI2NmcbGiZubiZublLi4g4yMjqmphI2NmcfHjqmphI2NjqmpmsfHhI2Nn9XVmsfHr///iZub
+k7i4mMbGlLm5n9bWfn5+8vLy////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////8vLyx8fHudTUrre3osbGpOPjr///r///r///r///r///r///r///r///r///pOPj
+qvLyiZubmcfHg4yMfn5+ntTUntXVr///r///r///r///r///pOPjg4yMjqmpntTUqvLylLi4pOPj
+ntTUmcfHiZubiJqag4yMmcfHmcbGiZublLi4iZubfn5+g4yMjqmpjqmplLi4ntXVpOPjr///r///
+r///r///r///r///r///r///pOTkg4yMfn5+m5ubqamp8vLy////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////n9bWr///r///r///r///r///r///r///r///r///r///
+r///r///r///r///r///r///r///r///r///r///r///g4yMntXVfn5+iZubj6qqfn5+hI2Nfn5+
+iZubj6qqn9XVlLi4iZublLi4iZubg4yMr///msfHlLi4lLi4jqmpiJqaiZub1tbW////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////uLi4
+n9XVr///r///r///r///r///jqmpr///peTkn9XVn9XVg4yMiJqahI2Ng4yMjqmpn9XVr///r///
+r///r///r///hI2Ng4yMg4yMg4yMn9XVr///iZublLi4r///lLm5g4yMfn5+fn5+n9bWiZubjqmp
+fn5+fn5+mcfHfn5+mcbGg4yMjqmpfn5+r///r///r///r///r///r///r///pOTkfn5+m5ubqamp
+8vLy////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////n9bW
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///
+r///r///iZubiZycfn5+g4yMmcbGo+PjjqmpmcfHfn5+mcfHmcbGiJqandPTr///r///j6qqqvLy
+lLi4lLi4qfLyg4yMjqmpiZub////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////r7i4m5ub1dXVtMbGudTUmcfHg4yMiZycg4yM
+fn5+lLm5n9bWlLi4lLi4qvLymcfHpOPjqvLyiJqamcfHlLi4jqmphI2NlLm5j6qqiZubmcfHlLi4
+n9XVmcbGpOPjmcfHpOPjiZubg4yMmcfHg4yMk7e3fn5+fn5+iJqafn5+iJqaiZubg4yMlLm5qvLy
+r///r///r///r///r///n9bWiZubkZqa8vLy////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////n9bWr///r///r///r///r///r///r///r///r///
+r///r///r///r///r///r///r///r///r///r///r///r///g4yMhI2Ng4yMg4yMn9XVj6qqk7i4
+iZublLi4g4yMjqmpn9XVpOPjr///lLi4pOPjmcfHmcbGjqmpiZubj6qqiZubiZub////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////8vLy1dXV1dXV////4+Pjqqqqg4yMiJqajqmpg4yMiJqapOPjiJqa
+lLi4n9XVpOPjg4yMiZubn9XVpOPjjqqqiZubjqmpjqqqjqqqlLm5mcbGn9bWqvLyr///g4yMlLm5
+pOTkjqmpmcbGlLm5fn5+lLi4fn5+mcfHr///lLi4r///r///r///r///r///mcfHjIyM4+Pj////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+n9bWr///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///
+r///r///qfLyg4yMmcfHiZubg4yMiZubjqqqiZubfn5+lLm5fn5+lLi4pOPjpOPjntXVhI2Njqmp
+k7e3qvLyg4yMmcfHpOTkfn5+uLi4////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////1dXVg4yMg4yMj6qqg4yMlLi4qvLypOPjjqmpiJqaj6qqlLi4mcbGr///jqmpfn5+
+jqmpg4yMpOTkr///r///k7e3r///r///lLi4lLm5iZubk7i4g4yMj6qqg4yMr///iZubfn5+n9XV
+lLi4mcfHr///r///r///r///lLm5x8fH////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////n9bWr///r///r///r///r///r///r///r///
+r///r///r///r///r///r///r///r///r///r///r///r///r///lLi4g4yMg4yMfn5+iJqaiJqa
+j6qqqvLyfn5+jqmpg4yMg4yMiZublLi4k7e3iZubqvLypOTkn9bWlLi4mcbGg4yM8vLy////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////4+Pj1dXV1dXV1dXV
+1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXV1dXVuLi4qampudTUudTUudTUs8XFudTUudTUtMbG
+tMbGrre3qampjIyMiZycmsfHhI2NiZubfn5+fn5+iZubg4yMn9XVmcbGntTUn9bWiJqa8vLy////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////qsXFr///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///
+r///r///r///r///r///g4yMfn5+g4yMfn5+iZubmsfHjaiojqmpntXVmcbGjqmpmcfHj6qqiZub
+qvLylLi4qfLyr///iZubiZubqamp////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////1dXV1dXV1dXV4+Pj////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////uNPTr///r///r///r///r///r///r///
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///jqmpg4yMjqmpg4yM
+jqmplLi4iZubfn5+mcfHmcfHiJqaj6qqjqqqiZublLm5n9bWr///r///jqmpiZyc5OTk////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////uNPTr///r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///
+r///r///r///r///r///r///fn5+jqmpiJqaiJqapOPjj6qqmcfHiJqaiJqaiZubmcfHiZyclLi4
+iZubfn5+peTkpOPjj6qqjIyM4+Pj////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////uNPTr///r///r///r///r///r///
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///n9bWjqmpfn5+fn5+
+iZubpOTkqfHxn9bWg4yMjqqqmcfHfn5+jqmpl6mpg4yMpOTkmcfHmcbGm5ub8vLy////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////uNPTr///r///r///r///r///r///r///r///r///r///r///r///r///r///r///
+r///r///r///r///r///r///ntTUiZubiZubiZubhI2NiJqafn5+fn5+iJqaj6qqjqmpx8fH////
+////4+PjoKmpfn5+1dXV////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////uNPTr///r///r///r///r///
+r///r///r///r///r///r///r///r///r///r///r///r///r///r///r///qvLyg4yMntXVqvLy
+ntXViJqar///r///iZubfn5+mcfHg4yM1tbW////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////s8XFr///r///r///r///r///r///r///r///r///r///r///r///r///r///
+r///r///r///r///r///r///pOTkpOTkosbGq8bGn9XVr///qvLylLi4lLi4hI2Nfn5+jIyM8vLy
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////1tbWr///r///r///r///
+r///r///r///r///qvLyn9XVn9XVn9XVosbGudTUudTUudTUvcbG1dXV1dXV1dXVnbi4jIyM8vLy
+////8vLyx8fHx8fH8vLy8vLy8vLy1dXV8vLy////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////1tbWn9XVq8bGudTUudTUtMbG1dXV1dXV1dXV1dXV////////////////
+////////////////////////////4+Pj////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////</Data></Thumbnail></Binary></metadata>

@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<title>Highway Network 2011</title>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This statewide file includes all state owned or maintained highways, spurs, connections, frontage roads, temporary traveled routes (TTR) and located lines.</abstract>
+			<purpose>This data is a tool for analytical dynamic segmentation of all state owned or maintained highways for placement of features along the linear network in ArcGIS.  This data provides a detailed view of the state highway system based on the Linear Referencing System (LRS) used by Oregon Department of Transportation.</purpose>
+			<supplinf>This data is intended for use at scales of 1:24,000 or smaller.</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2011</caldate>
+					<time>Unknown</time>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Annually</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-124.500260</westbc>
+				<eastbc>-116.774660</eastbc>
+				<northbc>46.224070</northbc>
+				<southbc>41.918220</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>State Highways 2011</themekt>
+				<themekey>highway</themekey>
+				<themekey>linear reference system</themekey>
+				<themekey>LRS</themekey>
+				<themekey>roads</themekey>
+				<themekey>highways</themekey>
+				<themekey>road</themekey>
+				<themekey>1:24</themekey>
+				<themekey>000</themekey>
+				<themekey>measured shapefile</themekey>
+				<themekey>transportation</themekey>
+				<themekey>hwynet</themekey>
+				<themekey>hwynet_2011</themekey>
+				<themekey>State_Highways</themekey>
+				<themekey>State Highways</themekey>
+				<themekey>State</themekey>
+				<themekey>Highways</themekey>
+				<themekey>State Highways 2011</themekey>
+			</theme>
+			<place>
+				<placekt>Oregon</placekt>
+				<placekey>United States</placekey>
+				<placekey>US</placekey>
+				<placekey>USA</placekey>
+				<placekey>Pacific Northwest</placekey>
+				<placekey>Oregon</placekey>
+				<placekey>OR</placekey>
+			</place>
+			<temporal>
+				<tempkt>2011</tempkt>
+				<tempkey>2011</tempkey>
+			</temporal>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>None</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Geographic Information Services (GIS) Unit, Oregon Department of Transportation (ODOT).</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>555 13th St. NE, Suite #2</address>
+					<city>Salem</city>
+					<state>OR</state>
+					<postal>97301-4178</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>503.986.3154</cntvoice>
+				<cntfax>503.986.4249</cntfax>
+				<cntemail>odot.maps@odot.state.or.us</cntemail>
+				<hours>Monday through Friday, 8:00 AM to 5:00 PM.</hours>
+				<cntinst>Call, email, or write.</cntinst>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Geographic Information Services Unit, Oregon Department of Transportation</datacred>
+		<native>Windows XP Professional SP3, Geomedia Professional v6.0,  ArcGIS v10.0</native>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>HWYNAME, ST_HWY_IDX, ST_HWY_SFX, RDWY_ID, MLGE_TYP, OVLAP_MLGE, BEG_MP_NO, END_MP_NO, LRS, LRM_KEY and HWY_SEG_ID were obtained from ODOT&apos;s current TransInfo (TI) database.  SHAPE was generated from ArcGIS software.  RDWY_TYP, EFFECTV_DT, GIS_PRC_DT and SEG_EFF_DT were determined by the Geographic Information Services Unit.</attraccr>
+		</attracc>
+		<complete>This file is complete at the time of posting and is dependent upon receipt of completed contract/construction information at the time of posting.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Horizontal positional accuracy has been determined to meet or exceed NSDI map accuracy standards for 1:24,000 scale maps.  Accuracy was determined by the combined use of USGS digital ortho photo quads and the NGS benchmarks to apply an accuracy statement to the highway linework via verification of known and visible NGS benchmarks on the orthoquads.</horizpar>
+				<qhorizpa>
+					<horizpav>3.677724</horizpav>
+					<horizpae>See the highway accuracy worksheet for 1:24k highway baselayer on \\sn-salemmill-1\GIS\DATA\shp\docs\highway_accuracy_worksheet.xls</horizpae>
+				</qhorizpa>
+			</horizpa>
+			<vertacc>
+				<vertaccr>No vertical positional accuracy has been determined</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>United States Geologic Survey Denver, Colorado 80225 or Reston, Virginia 22092</origin>
+						<pubdate>1995</pubdate>
+						<title>1:24,000 7.5 minute United States Geologic Survey Quadrangles</title>
+						<geoform>map</geoform>
+					</citeinfo>
+				</srccite>
+				<srccitea>USGS DOQ</srccitea>
+			</srcinfo>
+			<procstep>
+				<procdesc>The highway feature class was exported as a shapefile using Geomedia Pro v6.0: Warehouse &gt; Export to &gt; Shapefile. The file was then imported into ArcGIS where segment length was calculated and it became a measured shapefile.</procdesc>
+				<procdate>2011</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>The shapefile was brought into ArcGIS where the attribute table structure was reviewed and where process and effective dates were added.</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>Lambert Conformal Conic</mapprojn>
+					<lambertc>
+						<stdparll>43.000000</stdparll>
+						<stdparll>45.500000</stdparll>
+						<longcm>-120.500000</longcm>
+						<latprjo>41.750000</latprjo>
+						<feast>400000.000000</feast>
+						<fnorth>0.000000</fnorth>
+					</lambertc>
+				</mapproj>
+				<planci>
+					<plance>Coordinate Pair</plance>
+					<coordrep>
+						<absres>0.004096</absres>
+						<ordres>0.004096</ordres>
+					</coordrep>
+					<plandu>International Feet</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257000</denflat>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altdatum>North American Vertical Datum of 1988</altdatum>
+				<altunits>feet</altunits>
+				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+			<depthsys>
+				<depthem>Explicit depth coordinate included with horizontal coordinates</depthem>
+			</depthsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<overview>
+			<eaover>hwynet_2011 contains HWYNAME, LRS, LRM_KEY, ST_HWY_IDX, ST_HWY_SFX, RDWY_ID, RDWY_TYP, MLGE_TYP, OVLAP_MLGE, BEG_MP_NO, END_MP_NO, EFFECTV_DT, HWY_SEG_ID, SEG_EFF_DT, SHAPE, and GIS_PRC_DT.</eaover>
+		</overview>
+		<detailed>
+			<attr>
+				<attrlabl>BEG_MP_NO</attrlabl>
+				<attrdef>The milepoint measurement of the beginning of a roadway feature which is closest to the beginning of the highway.</attrdef>
+				<attrdefs>Oregon Transportation Management System (OTMS) GIS Base Layer Development Project (GIS01)</attrdefs>
+				<attrvai>
+					<attrva>0.020000</attrva>
+					<attrvae>TransInfo (TI) measurements are based on features located to +/- 0.02 mile.</attrvae>
+				</attrvai>
+			</attr>
+			<attr>
+				<attrlabl>EFFECTV_DT</attrlabl>
+				<attrdef>This date or time period in which the data extract is relevant or current.</attrdef>
+				<attrdefs>Geographic Information Services Unit, Oregon Department of Transportation(ODOT).</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>END_MP_NO</attrlabl>
+				<attrdef>The milepoint measurement of the end of a roadway feature which is closest to the end of the highway</attrdef>
+				<attrdefs>Oregon Transportation Management System (OTMS) GIS Base Layer Development Project (GIS01)</attrdefs>
+				<attrvai>
+					<attrva>0.020000</attrva>
+					<attrvae>TransInfo (TI) measurements are based on features located to +/- 0.02 mile.</attrvae>
+				</attrvai>
+			</attr>
+			<attr>
+				<attrlabl>GIS_PRC_DT</attrlabl>
+				<attrdef>The date that the data was processed.</attrdef>
+				<attrdefs>Geographic Information Services Unit, Oregon Department of Transportation(ODOT)</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>HWY_SEG_ID</attrlabl>
+				<attrdef>A unique key field for segment identification.</attrdef>
+				<attrdefs>Geographic Information Services Unit, Oregon Department of Transportation(ODOT)</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>HWYNAME</attrlabl>
+				<attrdef>The official state highway name.</attrdef>
+				<attrdefs>Integrated Transportation Information System (ITIS) database, Oregon Department of Transportation(ODOT)</attrdefs>
+				<attrdomv>
+					<udom>The official name of the state highway that is stored in the TransInfo (TI) database.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>LRS</attrlabl>
+				<attrdef>Linear Reference System highway identifier.  This is a representation of elements contained in the TransInfo (TI) database used to identify a highway, spur, connection or frontage road.  The first nine characters are the inventory route numbers and the last three characters are the sub-route numbers.</attrdef>
+				<attrdefs>Oregon Transportation Management System (OTMS) GIS Base Layer Development Project (GIS01)</attrdefs>
+				<attrdomv>
+					<udom>The twelve digit alphanumeric string is broken down into its components as:
+
+1:         Place holder 0 (zero)
+
+2-4:      Hwy Number 001 to 499
+
+5-6:      Hwy Suffix 00 (zero zero), AA-ZZ (alphabetic characters)
+
+7:         Roadway Identifier (1,2,5)
+
+8:         Mileage Type 0 (zero), Z (overlap)
+
+9:         Overlap Mileage Code (0-9)
+
+10:       Jurisdiction Code (S)
+
+11-12:  Two Place holders 00 (zero zero)</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>LRM_KEY</attrlabl>
+				<attrdef>Linear Reference Method highway identifier. This is a representation of elements contained in the TransInfo (TI) database used to identify a highway, connection or frontage road. The first five characters are the inventory route numbers and the last three characters are the sub-route numbers.</attrdef>
+				<attrdefs>Oregon Transportation Management System (OTMS) GIS Base Layer Development Project (GIS01)</attrdefs>
+				<attrdomv>
+					<udom>The eight character alphanumeric string is broken down into its components as: 1-3:Hwy Number 001 to 499 4-5:Hwy Suffix 00 (zero zero) or AA-ZZ (alphabetic characters) 6:Roadway Identifier (I, D) 7:Mileage Type (Z, P) 8:Overlap Mileage Code (0-9)</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>MLGE_TYP</attrlabl>
+				<attrdef>Identifies the type of highway mileage.</attrdef>
+				<attrdefs>Oregon Transportation Management System (OTMS) GIS Base Layer Development Project (GIS01)</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0</edomv>
+						<edomvd>Regular mileage.</edomvd>
+						<edomvds>TransInfo (TI)</edomvds>
+					</edom>
+					<edom>
+						<edomv>z</edomv>
+						<edomvd>Overlapping Mileage:  Overlapping mileage occurs when a section of highway is lengthened due to new construction.  Example:  A section of highway from milepoint 49.00 to milepoint 50.00 is washed out.  The washed out section must be replaced, but, the old alignment cannot be used.  A new alignment is built around the problem area, but the new alignment is 4.62 miles longer than the original alignment.  The new distance between milepoint 49.00 and milepoint 50 is now 5.62 miles.  In order to reflect the true distance along the highway without remileposting the entire road, overlapping mileage is created.</edomvd>
+						<edomvds>TransInfo (TI)</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>OVLAP_MLGE</attrlabl>
+				<attrdef>A code that is used to identify each unique instance of duplicate milepoints.</attrdef>
+				<attrdefs>Oregon Transportation Management System (OTMS) GIS Base Layer Development Project (GIS01)</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>0</edomv>
+						<edomvd>No occurrence of duplicate mileage on a specific highway.</edomvd>
+						<edomvds>TransInfo (TI)</edomvds>
+					</edom>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>First occurrence of duplicate mileage on a specific highway.</edomvd>
+						<edomvds>TransInfo (TI)</edomvds>
+					</edom>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>Second occurrence of duplicate mileage on a specific highway.</edomvd>
+						<edomvds>TransInfo (TI)</edomvds>
+					</edom>
+					<edom>
+						<edomv>3</edomv>
+						<edomvd>Third occurrence of duplicate mileage on a specific highway.</edomvd>
+						<edomvds>TransInfo (TI)</edomvds>
+					</edom>
+					<edom>
+						<edomv>4</edomv>
+						<edomvd>Fourth occurrence of duplicate mileage on a specific highway.</edomvd>
+						<edomvds>TransInfo (TI)</edomvds>
+					</edom>
+					<edom>
+						<edomv>5</edomv>
+						<edomvd>Fifth occurrence of duplicate mileage on a specific highway.</edomvd>
+						<edomvds>TransInfo (TI)</edomvds>
+					</edom>
+					<edom>
+						<edomv>6</edomv>
+						<edomvd>Sixth occurrence of duplicate mileage on a specific highway.</edomvd>
+						<edomvds>TransInfo (TI)</edomvds>
+					</edom>
+					<edom>
+						<edomv>7</edomv>
+						<edomvd>Seventh occurrence of duplicate mileage on a specific highway.</edomvd>
+						<edomvds>TransInfo (TI)</edomvds>
+					</edom>
+					<edom>
+						<edomv>8</edomv>
+						<edomvd>Eighth occurrence of duplicate mileage on a specific highway.</edomvd>
+						<edomvds>TransInfo (TI)</edomvds>
+					</edom>
+					<edom>
+						<edomv>9</edomv>
+						<edomvd>Ninth occurrence of duplicate mileage on a specific highway.</edomvd>
+						<edomvds>TransInfo (TI)</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RDWY_ID</attrlabl>
+				<attrdef>The number assigned to a roadway where more than one roadbed exists for the highway.</attrdef>
+				<attrdefs>Oregon Transportation Management System (OTMS) GIS Base Layer Development Project (GIS01)</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>The primary roadway.  Direction of travel is in the direction of increasing milepoints.</edomvd>
+						<edomvds>TransInfo (TI)</edomvds>
+					</edom>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>The secondary roadway.  Direction of travel is in the direction of decreasing milepoints.</edomvd>
+						<edomvds>TransInfo (TI)</edomvds>
+					</edom>
+					<edom>
+						<edomv>5</edomv>
+						<edomvd>Located line.</edomvd>
+						<edomvds>TransInfo (TI)</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>RDWY_TYP</attrlabl>
+				<attrdef>A unique identifier assigned to the roadway designating a spur, frontage road, connection or regular roadway.</attrdef>
+				<attrdefs>Oregon Transportation Management System (OTMS) GIS Base Layer Development Project (GIS01)</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>reg</edomv>
+						<edomvd>Regular highway</edomvd>
+						<edomvds>Geographic Information Services Unit (GISU)</edomvds>
+					</edom>
+					<edom>
+						<edomv>frt</edomv>
+						<edomvd>Frontage road</edomvd>
+						<edomvds>Geographic Information Services Unit (GISU)</edomvds>
+					</edom>
+					<edom>
+						<edomv>con</edomv>
+						<edomvd>Connection</edomvd>
+						<edomvds>Geographic Information Services Unit (GISU)</edomvds>
+					</edom>
+					<edom>
+						<edomv>spr</edomv>
+						<edomvd>Spur</edomvd>
+						<edomvds>Geographic Information Services Unit (GISU)</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SEG_EFF_DT</attrlabl>
+				<attrdef>The date in which the line segment was created in the Geomedia database(wpsdcdb006/HGIS)</attrdef>
+				<attrdefs>Geographic Information Services Unit, Oregon Department of Transportation(ODOT)</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>SHAPE</attrlabl>
+				<attrdef>Feature Geometry</attrdef>
+				<attrdefs>Environmental Systems Research Institute(ESRI)</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Polyline</edomv>
+						<edomvd>Polylines are sets of coordinate pairs that define a shape.  These types of features represent an ordered collection of paths that can be disjoint or connected.  These features may also contain an optional altitude (Z) or measure (M) values.</edomvd>
+						<edomvds>Environmental Systems Research Institute(ESRI)</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ST_HWY_IDX</attrlabl>
+				<attrdef>A unique identifier assigned to an Oregon State highway.</attrdef>
+				<attrdefs>Oregon Transportation Management System (OTMS) GIS Base Layer Development Project (GIS01)</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>001</rdommin>
+						<rdommax>499</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ST_HWY_SFX</attrlabl>
+				<attrdef>The main road or highway identifier is a three digit numeric code.  Frontage roads and connections are identified by the three digits plus a two alpha-character suffix code.</attrdef>
+				<attrdefs>Oregon Transportation Management System (OTMS) GIS Base Layer Development Project (GIS01)</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>AA</rdommin>
+						<rdommax>ZZ</rdommax>
+					</rdom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Geographic Information Services Unit, Oregon Department of Transportation (ODOT)</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>555 13th St. NE, Suite #2</address>
+					<city>Salem</city>
+					<state>OR</state>
+					<postal>97301</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>503.986.3154</cntvoice>
+				<cntfax>503.986.4249</cntfax>
+				<cntemail>odot.maps@odot.state.or.us</cntemail>
+				<hours>Monday through Friday, 8:00 AM to 5:00 PM</hours>
+				<cntinst>Call, email, or write.</cntinst>
+			</cntinfo>
+		</distrib>
+		<distliab>This product is for informational purposes and may not have been prepared for legal, engineering or surveying purposes. Users of this information should review or consult the primary data and information sources to ascertain the usability of the information.</distliab>
+	</distinfo>
+	<metainfo>
+		<metd>20130102</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Geographic Information Services (GIS) Unit, Oregon Department of Transportation (ODOT).</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>555 13th St. NE, Suite #2</address>
+					<city>Salem</city>
+					<state>OR</state>
+					<postal>97301-4178</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>503.986.3154</cntvoice>
+				<cntfax>503.986.4249</cntfax>
+				<cntemail>odot.maps@odot.state.or.us</cntemail>
+				<hours>Monday through Friday, 8:00 AM to 5:00 PM.</hours>
+				<cntinst>Call, email, or write.</cntinst>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>SMMS 5.2</metstdv>
+		<mettc>local time</mettc>
+		<metac>none</metac>
+		<metuc>none</metuc>
+		<metsi>
+			<metsc>Unclassified</metsc>
+		</metsi>
+	</metainfo>
+</metadata>

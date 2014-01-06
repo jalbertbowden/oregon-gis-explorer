@@ -1,0 +1,598 @@
+<HTML>
+<HEAD>
+  <TITLE> FGDC Metadata for PLSS</TITLE>
+</HEAD>
+<BODY>
+<H1><font face="Arial, Helvetica, sans-serif"> Metadata for PLSS </font></H1>
+<PRE>
+<H3><font face="Arial, Helvetica, sans-serif"><A name="TOC"> Table of Contents </A>
+</font></H3>
+<PRE>
+<font face="Arial, Helvetica, sans-serif"><A href="#section1">Identification_Information</A>
+     <A href="#section1.2.1">Abstract </A>
+     <A href="#section1.2.2">Purpose </A>
+     <A href="#section1.2.3">Supplemental Information </A>
+<A href="#section2">Data_Quality_Information</A>
+<A href="#section3">Spatial_Data_Organization_Information</A>
+<A href="#section4">Spatial_Reference_Information</A>
+<A href="#section5">Entity_and_Attribute_Information</A>
+     <A href="#section5">Detailed Description</A>
+     <A href="#section5.2.1">Overview </A>
+<A href="#section6">Distribution_Information</A>
+<A href="#section7">Metadata_Reference_Section</A>
+
+</font><HR>
+<H3><font face="Arial, Helvetica, sans-serif"><A name="section1">Identification_Information </A>
+</font></H3>
+<font face="Arial, Helvetica, sans-serif"><B><A name="section1.1">Citation_Information </A></B>
+    <B>Originator:</B> 
+    <B>Publication_Date:</B> 
+    <B>Title:</B> Public Land Survey System
+
+<B><A name="section1.2">Description </A></B> 
+    <B><A name="section1.2.1">Abstract</A></B>
+    This theme contains PLS lines for the State of Oregon.  This
+    Pls theme includes donation claims lands.  Attributes in this
+    theme show Township Range and Section values.
+     
+     
+    <B><A name="section1.2.2">Purpose</A></B>
+    The purpose of this theme is to delineate the Oregon Public Land
+    survey lines including the donation land claim parcels.
+     
+     
+<B><A name="section1.2.3">Supplemental_Information</A></B>
+    <B>Procedures_Used</B>
+    The PLSS theme was created from USGS 1:100,000 DLGs.  No records
+    exist of the process used to convert the DLG files into Arc/Info
+    format.  In May of 1994 the service center dissolved the existing
+    coverage on the loc-dlc item.  Once the dissolve was complete the
+    theme was cleaned using a dangle length of 1.5 and a fuzzy-tolerance
+    of 1.5 using the poly option.  The next step was using the centroid-
+    labels command with the inside option.  (This moved the polygon
+    labels to the center of the polygon.) The build command was used to
+    create topology after the labels were moved.  The addxy command was
+    used to create the x-coord and the y-coord items.  The cover was
+    exported three times.  The external command was run on the theme to
+    correct the info file.  The theme was than exported a fourth time.
+    The PLS theme was copied to another work directory where it was
+    exported 4 more times over the ensuing 3 years.  In February of
+    1997 the them was imported and projected into the state transfer
+    standard.  Once the theme was project it had topology built.
+    Final the theme was imported in again so metadata could be created.
+     
+     
+    <B>Revisions</B>
+    The current version has not been revised
+     
+     
+    <B>Reviews_Applied_to_Data</B>
+    This theme is a legacy data theme.  No current members of the SSCGIS or
+    the OWRD theme were around when it was created.  The data table has
+    been spot checked, but the other checks that occured are unknown.
+     
+     
+    <B>Related_Spatial_and_Tabular_Data_Sets</B>
+    None
+     
+     
+    <B>References_Cited</B>
+    This theme was created from 1:100,000K dlg data by the Oregon
+    Department of Water Resources.
+     
+     
+    <B>Notes</B>
+    Errors have been identified in the PLS theme around the borders
+    of Oregon.  Cleanup work is planned, but it is a low priority
+    item.
+     
+     
+<B><A name="section1.3">Time_Period_of_Content</A></B>
+    <B>Single_Date/Time</B>
+    Calendar_Date: 1994
+    <B>Currentness_Reference</B>
+    The theme was created prior to 1994 from data of unknown age.
+     
+     
+<B><A name="section1.4">Status</A></B>
+    <B>Progress:</B> complete
+    <B>Maintenance_and_Update_Frequency</B>
+    Irregular
+     
+     
+<B><A name="section1.5">Spatial_Domain</A></B>
+    <B>Bounding_Coordinates</B>
+    West_Bounding_Coordinate: -124.80720876
+    East_Bounding_Coordinate: -116.42039627
+    North_Bounding_Coordinate: 46.21878871
+    South_Bounding_Coordinate: 41.91989517
+
+<B><A name="section1.6">Keywords</A></B>
+    <B>Theme</B>
+        Theme_Keyword_Thesaurus: None
+        Theme_Keyword:  Oregon, PLS, Public Land Survey
+    <B>Place</B>
+        Place_Keyword_Thesaurus: None
+        Place_Keyword:  State of Oregon
+    <B>Stratum</B>
+        Stratum_Keyword_Thesaurus: None
+        Stratum_Keyword:
+    <B>Temporal</B>
+        Temporal_Keyword_Thesaurus: None
+        Temporal_Keyword:
+
+<B><A name="section1.7">Access_Constraints</A></B>
+N/A
+ 
+ 
+<B><A name="section1.8">Use_Constraints</A></B>
+The data is designed to delineate the location of the Public Land
+Survey lines for the state of Oregon.  The data was derived from
+1:100000 scale USGS DLG data.
+ 
+ 
+<B><A name="section1.9">Point_of_Contact:</A></B> See <A href="#section6">Distribution_Information</A> for contact information.
+
+<B><A name="section1.12">Data_Set_Credit</A></B>
+USGS created the DLGs the PLS was derived from, OWRD converted the
+data to Arc/Info format.  The SSCGIS put the data into its current
+format.
+ 
+ 
+<B><A name="section1.12">Security_Information</A></B>
+    Security_Classification_System: None
+    Security_Classification:  UNCLASSIFIED
+    Security_Handling_Description: None
+
+<B><A name="section1.13">Native_Data_Set_Environment:</A></B> Windows_NT Windows_NT, ARC/INFO version 7.1.1
+
+<B>Cross_Reference</B>
+    <B>Originator:</B> USGS
+    <B>Publication_Date:</B> 
+    <B>Publication_Time:</B> 
+    <B>Title:</B> 100k Digital Line Graph
+    <B>Edition:</B> 
+    <B>Geospatial_Data_Presentation_Form:</B> 
+    <B>Series_Information</B>
+        Series_Name: 
+        Issue_Identification: 
+    <B>Publication_Information</B>
+        Publication_Place: 
+        Publisher: 
+    <B>Other_Citation_Details:</B> 
+    <B>Online_Linkage:</B> 
+    <B>Larger_Work_Citation:</B> 
+<BR>
+
+</font><HR>
+<H3><font face="Arial, Helvetica, sans-serif"><A name="section2">Data_Quality_Information</A>
+</font></H3>
+<font face="Arial, Helvetica, sans-serif"><B>Attribute_Accuracy</B>
+    <B>Attribute_Accuracy_Report:</B> See <A href="#section5">Entity_Attribute_Information</A>
+
+    <B>Quantitative_Attribute_Accuracy_Assessment</B>
+        Attribute_Accuracy_Value:  See Explanation
+        Attribute_Accuracy_Explanation:
+           Attribute accuracy is described, where present, with each
+           attribute defined in the Entity and Attribute Section.
+
+<B><A name="section2.2">Logical_Consistency_Report:</A></B> Polygon topology present.
+
+<B><A name="section2.3">Completeness_Report</A></B>
+Unknown
+ 
+ 
+<B><A name="section12.4">Positional_Accuracy </A></B>
+    <B>Horizontal_Positional_Accuracy</B>
+        Horizontal_Positional_Accuracy_Report:
+        Unknown
+         
+         
+<BR>
+<BR>
+    <B>Vertical_Positional_Accuracy</B>
+        Vertical_Positional_Accuracy_Report:
+        Unknown
+         
+         
+<B><A name="section12.5">Lineage:</A></B> See <A href="#section1.2.3">Supplemental_Information</A> for overview.
+
+<B>Process_Steps</B>
+    <B>Process_Step</B>
+    Process_Description: DISSOLVE PLSDIS PLSD LOC-DLC
+    Source_Used_Citation_Abbreviation:None
+    Process_Date:  19940516 
+    Process_Time:   931
+    Source_Produced_Citation_Abbreviation: None
+    <B>Process_Step</B>
+    Process_Description: CLEAN PLSD PLS 1.5 1.5 POLY
+    Source_Used_Citation_Abbreviation:None
+    Process_Date:  19940516 
+    Process_Time:  1414
+    Source_Produced_Citation_Abbreviation: None
+    <B>Process_Step</B>
+    Process_Description: CENTROIDLABELS PLS INSIDE
+    Source_Used_Citation_Abbreviation:None
+    Process_Date:  19940516 
+    Process_Time:  1415
+    Source_Produced_Citation_Abbreviation: None
+    <B>Process_Step</B>
+    Process_Description: BUILD PLS POLY
+    Source_Used_Citation_Abbreviation:None
+    Process_Date:  19940516 
+    Process_Time:  1434
+    Source_Produced_Citation_Abbreviation: None
+    <B>Process_Step</B>
+    Process_Description: ADDXY PLS POINT
+    Source_Used_Citation_Abbreviation:None
+    Process_Date:  19940516 
+    Process_Time:  1437
+    Source_Produced_Citation_Abbreviation: None
+    <B>Process_Step</B>
+    Process_Description: EXPORT COVER PLS PLS NONE
+    Source_Used_Citation_Abbreviation:None
+    Process_Date:  19940516 
+    Process_Time:  1513
+    Source_Produced_Citation_Abbreviation: None
+    <B>Process_Step</B>
+    Process_Description: EXPORT COVER PLS PLS NONE
+    Source_Used_Citation_Abbreviation:None
+    Process_Date:  19940516 
+    Process_Time:  1701
+    Source_Produced_Citation_Abbreviation: None
+    <B>Process_Step</B>
+    Process_Description: EXPORT COVER PLS PLS NONE
+    Source_Used_Citation_Abbreviation:None
+    Process_Date:  19940606 
+    Process_Time:  1120
+    Source_Produced_Citation_Abbreviation: None
+    <B>Process_Step</B>
+    Process_Description: EXTERNALALL
+    Source_Used_Citation_Abbreviation:None
+    Process_Date:  19940715 
+    Process_Time:  1720
+    Source_Produced_Citation_Abbreviation: None
+    <B>Process_Step</B>
+    Process_Description: EXPORT COVER PLS PLS
+    Source_Used_Citation_Abbreviation:None
+    Process_Date:  19940809 
+    Process_Time:  1452
+    Source_Produced_Citation_Abbreviation: None
+    <B>Process_Step</B>
+    Process_Description: COPY PLS /DLIB/UTIL/K100/PLS
+    Source_Used_Citation_Abbreviation:None
+    Process_Date:  19940906 
+    Process_Time:  1433
+    Source_Produced_Citation_Abbreviation: None
+    <B>Process_Step</B>
+    Process_Description: EXPORT COVER PLS PLS
+    Source_Used_Citation_Abbreviation:None
+    Process_Date:  19940906 
+    Process_Time:  1737
+    Source_Produced_Citation_Abbreviation: None
+    <B>Process_Step</B>
+    Process_Description: EXPORT COVER /DLIB/UTIL/K100/PLS PLS.E00
+    Source_Used_Citation_Abbreviation:None
+    Process_Date:  19941010 
+    Process_Time:  1014
+    Source_Produced_Citation_Abbreviation: None
+    <B>Process_Step</B>
+    Process_Description: EXPORT COVER /DLIB/UTIL/K100/PLS PLSS.E00
+    Source_Used_Citation_Abbreviation:None
+    Process_Date:  19941019 
+    Process_Time:  1738
+    Source_Produced_Citation_Abbreviation: None
+    <B>Process_Step</B>
+    Process_Description: EXPORT COVER /DLIB/UTIL/K100/PLS PLSS.E00
+    Source_Used_Citation_Abbreviation:None
+    Process_Date:  19950313 
+    Process_Time:  1523
+    Source_Produced_Citation_Abbreviation: None
+    <B>Process_Step</B>
+    Process_Description: ALL IMPORT COVER PLS.E00 PLS
+    Source_Used_Citation_Abbreviation:None
+    Process_Date:  19970204 
+    Process_Time:  2257
+    Source_Produced_Citation_Abbreviation: None
+    <B>Process_Step</B>
+    Process_Description: ALL PROJECT COVER PLS /DATA/FTP/DATA/STATEWIDE/K100/PLS /DATA/CARTO/PROJECT/LAM3
+    Source_Used_Citation_Abbreviation:None
+    Process_Date:  19970205 
+    Process_Time:  1130
+    Source_Produced_Citation_Abbreviation: None
+    <B>Process_Step</B>
+    Process_Description: ALL  BUILD /DATA/FTP/DATA/STATEWIDE/K100/PLS POLY
+    Source_Used_Citation_Abbreviation:None
+    Process_Date:  19970205 
+    Process_Time:  1145
+    Source_Produced_Citation_Abbreviation: None
+    <B>Process_Step</B>
+    Process_Description: SJB IMPORT COVER PLS.E00 PLS
+    Source_Used_Citation_Abbreviation:None
+    Process_Date:  19971212 
+    Process_Time:  1144
+    Source_Produced_Citation_Abbreviation: None
+    <B>Process_Step</B>
+    Process_Description: SJB   DOCUMENT PLS CREATE SJB
+    Source_Used_Citation_Abbreviation:None
+    Process_Date:  19971218 
+    Process_Time:  1148
+    Source_Produced_Citation_Abbreviation: None
+    <B>Process_Step</B>
+    Process_Description: SJB   DOCUMENT PLS UPDATE SJB
+    Source_Used_Citation_Abbreviation:None
+    Process_Date:  19971218 
+    Process_Time:  1245
+    Source_Produced_Citation_Abbreviation: None
+
+<B><A name="section12.5">Cloud_Cover</A></B>
+N/A
+ 
+ 
+</font><HR>
+<H3><font face="Arial, Helvetica, sans-serif"><A name="section3">Spatial_Data_Organization_Information</A>
+</font></H3>
+<font face="Arial, Helvetica, sans-serif"><B><A name="section3.2">Direct_Spatial_Reference_Method:</A></B> Vector
+<BR>
+<B>Point_and_Vector_Object_Information</B>
+    <B>SDTS_Terms_Description</B>
+        SDTS_Point_and_Vector_Object_Type: Point
+        Point_and_Vector_Object_Count: 103721
+        SDTS_Point_and_Vector_Object_Type: String
+        Point_and_Vector_Object_Count: 224234
+        SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains'
+        Point_and_Vector_Object_Count:  103670
+
+</font><HR>
+<H3><font face="Arial, Helvetica, sans-serif"><A name="section4">Spatial_Reference_Information </A>
+</font></H3>
+<font face="Arial, Helvetica, sans-serif"><B><A name="section4.1">Horizontal_Coordinate_System_Definition </A></B>
+</font><PRE>
+    <font face="Arial, Helvetica, sans-serif"><B>Planar</B>
+        Map_Projection:
+        Map_Projection_Name:  LAMBERT
+        Longitude_of_Central_Meridian: -120.5
+        Latitude_of_Projection_Origin: 41.75
+        Latitude_of_First_Standard_Parallel: 43
+        Latitude_of_Second_Standard_Parallel: 45.5
+        False_Easting:  400000.00000
+        False_Northing:  0.00000
+    <B>Planar_Coordinate_Information</B>
+	Planar_Coordinate_Encoding_Method: coordinate pair
+	Planar_Distance_Units: international feet, 3.28084 (.3048 meters)
+    <B>Geodetic Model</B>
+        Horizontal_Datum_Name: North American Datum of 1983
+        Ellipsoid_Name:  GRS1980
+
+</font><HR>
+<H3><font face="Arial, Helvetica, sans-serif"><A name="section5">Entity_and_Attribute_Information </A>
+</font></H3>
+<font face="Arial, Helvetica, sans-serif"><B><A name="section5.1">Detailed_Description </A></B>
+    <B>Entity_Type</B>
+    <B>Entity_Type_Label:</B> PLS.PAT
+    <B>Entity_Type_Definition:</B> Public Land Systems (PLS)
+    <B>Entity_Type_Definition_Source:</B> ARC/INFO
+    <B>Attribute:</B>
+        Attribute_Label: -
+        Attribute_Definition: Public Land Systems (PLS)
+        Attribute_Definition_Source: ARC/INFO
+        Attribute_Domain_Values
+            Enumerated_Domain
+                Enumerated_Domain_Value: -
+                Enumerated_Domain_Value_Definition
+                Enumerated_Domain_Value_Definition_Source:
+    <B>Attribute:</B>
+        Attribute_Label: AREA
+        Attribute_Definition: Area of poly/region in square coverage units
+        Attribute_Definition_Source: Computed
+        Attribute_Domain_Values
+            Enumerated_Domain
+                Enumerated_Domain_Value: Positive real numbers
+                Enumerated_Domain_Value_Definition
+                Enumerated_Domain_Value_Definition_Source:
+    <B>Attribute:</B>
+        Attribute_Label: PERIMETER
+        Attribute_Definition: Perimeter of poly/region in coverage units
+        Attribute_Definition_Source: Computed
+        Attribute_Domain_Values
+            Enumerated_Domain
+                Enumerated_Domain_Value: Positive real numbers
+                Enumerated_Domain_Value_Definition
+                Enumerated_Domain_Value_Definition_Source:
+    <B>Attribute:</B>
+        Attribute_Label: PLS#
+        Attribute_Definition: Internal feature number
+        Attribute_Definition_Source: Computed
+        Attribute_Domain_Values
+            Enumerated_Domain
+                Enumerated_Domain_Value: Sequential unique positive integer
+                Enumerated_Domain_Value_Definition
+                Enumerated_Domain_Value_Definition_Source:
+    <B>Attribute:</B>
+        Attribute_Label: PLS-ID
+        Attribute_Definition: User-assigned feature number
+        Attribute_Definition_Source: User-defined
+        Attribute_Domain_Values
+            Enumerated_Domain
+                Enumerated_Domain_Value: Integer
+                Enumerated_Domain_Value_Definition
+                Enumerated_Domain_Value_Definition_Source:
+    <B>Attribute:</B>
+        Attribute_Label: TOWNSHIP
+        Attribute_Definition: Township Number
+        Attribute_Definition_Source: USGS
+        Attribute_Domain_Values
+            Enumerated_Domain
+                Enumerated_Domain_Value: Valid Oregon Township Number
+                Enumerated_Domain_Value_Definition
+                Enumerated_Domain_Value_Definition_Source:
+    <B>Attribute:</B>
+        Attribute_Label: TWP.CHAR
+        Attribute_Definition: Township Direction Character
+        Attribute_Definition_Source: unknown
+        Attribute_Domain_Values
+            Enumerated_Domain
+                Enumerated_Domain_Value: N (North) or S (South)
+                Enumerated_Domain_Value_Definition
+                Enumerated_Domain_Value_Definition_Source:
+    <B>Attribute:</B>
+        Attribute_Label: RANGE
+        Attribute_Definition: Range number
+        Attribute_Definition_Source: 
+        Attribute_Domain_Values
+            Enumerated_Domain
+                Enumerated_Domain_Value: A valid range for Oregon
+                Enumerated_Domain_Value_Definition
+                Enumerated_Domain_Value_Definition_Source:
+    <B>Attribute:</B>
+        Attribute_Label: RNG.CHAR
+        Attribute_Definition: Range Character
+        Attribute_Definition_Source: Unknown
+        Attribute_Domain_Values
+            Enumerated_Domain
+                Enumerated_Domain_Value: E or W
+                Enumerated_Domain_Value_Definition
+                Enumerated_Domain_Value_Definition_Source:
+    <B>Attribute:</B>
+        Attribute_Label: SECTION
+        Attribute_Definition: Section Number
+        Attribute_Definition_Source: Unknown
+        Attribute_Domain_Values
+            Enumerated_Domain
+                Enumerated_Domain_Value: 1-36
+                Enumerated_Domain_Value_Definition
+                Enumerated_Domain_Value_Definition_Source:
+    <B>Attribute:</B>
+        Attribute_Label: DLC
+        Attribute_Definition: Donation Land Claim
+        Attribute_Definition_Source: Unknown
+        Attribute_Domain_Values
+            Enumerated_Domain
+                Enumerated_Domain_Value: -99
+                Enumerated_Domain_Value_Definition
+                Enumerated_Domain_Value_Definition_Source:
+    <B>Attribute:</B>
+        Attribute_Label: X-COORD
+        Attribute_Definition: X Coordinate for center point of each polygon
+        Attribute_Definition_Source: Created by SSCGIS using ArcInfo addxy command
+        Attribute_Domain_Values
+            Enumerated_Domain
+                Enumerated_Domain_Value: Unknown
+                Enumerated_Domain_Value_Definition
+                Enumerated_Domain_Value_Definition_Source:
+    <B>Attribute:</B>
+        Attribute_Label: Y-COORD
+        Attribute_Definition: Y-Coordinate for each polygon
+        Attribute_Definition_Source: Created by SSCGIS using addxy command
+        Attribute_Domain_Values
+            Enumerated_Domain
+                Enumerated_Domain_Value: Unknown
+                Enumerated_Domain_Value_Definition
+                Enumerated_Domain_Value_Definition_Source:
+    <B>Attribute:</B>
+        Attribute_Label: LOC-DLC
+        Attribute_Definition: Township, Township Character, Range, Range Character and section
+        Attribute_Definition_Source: redefined from previous items
+        Attribute_Domain_Values
+            Enumerated_Domain
+                Enumerated_Domain_Value: Valid Oregon Township Range and sections
+                Enumerated_Domain_Value_Definition
+                Enumerated_Domain_Value_Definition_Source:
+    <B>Attribute:</B>
+        Attribute_Label: TR
+        Attribute_Definition: Township and Range
+        Attribute_Definition_Source: Redifined from township and Range items
+        Attribute_Domain_Values
+            Enumerated_Domain
+                Enumerated_Domain_Value: Vailid Oregon Township and Range
+                Enumerated_Domain_Value_Definition
+                Enumerated_Domain_Value_Definition_Source:
+    <B>Attribute:</B>
+        Attribute_Label: LOC-INFO
+        Attribute_Definition: Township, Township Characters, Range, Range Characters and Section
+        Attribute_Definition_Source: Redefined from earlier items
+        Attribute_Domain_Values
+            Enumerated_Domain
+                Enumerated_Domain_Value: Valid Township, Range and Sections for Oregon
+                Enumerated_Domain_Value_Definition
+                Enumerated_Domain_Value_Definition_Source:
+
+<B><A name="section5.2"> Overview_Description </A></B>
+    <B><A name="section5.2.1">Entity_and_Attribute_Overview </A></B>
+    This theme contains attributes describing the township range and
+    section numbers.  It also shows location of PLS lines.
+     
+     
+    <B>Entity_and_Attribute_Detail_Citation:</B> Not Available
+
+</font><HR>
+<H3><font face="Arial, Helvetica, sans-serif"><A name="section6">Distribution_Information </A>
+</font></H3>
+<PRE>
+<font face="Arial, Helvetica, sans-serif"><B>Distributor</B>
+    <B>Contact_Person_Primary</B>
+        Contact_Person: Steve Barnett
+        Contact_Organization: State Service Center for GIS
+    <B>Contact_Position:</B> Data Administrator
+ 
+    <B>Contact_Address</B>
+        Address_Type: mailing address
+        Address: 155 Cottage Street NE
+        City: Salem
+        State_or_Province: OR
+        Postal_Code: 97310
+        Country: USA
+ 
+    <B>Contact_Voice_Telephone:</B> (503)378-2166
+ 
+ 
+    <B>Contact_Facsimile_Telephone:</B> (503)986-3242
+    <B>Contact_Electronic_Mail_Address:</B> data@sscgis.state.or.us
+ 
+    <B>Hours_of_Service:</B> 6:30 AM - 4:30 PM Tuesday - Friday
+ 
+ 
+<B>Resource_Description:</B> Oregon PLS no donation land claims
+ 
+<B>Distribution_Liability:</B> no liability is assumed by sscgis
+ 
+<B>Standard_Order_Process</B>
+
+
+<B>Available_Time_Period</B>
+    Beginning_Date/Time: complete and available
+    Ending_Date/Time: unknown
+ 
+</font><HR>
+<H3><font face="Arial, Helvetica, sans-serif"><A name="section7">Metadata_Reference_Section</A>
+</font></H3><font face="Arial, Helvetica, sans-serif">
+Metadata_Date: 19971218
+Metadata_Contact:
+   Contact_Information:
+    Contact_Person_Primary:
+      Contact_Person: Steve Barnett
+      Contact_Organization: State Service Center for GIS
+    Contact_Position: Data Administrator
+    Contact_Address:
+      Address_Type: mailing address
+      Address: 155 Cottage Street NE
+      City: Salem
+      State_or_Province: OR
+      Postal_Code: 97310
+      Country: USA
+    Contact_Voice_Telephone: (503)378-2166
+    Contact_Facsimile_Telephone: (503)986-3242
+    Contact_Electronic_Mail_Address: data@sscgis.state.or.us
+    Hours_of_Service: 6:30 AM - 4:30 PM Tuesday - Friday
+ 
+Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+Metadata_Standard_Version:  19940608
+Metadata_Time_Convention:  Local Time
+Metadata_Security_Information:
+    Metadata_Security_Classification_System:  None
+    Metadata_Security_Classification:  UNCLASSIFIED
+    Metadata_Security_Handling_Description:  None
+</font></PRE>
+
+</PRE></PRE></PRE>
+</BODY></HTML>

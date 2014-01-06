@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd"><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Oregon Department of Geology and Mineral
+Industries</origin>
+<pubdate>20010112</pubdate>
+<title>00-05lineORlam_polyline</title>
+<edition>1</edition>
+<geoform>vector digital data</geoform>
+<serinfo>
+<sername>Open File Report</sername>
+<issue>O-00-05</issue>
+</serinfo>
+<pubinfo>
+<pubplace>Portland, OR</pubplace>
+<publish>Oregon Department of Geology and Mineral
+Industries</publish>
+</pubinfo>
+<onlink>\\DAS-00919\C$\project\lambert\dogami\00-05lineORlam_polyline.shp</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Scientific findings of the last several years have
+shown that the Oregon coast is vulnerable to great
+(M 8-9) earthquakes that can occur on the offshore
+cascadia subduction zone fault system.  Tsunamis
+are caused by any large-scale disturbance of the
+sea floor.  These disturbances are generally
+caused by faulting, landslides, or volcanic
+eruptions.  This project addresses the
+simultaneous uplift and subsidence of the sea
+floor accompanying undersea earthquakes on large
+fault zones termed "subduction zones".  The shape
+of the deformed sea floor after an earthquake is
+transmitted to the overlying sea surface, forming
+the initial tsunami wave.  A  series of 56 maps
+delineating the tsunami inundation boundary were
+produced to implement Senate Bill 379 passed by
+the 1995 Oregon Legislature and enacted into law
+as Oregon Revised Statutes (ORS) 455.446 and
+455.447.  These ORS limit construction of new
+essential facilities and special occupancy
+structures in tsunami flooding zones.  This
+digital representation of the original series of
+maps combines all map information into one file.
+The original hardcopy maps remain the basis for
+implementing ORS 455.446 and 455.447.</abstract>
+<purpose>The focus of this digital representation of the
+original hardcopy maps is to combine the 56 maps
+into one vector file and enable wider distribution
+of the tsunami inundation boundary.  Also on this
+compact disc are map viewing files of the original
+56 tsunami maps.</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+</sngdate>
+</timeinfo>
+<current>The publication date</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>Unknown</update>
+</status>
+<spdom>
+<bounding>
+<westbc>
+-124.658</westbc>
+<eastbc>
+-123.466</eastbc>
+<northbc>
+46.2365</northbc>
+<southbc>
+41.9958</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+<themekey>REQUIRED: Common-use word or phrase used to describe the subject of the data set.</themekey>
+</theme>
+</keywords>
+<accconst>None</accconst>
+<useconst>The original hardcopy maps were prepared to
+implement public safety laws (ORS 455.446 and
+455.447), and are not intended for land use or
+emergency planning.  Citation of the Oregon
+Department of Geology and Mineral Industries would
+be appreciated.</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Oregon Department of Geology and Mineral
+Industries</cntorg>
+<cntper>George R. Priest</cntper>
+</cntorgp>
+<cntpos>manager</cntpos>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>Coastal Field Office</address>
+<address>Oregon Department of Geology and Mineral
+Industries</address>
+<address>313 SW 2nd, Suite D</address>
+<city>Newport</city>
+<state>Oregon</state>
+<postal>97365</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>541/574-6642</cntvoice>
+<cnttdd>unavailable</cnttdd>
+<cntfax>541/265-5241</cntfax>
+<cntemail>george.priest@state.or.us</cntemail>
+</cntinfo>
+</ptcontac>
+<datacred>Paul Staub and Mark Neuhaus, Oregon Department of
+Geology and Mineral Industries</datacred>
+<native>Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; ESRI ArcCatalog 8.1.2.671</native>
+</idinfo>
+<dataqual>
+<logic>This digital tsunami inundation line is a
+combination of the original 56 quadrangle-based
+lines released as separate open file reports.
+This line has gaps at various points where the
+tsunami inundation hazard was judged to have such
+low risk that specifying an inundation zone for
+the purposes of the legislation was unnecessary.
+Tsunami effects in these areas, if any, would
+likely be channel bank splash and higher than
+normal currents for the waterways involved.  The
+purpose of Senate Bill 379 was not to map all
+possible tsunami inundation, but to show areas,
+especially dry land areas, that have a reasonable
+risk of tsunami damage to critical and essential
+facilities.</logic>
+<complete>The dataset is complete for the purpose of meeting
+requirements of Senate Bill 379, enacted as ORS
+455.446 and 455.447.</complete>
+<posacc>
+<horizpa>
+</horizpa>
+<horizpa>
+<qhorizpa>
+<horizpav>±40 feet</horizpav>
+<horizpae>This figure is the map accuracy standard for the
+U.S. Geological Survey 7½' topographic map series,
+which was the base map used for plotting the
+tsunami inundation boundary.
+2.4.2.2.1 Vertical Positional Accuracy Value:
+The maximum vertical positional error is one
+contour interval on the corresponding U.S.
+Geological Survey 7½' quadrangle base map.
+2.4.2.2.2 Vertical Positional Accuracy Explanation:
+This figure varies depending on contour interval
+for the respective U.S. Geological Survey
+quadrangle.  Contour intervals of the
+corresponding USGS base maps range from 20 to 50
+feet.</horizpae>
+</qhorizpa>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>stable-base material</typesrc>
+<srctime>
+</srctime>
+</srcinfo>
+<procstep>
+<procdesc>The original hardcopy maps delineating the tsunami
+inundation hazard for the Oregon coast were
+drafted on stable base mylar film in 1995.  In
+1999 the mylars were digitized by the Oregon
+Department of Geology and Mineral Industries.  The
+digital linework was then formatted with U.S.
+Geological Survey digital raster graphic files.
+In 2000, the digital linework was edgematched for
+the entire coast and combined into a single data
+file.  This digital file is made available to meet
+the needs of geographic information system users,
+however, the original 56 hardcopy maps remain the
+implementation of ORS 455.446 and 455.447.</procdesc>
+<procdate>20001215</procdate>
+<proccont>
+<cntinfo>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>String</sdtstype>
+<ptvctcnt>58</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<mapproj>
+<mapprojn>Lambert Conformal Conic</mapprojn>
+<lambertc>
+<stdparll>43.000000</stdparll>
+<stdparll>45.500000</stdparll>
+<longcm>-120.500000</longcm>
+<latprjo>41.750000</latprjo>
+<feast>1312336.000000</feast>
+<fnorth>0.000000</fnorth>
+</lambertc>
+</mapproj>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>1.0</absres>
+<ordres>1.0</ordres>
+</coordrep>
+<plandu>international feet</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137</semiaxis>
+<denflat>298.257</denflat>
+</geodetic>
+</horizsys>
+<vertdef>
+<altsys>
+<altdatum>National Geodetic Vertical Datum of 1929</altdatum>
+</altsys>
+</vertdef>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>
+00-05lineORlam_polyline</enttypl>
+<enttypd>Line</enttypd>
+</enttyp>
+<attr>
+<attrlabl>FID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ID</attrlabl>
+</attr>
+<attr>
+<attrlabl>BOUNDARY</attrlabl>
+</attr>
+</detailed>
+<detailed>
+<enttyp>
+<enttypl>
+Inundation boundary</enttypl>
+<enttypd>Line</enttypd>
+</enttyp>
+<attr>
+<attrlabl>Above</attrlabl>
+<attrdef>above the upper limit of area expected to be
+covered by flood water from a tsunami caused by a
+magnitude 8.8 undersea earthquake.  These areas
+are surrounded by tsunami inundation zone.</attrdef>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Donald Haines</cntper>
+<cntorg>Oregon Department of Geology and Mineral
+Industries</cntorg>
+</cntperp>
+<cntpos>manager</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>800 NE Oregon Street</address>
+<city>Portland</city>
+<state>OR</state>
+<postal>97232</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>503/872-2750</cntvoice>
+<cnttdd>unavailable</cnttdd>
+<cntfax>503/731-4066</cntfax>
+<cntemail>http://www.naturenw.org</cntemail>
+<hours>9:00 a.m. to 5:00 p.m. Monday Through Friday</hours>
+</cntinfo>
+</distrib>
+<distliab>Although these data have been processed
+successfully on a computer system at the Oregon
+Department of Geology and Mineral Industries
+(DOGAMI), no warranty expressed or implied is made
+regarding the accuracy or utility of the data on
+any other system or for general or scientific
+purposes, nor shall the act of distribution
+constitute any such warranty. This disclaimer
+applies both to individual use of the data and
+aggregate use with other data.  It is strongly
+recommended that these data are directly acquired
+from DOGAMI, and not indirectly through other
+sources which may have changed the data in some
+way.  It is also strongly recommended that careful
+attention be paid to the contents of the metadata
+file associated with these data. The Oregon
+Department of Geology and Mineral Industries shall
+not be held liable for improper or incorrect use
+of the data described and/or contained herein.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>ArcView shape (.shp)</formname>
+<transize>1.040</transize>
+</digtinfo>
+<digtopt>
+</digtopt>
+</digform>
+</stdorder>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>MapInfo table (.tab) and ArcView shape (.shp)</formname>
+<formspec>None</formspec>
+<formcont>None</formcont>
+<transize>1.040</transize>
+</digtinfo>
+<digtopt>
+<offoptn>
+<offmedia>CD-ROM</offmedia>
+<compat>None</compat>
+</offoptn>
+</digtopt>
+</digform>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20020919</metd>
+<metc>
+<cntinfo>
+<cntperp>
+<cntper>Paul Staub</cntper>
+<cntorg>Oregon Department of Geology and Mineral
+Industries</cntorg>
+</cntperp>
+<cntpos>Spatial Data Specialist</cntpos>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>Suite 965</address>
+<address>800 NE Oregon Street</address>
+<city>Portland</city>
+<state>Oregon</state>
+<postal>97232</postal>
+<country>USA</country>
+</cntaddr>
+<cntvoice>503/731-4100 x224</cntvoice>
+<cntfax>503/731-4066</cntfax>
+<cntemail>Paul.Staub@state.or.us</cntemail>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metac>None</metac>
+<metuc>None</metuc>
+<metsi>
+<metscs>None</metscs>
+<metsc>Unclassified</metsc>
+<metshd>None</metshd>
+</metsi>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+</metainfo>
+</metadata>
