@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd"><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Oregon Dept. of Fish and Wildlife</origin>
+<pubdate>May 3, 2006</pubdate>
+<title>Hatchery Facilities of Oregon</title>
+<edition>version 3</edition>
+<geoform>vector digital data</geoform>
+<onlink>ftp://rainbow.dfw.state.or.us/pub/gis/other/cover/hatch-v2.zip</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Contains the locations of fish propagation facilities within the state of Oregon. Facilities are differentiated by their function as well as managing agency.</abstract>
+<purpose>To understand the location and distribution of fish propagation facilities.</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<mdattim>
+<sngdate>
+<caldate>5/3/06</caldate>
+</sngdate>
+</mdattim>
+</timeinfo>
+<current>Current</current>
+</timeperd>
+<status>
+<progress>Complete for now.</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding>
+<westbc>
+-124.639454</westbc>
+<eastbc>
+-116.638499</eastbc>
+<northbc>
+46.251462</northbc>
+<southbc>
+42.021378</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>hatchery</themekt>
+<themekey>ODFW, fish, hatchery, trout, salmon, propagation, rearing pond</themekey>
+</theme>
+<place>
+<placekey>Oregon, statewide</placekey>
+</place>
+</keywords>
+<accconst>None.</accconst>
+<useconst>Although most locations are accurate to within a few hundred feet, this level of accuracy cannot be inferred for all locations.</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Jon Bowers</cntper>
+<cntorg>ODFW</cntorg>
+</cntperp>
+<cntpos>GIS Analyst</cntpos>
+<cntvoice>503-947-6097</cntvoice>
+<cntemail>jon.k.bowers@state.or.us</cntemail>
+<hours>8-5, M - F</hours>
+</cntinfo>
+</ptcontac>
+<browse>
+<browsen>d:\hatch\hatch-v3.jpg</browsen>
+<browsed>Hatchery facility locations</browsed>
+<browset>JPEG</browset>
+</browse>
+<datacred>Locations were reviewed by numerous ODFW biologists. Data were compiled by Milton Hill and Jon Bowers.</datacred>
+<secinfo>
+</secinfo>
+<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.722</native>
+</idinfo>
+<dataqual>
+<complete>All current, major hatchery facilities within the state of Oregon are found in this layer. There are numerous satellite facilities such as rearing and acclimation ponds that may be missing from this layer.</complete>
+<lineage>
+<srcinfo>
+<srcscale>n/a</srcscale>
+<typesrc>DRG's, DOQ's</typesrc>
+</srcinfo>
+<procstep>
+<procdesc>Facilities were located through a variety of techniques.  Many were identified based on their locations on 1:24,000 scale USGS quad maps. Some were located using DOQ images. Others were based on descriptive information provided by local ODFW biologists.</procdesc>
+<proccont>
+<cntinfo>
+<cntperp>
+<cntper>Milton Hill and Jon Bowers</cntper>
+<cntorg>ODFW</cntorg>
+</cntperp>
+<cntpos>GIS Coordinator and GIS Analyst respectively</cntpos>
+<cntvoice>503-872-5255 x5603</cntvoice>
+</cntinfo>
+</proccont>
+</procstep>
+<procstep>
+<procdesc>Dataset copied.</procdesc>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Entity point</sdtstype>
+<ptvctcnt>86</ptvctcnt>
+</sdtsterm>
+<sdtsterm>
+<sdtstype>Point</sdtstype>
+<ptvctcnt>4</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<mapproj>
+<mapprojn>Lambert Conformal Conic</mapprojn>
+<lambertc>
+<stdparll>43.000000</stdparll>
+<stdparll>45.500000</stdparll>
+<longcm>-120.500000</longcm>
+<latprjo>41.750000</latprjo>
+<feast>1312336.000000</feast>
+<fnorth>0.000000</fnorth>
+</lambertc>
+</mapproj>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>0.004096</absres>
+<ordres>0.004096</ordres>
+</coordrep>
+<plandu>User_Defined_Unit</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+<vertdef>
+<altsys>
+<altres>0.000010</altres>
+<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+</altsys>
+</vertdef>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>
+hatch-v3</enttypl>
+<enttypd>Point attribute table.</enttypd>
+</enttyp>
+<attr>
+<attrlabl>FID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>MGTAGENTYP</attrlabl>
+<attrdef>Management agency type</attrdef>
+<attrdomv>
+<edom>
+<edomv>1</edomv>
+<edomvd>federal</edomvd>
+</edom>
+<edom>
+<edomv>2</edomv>
+<edomvd>state</edomvd>
+</edom>
+<edom>
+<edomv>3</edomv>
+<edomvd>tribal</edomvd>
+</edom>
+<edom>
+<edomv>4</edomv>
+<edomvd>utility</edomvd>
+</edom>
+<edom>
+<edomv>5</edomv>
+<edomvd>private or other</edomvd>
+</edom>
+<edom>
+<edomv>99</edomv>
+<edomvd>unknown</edomvd>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>COMMENTS</attrlabl>
+<attrdef>Comments</attrdef>
+</attr>
+<attr>
+<attrlabl>AREA</attrlabl>
+<attrdef>Area of feature in internal units squared.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Area is always zero for point coverages.  Values are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>PERIMETER</attrlabl>
+<attrdef>Perimeter of feature in internal units.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Perimeter is always zero for point coverages.  Values are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>NAME</attrlabl>
+<attrdef>Hatchery facility name</attrdef>
+</attr>
+<attr>
+<attrlabl>HAT_TYPE</attrlabl>
+<attrdef>Type of hatchery facility</attrdef>
+<attrdomv>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>TYPECODE</attrlabl>
+<attrdef>Code for hatchery type</attrdef>
+<attrdomv>
+<edom>
+<edomv>1</edomv>
+<edomvd>hatchery</edomvd>
+</edom>
+<edom>
+<edomv>2</edomv>
+<edomvd>netpen</edomvd>
+</edom>
+<edom>
+<edomv>3</edomv>
+<edomvd>rearing pond</edomvd>
+</edom>
+<edom>
+<edomv>4</edomv>
+<edomvd>trap</edomvd>
+</edom>
+<edom>
+<edomv>5</edomv>
+<edomvd>acclimation pond</edomvd>
+</edom>
+<edom>
+<edomv>6</edomv>
+<edomvd>adult holding - spawning</edomvd>
+</edom>
+<edom>
+<edomv>99</edomv>
+<edomvd>unknown</edomvd>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>HATCHID</attrlabl>
+<attrdef>Unique identifier</attrdef>
+</attr>
+<attr>
+<attrlabl>HATCH_V2_</attrlabl>
+</attr>
+<attr>
+<attrlabl>HATCH_V2_I</attrlabl>
+</attr>
+<attr>
+<attrlabl>own_code</attrlabl>
+<attrdomv>
+<edom>
+<edomv>1</edomv>
+<edomvd>ODFW</edomvd>
+</edom>
+<edom>
+<edomv>3</edomv>
+<edomvd>Tribal</edomvd>
+</edom>
+<edom>
+<edomv>4</edomv>
+<edomvd>Utility</edomvd>
+</edom>
+<edom>
+<edomv>5</edomv>
+<edomvd>OSU</edomvd>
+</edom>
+<edom>
+<edomv>9</edomv>
+<edomvd>Other</edomvd>
+</edom>
+<edom>
+<edomv>99</edomv>
+<edomvd>Unknown</edomvd>
+</edom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntperp>
+<cntper>Jon Bowers</cntper>
+<cntorg>ODFW</cntorg>
+</cntperp>
+<cntpos>GIS Analyst</cntpos>
+<cntvoice>503-947-6097</cntvoice>
+<cntemail>jon.k.bowers@state.or.us</cntemail>
+<hours>7:30-4, M-F</hours>
+</cntinfo>
+</distrib>
+<resdesc>Downloadable Data</resdesc>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>ARCE</formname>
+<transize>0.002</transize>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>ftp://rainbow.dfw.state.or.us/pub/gis/other/cover/hatch-v2.zip</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<ordering>Download from ftp://rainbow.dfw.state.or.us/pub/gis/other/cover/hatch-v3.zip</ordering>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20060502</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>ODFW</cntorg>
+<cntper>Jon Bowers</cntper>
+</cntorgp>
+<cntpos>GIS Analyst</cntpos>
+<cntaddr>
+<addrtype>REQUIRED: The mailing and/or physical address for the organization or individual.</addrtype>
+<city>REQUIRED: The city of the address.</city>
+<state>REQUIRED: The state or province of the address.</state>
+<postal>REQUIRED: The ZIP or other postal code of the address.</postal>
+</cntaddr>
+<cntvoice>503-947-6097</cntvoice>
+<hours>7:30-4, M-F</hours>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+</metainfo>
+</metadata>

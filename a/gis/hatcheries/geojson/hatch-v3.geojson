@@ -1,0 +1,177 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 2.000000, "HATCH_V2_I": 2.000000, "NAME": "OXBOW", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 44.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 1 }, "geometry": { "type": "Point", "coordinates": [ 964574.562500, 1433811.000000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 3.000000, "HATCH_V2_I": 3.000000, "NAME": "WAHKEENA POND", "HAT_TYPE": "rearing pond", "TYPECODE": 3.000000, "HATCHID": 46.000000, "MGTAGENTYP": 1.000000, "COMMENTS": "", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 893554.937500, 1398939.000000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 4.000000, "HATCH_V2_I": 4.000000, "NAME": "ROUND BUTTE", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 47.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 9 }, "geometry": { "type": "Point", "coordinates": [ 1110119.625000, 1041861.125000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 5.000000, "HATCH_V2_I": 5.000000, "NAME": "SALMON RIVER", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 140.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 1 }, "geometry": { "type": "Point", "coordinates": [ 423530.093750, 1209526.125000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 6.000000, "HATCH_V2_I": 6.000000, "NAME": "SANDY", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 30.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 1 }, "geometry": { "type": "Point", "coordinates": [ 861786.125000, 1337628.125000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 7.000000, "HATCH_V2_I": 7.000000, "NAME": "SILETZ", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 291.000000, "MGTAGENTYP": 3.000000, "COMMENTS": "Hatchery is owned and operated by the Siletz Tribe. JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 477863.843750, 1099150.000000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 8.000000, "HATCH_V2_I": 8.000000, "NAME": "SOUTH SANTIAM", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 36.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 9 }, "geometry": { "type": "Point", "coordinates": [ 744461.625000, 979274.875000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 9.000000, "HATCH_V2_I": 9.000000, "NAME": "TRASK E. F. PD.", "HAT_TYPE": "rearing pond", "TYPECODE": 3.000000, "HATCHID": 143.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "Changed type code to a rearing pond. JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 516938.031250, 1350059.750000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 10.000000, "HATCH_V2_I": 10.000000, "NAME": "MINTHORN PONDS", "HAT_TYPE": "rearing pond", "TYPECODE": 3.000000, "HATCHID": 136.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "Coordinates provided by George Nandor. JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 1797174.750000, 1435199.375000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 11.000000, "HATCH_V2_I": 11.000000, "NAME": "NEHALEM", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 137.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 1 }, "geometry": { "type": "Point", "coordinates": [ 477407.562500, 1497748.375000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 12.000000, "HATCH_V2_I": 12.000000, "NAME": "WILLAMETTE", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 39.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 9 }, "geometry": { "type": "Point", "coordinates": [ 798784.687500, 732641.312500 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 13.000000, "HATCH_V2_I": 13.000000, "NAME": "OAK SPRINGS", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 43.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 1 }, "geometry": { "type": "Point", "coordinates": [ 1162282.625000, 1265649.125000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 14.000000, "HATCH_V2_I": 14.000000, "NAME": "PELTON LADDER", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 48.000000, "MGTAGENTYP": 5.000000, "COMMENTS": "", "own_code": 4 }, "geometry": { "type": "Point", "coordinates": [ 1122513.625000, 1074334.250000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 15.000000, "HATCH_V2_I": 15.000000, "NAME": "ROARING RIVER", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 35.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 1 }, "geometry": { "type": "Point", "coordinates": [ 734661.687500, 1056002.000000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 16.000000, "HATCH_V2_I": 16.000000, "NAME": "ROCK CREEK", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 139.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 1 }, "geometry": { "type": "Point", "coordinates": [ 646489.312500, 588259.062500 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 17.000000, "HATCH_V2_I": 17.000000, "NAME": "TROJAN PONDS", "HAT_TYPE": "rearing pond", "TYPECODE": 3.000000, "HATCHID": 28.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 707005.437500, 1571016.500000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 18.000000, "HATCH_V2_I": 18.000000, "NAME": "LEABURG", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 32.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 9 }, "geometry": { "type": "Point", "coordinates": [ 758736.312500, 876671.562500 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 19.000000, "HATCH_V2_I": 19.000000, "NAME": "AUMSVILLE PONDS", "HAT_TYPE": "rearing pond", "TYPECODE": 3.000000, "HATCHID": 37.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 700271.250000, 1130807.875000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 20.000000, "HATCH_V2_I": 20.000000, "NAME": "STAYTON POND", "HAT_TYPE": "rearing pond", "TYPECODE": 3.000000, "HATCHID": 38.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 715023.437500, 1115498.875000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 21.000000, "HATCH_V2_I": 21.000000, "NAME": "RHODES REARING POND", "HAT_TYPE": "rearing pond", "TYPECODE": 3.000000, "HATCHID": 138.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 461071.562500, 1264075.250000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 22.000000, "HATCH_V2_I": 22.000000, "NAME": "CEDAR CREEK", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 132.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 1 }, "geometry": { "type": "Point", "coordinates": [ 450259.031250, 1280224.000000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 23.000000, "HATCH_V2_I": 23.000000, "NAME": "UMATILLA", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 144.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 9 }, "geometry": { "type": "Point", "coordinates": [ 1547992.750000, 1521696.250000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 24.000000, "HATCH_V2_I": 24.000000, "NAME": "IRRIGON", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 42.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 9 }, "geometry": { "type": "Point", "coordinates": [ 1565829.000000, 1514917.250000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 25.000000, "HATCH_V2_I": 25.000000, "NAME": "MCKENZIE", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 34.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 9 }, "geometry": { "type": "Point", "coordinates": [ 751328.500000, 870513.562500 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 26.000000, "HATCH_V2_I": 26.000000, "NAME": "MARION FORKS", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 33.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 9 }, "geometry": { "type": "Point", "coordinates": [ 935165.375000, 1046599.187500 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 27.000000, "HATCH_V2_I": 27.000000, "NAME": "LOOKINGGLASS", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 49.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 9 }, "geometry": { "type": "Point", "coordinates": [ 1985339.625000, 1462175.250000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 28.000000, "HATCH_V2_I": 28.000000, "NAME": "HATCHERY RESEARCH CENTER", "HAT_TYPE": "research", "TYPECODE": 7.000000, "HATCHID": 135.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 1 }, "geometry": { "type": "Point", "coordinates": [ 462413.156250, 984263.312500 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 29.000000, "HATCH_V2_I": 29.000000, "NAME": "ELK RIVER", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 134.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 1 }, "geometry": { "type": "Point", "coordinates": [ 263809.875000, 385404.687500 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 30.000000, "HATCH_V2_I": 30.000000, "NAME": "TRASK", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 142.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 1 }, "geometry": { "type": "Point", "coordinates": [ 485217.843750, 1358320.625000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 31.000000, "HATCH_V2_I": 31.000000, "NAME": "ALSEA", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 128.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 1 }, "geometry": { "type": "Point", "coordinates": [ 511774.281250, 989186.125000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 32.000000, "HATCH_V2_I": 32.000000, "NAME": "BANDON", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 129.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 1 }, "geometry": { "type": "Point", "coordinates": [ 275528.656250, 522047.625000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 33.000000, "HATCH_V2_I": 33.000000, "NAME": "BIG CANYON PONDS", "HAT_TYPE": "rearing pond", "TYPECODE": 3.000000, "HATCHID": 52.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "Hatchery table calls this a hatchery when it should be called a rearing pon", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 2028946.125000, 1422728.250000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 34.000000, "HATCH_V2_I": 34.000000, "NAME": "BONIFER SPRINGS PONDS", "HAT_TYPE": "rearing pond", "TYPECODE": 3.000000, "HATCHID": 130.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 1858352.000000, 1441230.000000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 35.000000, "HATCH_V2_I": 35.000000, "NAME": "BONNEVILLE", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 26.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 1 }, "geometry": { "type": "Point", "coordinates": [ 939651.937500, 1418842.250000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 36.000000, "HATCH_V2_I": 36.000000, "NAME": "CASCADE", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 41.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 9 }, "geometry": { "type": "Point", "coordinates": [ 947299.250000, 1421785.125000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 37.000000, "HATCH_V2_I": 37.000000, "NAME": "BUTTE FALLS", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 131.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 1 }, "geometry": { "type": "Point", "coordinates": [ 759133.250000, 294199.906250 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 38.000000, "HATCH_V2_I": 38.000000, "NAME": "CLACKAMAS", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 31.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 1 }, "geometry": { "type": "Point", "coordinates": [ 833323.937500, 1297954.750000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 39.000000, "HATCH_V2_I": 39.000000, "NAME": "COLE RIVERS", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 133.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 9 }, "geometry": { "type": "Point", "coordinates": [ 724497.500000, 340701.812500 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 40.000000, "HATCH_V2_I": 40.000000, "NAME": "DEXTER", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 40.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 1 }, "geometry": { "type": "Point", "coordinates": [ 704654.625000, 801292.625000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 41.000000, "HATCH_V2_I": 41.000000, "NAME": "IMNAHA POND", "HAT_TYPE": "rearing pond", "TYPECODE": 3.000000, "HATCHID": 50.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "Coordinates from George Nandor. Refined with DOQ and DB input.  JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 2248037.500000, 1275989.750000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 42.000000, "HATCH_V2_I": 42.000000, "NAME": "WALLOWA", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 51.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 1 }, "geometry": { "type": "Point", "coordinates": [ 2133452.750000, 1352877.375000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 43.000000, "HATCH_V2_I": 43.000000, "NAME": "LITTLE SHEEP", "HAT_TYPE": "rearing pond", "TYPECODE": 3.000000, "HATCHID": 53.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "Location verified by DB Brad Smith and DOQ. JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 2227768.500000, 1378755.375000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 44.000000, "HATCH_V2_I": 44.000000, "NAME": "FALL RIVER", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 145.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 1 }, "geometry": { "type": "Point", "coordinates": [ 1028662.875000, 748285.875000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 45.000000, "HATCH_V2_I": 45.000000, "NAME": "WIZARD FALLS", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 146.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 9 }, "geometry": { "type": "Point", "coordinates": [ 1017166.875000, 1012738.375000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 46.000000, "HATCH_V2_I": 46.000000, "NAME": "KLAMATH", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 147.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 1 }, "geometry": { "type": "Point", "coordinates": [ 922973.687500, 331687.562500 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 47.000000, "HATCH_V2_I": 47.000000, "NAME": "HANTZ CREEK", "HAT_TYPE": "acclim pond", "TYPECODE": 5.000000, "HATCHID": 701.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "No record in Hatchery table. STEP Acclimation Facility. JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 390739.093750, 531478.062500 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 48.000000, "HATCH_V2_I": 48.000000, "NAME": "APPLEGATE", "HAT_TYPE": "trap", "TYPECODE": 4.000000, "HATCHID": 702.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "Based on input from Jerry Vogt. Fish taken to Cole Rivers. Entered by JB.", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 602051.562500, 123592.101562 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 49.000000, "HATCH_V2_I": 49.000000, "NAME": "CATHERINE CREEK", "HAT_TYPE": "trap", "TYPECODE": 4.000000, "HATCHID": 703.000000, "MGTAGENTYP": 3.000000, "COMMENTS": "Op. by Conf. Tribes Umatilla. Acclim pond upstream ~2 mi. Location inexact.", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 2000887.625000, 1265531.250000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 50.000000, "HATCH_V2_I": 50.000000, "NAME": "TUFFY CREEK", "HAT_TYPE": "rearing pond", "TYPECODE": 3.000000, "HATCHID": 559.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "Located at S Fk Wilson Prison Camp.", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 553045.812500, 1413670.625000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 51.000000, "HATCH_V2_I": 51.000000, "NAME": "MINTO POND", "HAT_TYPE": "rearing pond", "TYPECODE": 3.000000, "HATCHID": 481.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "Placed at Niagra Dam - near coordinates provided by GN. JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 836123.062500, 1101112.500000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 52.000000, "HATCH_V2_I": 52.000000, "NAME": "KLASKANINE", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 29.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 1 }, "geometry": { "type": "Point", "coordinates": [ 495972.625000, 1597966.375000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 53.000000, "HATCH_V2_I": 53.000000, "NAME": "GNAT CREEK", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 27.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 9 }, "geometry": { "type": "Point", "coordinates": [ 555334.375000, 1624732.375000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 54.000000, "HATCH_V2_I": 54.000000, "NAME": "BIG CREEK", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 25.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "", "own_code": 1 }, "geometry": { "type": "Point", "coordinates": [ 531410.125000, 1617189.250000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 55.000000, "HATCH_V2_I": 55.000000, "NAME": "CEDC Hatchery", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 105.000000, "MGTAGENTYP": 5.000000, "COMMENTS": "Location corrected based on input from CEDC staff and DOQ. JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 492342.687500, 1585425.500000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 56.000000, "HATCH_V2_I": 56.000000, "NAME": "CEDC Youngs Bay Net pens", "HAT_TYPE": "netpen", "TYPECODE": 2.000000, "HATCHID": 567.000000, "MGTAGENTYP": 5.000000, "COMMENTS": "", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 461177.468750, 1632091.750000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 57.000000, "HATCH_V2_I": 57.000000, "NAME": "CEDC Tongue Point Net pen", "HAT_TYPE": "netpen", "TYPECODE": 2.000000, "HATCHID": 568.000000, "MGTAGENTYP": 5.000000, "COMMENTS": "", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 487520.437500, 1641016.250000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 58.000000, "HATCH_V2_I": 58.000000, "NAME": "CEDC Blind Slough Netpen", "HAT_TYPE": "netpen", "TYPECODE": 2.000000, "HATCHID": 569.000000, "MGTAGENTYP": 5.000000, "COMMENTS": "", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 539131.500000, 1637530.500000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 59.000000, "HATCH_V2_I": 59.000000, "NAME": "S Fk Klaskanine Pond", "HAT_TYPE": "rearing pond", "TYPECODE": 3.000000, "HATCHID": 359.000000, "MGTAGENTYP": 5.000000, "COMMENTS": "Location corrected based on input from CEDC staff and DOQ. JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 492647.500000, 1585045.875000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 60.000000, "HATCH_V2_I": 60.000000, "NAME": "Hughey Creek Rearing Pond", "HAT_TYPE": "rearing pond", "TYPECODE": 3.000000, "HATCHID": 560.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "Location is accurate based on personal knowledge. JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 473393.656250, 1372485.375000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 61.000000, "HATCH_V2_I": 61.000000, "NAME": "WHISKEY CREEK", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 558.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "Point location based on DRG. Raise Spring Chinook. JB", "own_code": 5 }, "geometry": { "type": "Point", "coordinates": [ 430302.125000, 1346817.250000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 62.000000, "HATCH_V2_I": 62.000000, "NAME": "Siletz Falls Trap", "HAT_TYPE": "trap", "TYPECODE": 4.000000, "HATCHID": 570.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "Added point based on Hatchery table. Added typecode 5 for traps. JB", "own_code": 3 }, "geometry": { "type": "Point", "coordinates": [ 476426.750000, 1157148.250000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 63.000000, "HATCH_V2_I": 63.000000, "NAME": "Bohannon Falls Fish Trap", "HAT_TYPE": "trap", "TYPECODE": 4.000000, "HATCHID": 571.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "Verified by Kevin Goodson, Newport ODFW. Entered by JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 448192.593750, 1017531.125000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 64.000000, "HATCH_V2_I": 64.000000, "NAME": "Morgan Creek", "HAT_TYPE": "acclim pond", "TYPECODE": 5.000000, "HATCHID": 434.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "STEP acclimation and spawning facility. Tom Rumreicht. Entered by JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 358638.718750, 600447.750000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 65.000000, "HATCH_V2_I": 65.000000, "NAME": "Noble Creek", "HAT_TYPE": "acclim pond", "TYPECODE": 5.000000, "HATCHID": 561.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "STEP Acclimation and Spawning facility. Tom Rumreicht. Entered by JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 327107.406250, 569872.000000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 66.000000, "HATCH_V2_I": 66.000000, "NAME": "Marmot Acclimation site", "HAT_TYPE": "rearing pond", "TYPECODE": 3.000000, "HATCHID": 480.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "Location based on input from Paul Johnson. JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 891282.312500, 1334512.875000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 67.000000, "HATCH_V2_I": 67.000000, "NAME": "Parkdale", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 562.000000, "MGTAGENTYP": 3.000000, "COMMENTS": "Point location based on address and DOQ. JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 1025016.000000, 1377584.125000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 68.000000, "HATCH_V2_I": 68.000000, "NAME": "Eagle Creek NFH", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 5.000000, "MGTAGENTYP": 1.000000, "COMMENTS": "Point added based on Hatchery table. Location verfified by DRG. JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 873983.187500, 1289847.875000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 69.000000, "HATCH_V2_I": 69.000000, "NAME": "Fall Creek Trap", "HAT_TYPE": "trap", "TYPECODE": 4.000000, "HATCHID": 118.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "Point added based on Hatchery table. JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 717791.875000, 807185.750000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 70.000000, "HATCH_V2_I": 70.000000, "NAME": "Warm Springs NFH", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 12.000000, "MGTAGENTYP": 3.000000, "COMMENTS": "Point location based on DOQ at RM 10.5 JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 1119227.000000, 1135158.125000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 71.000000, "HATCH_V2_I": 71.000000, "NAME": "South Fork Walla Walla", "HAT_TYPE": "holding - spawn", "TYPECODE": 6.000000, "HATCHID": 565.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "Located on S Fk. WW upstream of Flume Canyon - J. Germond. Entered by JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 1893923.625000, 1504503.625000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 72.000000, "HATCH_V2_I": 72.000000, "NAME": "Pendleton Juvenile Acclim", "HAT_TYPE": "acclim pond", "TYPECODE": 5.000000, "HATCHID": 566.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "Location based on input from Jon Germond. Entered by JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 1770611.375000, 1434578.625000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 73.000000, "HATCH_V2_I": 73.000000, "NAME": "Three Mile Adult Holding", "HAT_TYPE": "holding - spawn", "TYPECODE": 6.000000, "HATCHID": 110.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "Location verified by Jon Germond. Entered by JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 1612110.125000, 1508263.000000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 74.000000, "HATCH_V2_I": 74.000000, "NAME": "Thornhollow Rearing Ponds", "HAT_TYPE": "rearing pond", "TYPECODE": 3.000000, "HATCHID": 563.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "Coordinates provied by George Nandor. Input by JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 1833714.375000, 1440725.000000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 75.000000, "HATCH_V2_I": 75.000000, "NAME": "Imeques Acclim pond", "HAT_TYPE": "acclim pond", "TYPECODE": 5.000000, "HATCHID": 564.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "Coordinates from George Nandor. Shifted slightly based on DOQ. JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 1861636.625000, 1449596.875000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 76.000000, "HATCH_V2_I": 76.000000, "NAME": "Hells Canyon Trap", "HAT_TYPE": "trap", "TYPECODE": 4.000000, "HATCHID": 106.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "Location based on DOQ.  JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 2290348.750000, 1296148.000000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 77.000000, "HATCH_V2_I": 77.000000, "NAME": "Oxbow (Idaho)", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 18.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "Operated by Idaho. JB", "own_code": 9 }, "geometry": { "type": "Point", "coordinates": [ 2255282.250000, 1195440.500000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 78.000000, "HATCH_V2_I": 78.000000, "NAME": "Palmer Cr Trap", "HAT_TYPE": "trap", "TYPECODE": 4.000000, "HATCHID": 572.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "Verified by Kevin Goodson, Newport ODFW. Also an acclimation facility here.", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 446796.343750, 1123646.125000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 79.000000, "HATCH_V2_I": 79.000000, "NAME": "Catherine Cr Acclim Pond", "HAT_TYPE": "acclim pond", "TYPECODE": 5.000000, "HATCHID": 704.000000, "MGTAGENTYP": 3.000000, "COMMENTS": "Op. by Conf Tribes Umatilla. Based on input from Brad Lovatt. JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 2036579.750000, 1241677.500000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 80.000000, "HATCH_V2_I": 80.000000, "NAME": "Upper Grand Ronde Weir", "HAT_TYPE": "trap", "TYPECODE": 4.000000, "HATCHID": 705.000000, "MGTAGENTYP": 3.000000, "COMMENTS": "Op. by Conf Tribes Umatilla. Loc provided by Brad Lovatt. JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 1862913.250000, 1240427.500000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 81.000000, "HATCH_V2_I": 81.000000, "NAME": "Upper Grand Ronde Pond", "HAT_TYPE": "acclim pond", "TYPECODE": 5.000000, "HATCHID": 706.000000, "MGTAGENTYP": 3.000000, "COMMENTS": "Op by Conf Tribes Umatilla. Loc provided by Brad Lovatt. JB", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 1872383.250000, 1220940.625000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 82.000000, "HATCH_V2_I": 82.000000, "NAME": "Lostine Acclimation Pond", "HAT_TYPE": "acclim pond", "TYPECODE": 5.000000, "HATCHID": 707.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "Based on input from DB Brad Smith. Data entered by Jon Bowers", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 2101432.750000, 1352237.125000 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 0.000000, "HATCH_V2_I": 0.000000, "NAME": "Herman Cr Ponds (lower)", "HAT_TYPE": "rearing pond", "TYPECODE": 3.000000, "HATCHID": 573.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "Based on input from Duane Banks - hatchery manager.", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 964392.815780, 1435528.126410 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 0.000000, "HATCH_V2_I": 0.000000, "NAME": "Herman Cr Ponds (upper)", "HAT_TYPE": "rearing pond", "TYPECODE": 3.000000, "HATCHID": 45.000000, "MGTAGENTYP": 2.000000, "COMMENTS": "Based on input from Duane Banks - hatchery manager.", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 966037.614231, 1434362.354312 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 0.000000, "HATCH_V2_I": 0.000000, "NAME": "OAKRIDGE", "HAT_TYPE": "hatchery", "TYPECODE": 0.000000, "HATCHID": 290.000000, "MGTAGENTYP": 0.000000, "COMMENTS": "No longer in operation.", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 798867.171118, 733109.796975 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 0.000000, "HATCH_V2_I": 0.000000, "NAME": "Powerdale", "HAT_TYPE": "trap", "TYPECODE": 4.000000, "HATCHID": 708.000000, "MGTAGENTYP": 0.000000, "COMMENTS": "Based on input from George Nandor, ODFW.", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 1050537.689010, 1428814.724756 ] } }
+,
+{ "type": "Feature", "properties": { "AREA": 0.000000, "PERIMETER": 0.000000, "HATCH_V2_": 0.000000, "HATCH_V2_I": 0.000000, "NAME": "Yaquina Bay Hatchery", "HAT_TYPE": "hatchery", "TYPECODE": 1.000000, "HATCHID": 457.000000, "MGTAGENTYP": 5.000000, "COMMENTS": "Old OR-Aqua facility now operated cooperatively by Port of Newport and ODFW", "own_code": 99 }, "geometry": { "type": "Point", "coordinates": [ 389029.319604, 1067686.994309 ] } }
+
+]
+}
